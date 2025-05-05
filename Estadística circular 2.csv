@@ -1,0 +1,2355 @@
+Localidad,Especie,Tiempo,Time_2,Horas,Minutos,Minutos_Decimales,Horas_Decimales,Station
+Puerto de las Palomas 2,Sylvilagus floridanus,00:00:07,8.10185E-05,0,0,0,0,Seca
+El Aguita 2,Didelphis virginiana,00:00:15,0.000173611,0,0,0,0,Seca
+El Aguita,Leopardus wiedii,00:00:20,0.000231481,0,0,0,0,Seca
+Joya Oscura,Nasua narica,00:00:35,0.000405093,0,0,0,0,Lluvia
+Joya Oscura 2,Ursus americanus,00:00:54,0.000625,0,0,0,0,Seca
+Joya Oscura,Leopardus wiedii,00:00:56,0.000648148,0,0,0,0,Lluvia
+Puerto de las Palomas 2,Sylvilagus floridanus,00:01:02,0.000717593,0,1,0.016666667,0.016666667,Seca
+Casa de Piedra,Didelphis virginiana,00:01:55,0.001331019,0,1,0.016666667,0.016666667,Lluvia
+Valle Verde del Charco ,Didelphis virginiana,00:02:12,0.001527778,0,2,0.033333333,0.033333333,Seca
+Joya Oscura,Didelphis virginiana,00:02:26,0.001689815,0,2,0.033333333,0.033333333,Seca
+Joya Oscura,Leopardus wiedii,00:02:40,0.001851852,0,2,0.033333333,0.033333333,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,00:02:48,0.001944444,0,2,0.033333333,0.033333333,Lluvia
+Puerto de las Palomas,Didelphis virginiana,00:03:03,0.002118056,0,3,0.05,0.05,Lluvia
+Puerto de las Palomas 2,Sylvilagus floridanus,00:03:13,0.002233796,0,3,0.05,0.05,Seca
+El Aguita,Mazama temama,00:03:40,0.002546296,0,3,0.05,0.05,Lluvia
+Agua Linda,Leopardus wiedii,00:04:35,0.00318287,0,4,0.066666667,0.066666667,Lluvia
+La Tableta 2,Puma concolor,00:05:02,0.00349537,0,5,0.083333333,0.083333333,Seca
+Puerto de las Palomas 2,Sylvilagus floridanus,00:05:08,0.003564815,0,5,0.083333333,0.083333333,Lluvia
+Joya Oscura,Leopardus wiedii,00:05:26,0.003773148,0,5,0.083333333,0.083333333,Seca
+El Salto,Dasypus novemcinctus,00:05:51,0.0040625,0,5,0.083333333,0.083333333,Lluvia
+La Corneta,Mazama temama,00:06:32,0.004537037,0,6,0.1,0.1,Seca
+Joya Oscura,Leopardus wiedii,00:07:27,0.005173611,0,7,0.116666667,0.116666667,Lluvia
+Agua Linda,Sylvilagus floridanus,00:07:28,0.005185185,0,7,0.116666667,0.116666667,Seca
+Puerto de las Palomas,Sylvilagus floridanus,00:07:46,0.005393519,0,7,0.116666667,0.116666667,Seca
+Agua Linda,Leopardus wiedii,00:08:14,0.005717593,0,8,0.133333333,0.133333333,Lluvia
+El Aguita 2,Cuniculus paca,00:08:28,0.00587963,0,8,0.133333333,0.133333333,Seca
+Puerto de las Palomas 2,Sylvilagus floridanus,00:08:29,0.005891204,0,8,0.133333333,0.133333333,Seca
+El Tigre,Leopardus pardalis,00:08:47,0.006099537,0,8,0.133333333,0.133333333,Lluvia
+Agua Linda,Mazama temama,00:08:47,0.006099537,0,8,0.133333333,0.133333333,Seca
+Puerto de las Palomas,Didelphis virginiana,00:09:17,0.006446759,0,9,0.15,0.15,Seca
+Esteban,Dasypus novemcinctus,00:09:25,0.006539352,0,9,0.15,0.15,Lluvia
+El Aguita 2,Didelphis virginiana,00:09:53,0.006863426,0,9,0.15,0.15,Seca
+El Elefante,Sylvilagus floridanus,00:10:01,0.006956019,0,10,0.166666667,0.166666667,Lluvia
+El Aguita,Leopardus wiedii,00:10:01,0.006956019,0,10,0.166666667,0.166666667,Lluvia
+La Tableta 2,Didelphis virginiana,00:10:06,0.007013889,0,10,0.166666667,0.166666667,Lluvia
+Joya Oscura,Mazama temama,00:10:21,0.0071875,0,10,0.166666667,0.166666667,Lluvia
+Puerto de las Palomas,Eira barbara,00:10:25,0.007233796,0,10,0.166666667,0.166666667,Seca
+Cerro del Pilón,Ursus americanus,00:10:33,0.007326389,0,10,0.166666667,0.166666667,Lluvia
+El Aguita,Leopardus wiedii,00:11:21,0.007881944,0,11,0.183333333,0.183333333,Seca
+Casa de Piedra,Didelphis virginiana,00:11:26,0.007939815,0,11,0.183333333,0.183333333,Lluvia
+La Corneta,Puma concolor,00:12:22,0.008587963,0,12,0.2,0.2,Lluvia
+Joya Oscura 2,Leopardus pardalis,00:12:29,0.008668981,0,12,0.2,0.2,Lluvia
+Puerto de las Palomas,Leopardus wiedii,00:12:37,0.008761574,0,12,0.2,0.2,Lluvia
+Las Dalias,Sylvilagus floridanus,00:12:47,0.008877315,0,12,0.2,0.2,Lluvia
+El Tigre,Mazama temama,00:13:20,0.009259259,0,13,0.216666667,0.216666667,Seca
+El Tigre,Odocoileus virginianus,00:14:05,0.009780093,0,14,0.233333333,0.233333333,Lluvia
+El Tigre,Puma concolor,00:14:08,0.009814815,0,14,0.233333333,0.233333333,Lluvia
+La Corneta,Didelphis virginiana,00:14:32,0.010092593,0,14,0.233333333,0.233333333,Lluvia
+La Tableta,Dasypus novemcinctus,00:15:37,0.010844907,0,15,0.25,0.25,Lluvia
+Agua Linda,Sylvilagus floridanus,00:15:57,0.011076389,0,15,0.25,0.25,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,00:16:42,0.011597222,0,16,0.266666667,0.266666667,Lluvia
+Agua Linda,Sylvilagus floridanus,00:17:00,0.011805556,0,17,0.283333333,0.283333333,Seca
+Puerto de las Palomas,Sylvilagus floridanus,00:17:18,0.012013889,0,17,0.283333333,0.283333333,Seca
+Casa de Piedra,Didelphis virginiana,00:17:28,0.01212963,0,17,0.283333333,0.283333333,Seca
+Agua Linda,Conepatus leuconotus,00:17:56,0.012453704,0,17,0.283333333,0.283333333,Lluvia
+Las Fabricas,Conepatus leuconotus,00:17:57,0.012465278,0,17,0.283333333,0.283333333,Lluvia
+La Tableta,Didelphis virginiana,00:18:12,0.012638889,0,18,0.3,0.3,Lluvia
+La Tableta 2,Didelphis virginiana,00:18:12,0.012638889,0,18,0.3,0.3,Lluvia
+Valle Verde del Charco ,Conepatus leuconotus,00:18:35,0.012905093,0,18,0.3,0.3,Seca
+La Corneta,Didelphis virginiana,00:18:42,0.012986111,0,18,0.3,0.3,Seca
+Agua Linda,Sylvilagus floridanus,00:19:22,0.013449074,0,19,0.316666667,0.316666667,Seca
+Puerto de las Palomas,Urocyon cinereoargenteus,00:19:41,0.013668981,0,19,0.316666667,0.316666667,Lluvia
+Casa de Piedra,Didelphis virginiana,00:19:42,0.013680556,0,19,0.316666667,0.316666667,Lluvia
+Viveros,Didelphis virginiana,00:19:44,0.013703704,0,19,0.316666667,0.316666667,Lluvia
+Las Dalias,Didelphis virginiana,00:21:05,0.014641204,0,21,0.35,0.35,Lluvia
+El Salto,Didelphis virginiana,00:21:28,0.014907407,0,21,0.35,0.35,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,00:21:31,0.01494213,0,21,0.35,0.35,Lluvia
+El Elefante,Sylvilagus floridanus,00:22:27,0.015590278,0,22,0.366666667,0.366666667,Lluvia
+El Aguita 2,Mazama temama,00:23:21,0.016215278,0,23,0.383333333,0.383333333,Seca
+Casa de Piedra,Didelphis virginiana,00:23:35,0.016377315,0,23,0.383333333,0.383333333,Lluvia
+Las Dalias,Dasypus novemcinctus,00:23:55,0.016608796,0,23,0.383333333,0.383333333,Seca
+Las Dalias,Sylvilagus floridanus,00:24:15,0.016840278,0,24,0.4,0.4,Seca
+Puerto de las Palomas 2,Sylvilagus floridanus,00:24:21,0.016909722,0,24,0.4,0.4,Seca
+Joya Oscura,Leopardus wiedii,00:24:51,0.017256944,0,24,0.4,0.4,Lluvia
+Casa de Piedra,Didelphis virginiana,00:24:58,0.017337963,0,24,0.4,0.4,Lluvia
+La Tableta 2,Panthera onca,00:25:27,0.017673611,0,25,0.416666667,0.416666667,Lluvia
+Casa de Piedra,Didelphis virginiana,00:25:30,0.017708333,0,25,0.416666667,0.416666667,Lluvia
+Valle Verde del Charco ,Puma concolor,00:26:17,0.018252315,0,26,0.433333333,0.433333333,Lluvia
+Valle Verde del Charco ,Didelphis virginiana,00:26:20,0.018287037,0,26,0.433333333,0.433333333,Seca
+El Elefante,Mazama temama,00:26:41,0.018530093,0,26,0.433333333,0.433333333,Seca
+El Aguita 2,Conepatus leuconotus,00:27:01,0.018761574,0,27,0.45,0.45,Seca
+El Aguita,Mazama temama,00:27:08,0.018842593,0,27,0.45,0.45,Seca
+Joya Oscura 2,Leopardus pardalis,00:28:02,0.019467593,0,28,0.466666667,0.466666667,Lluvia
+Joya Oscura 2,Panthera onca,00:28:34,0.019837963,0,28,0.466666667,0.466666667,Lluvia
+Agua Linda,Sylvilagus floridanus,00:29:20,0.02037037,0,29,0.483333333,0.483333333,Lluvia
+La Perra,Urocyon cinereoargenteus,00:29:32,0.020509259,0,29,0.483333333,0.483333333,Seca
+Casa de Piedra,Didelphis virginiana,00:29:45,0.020659722,0,29,0.483333333,0.483333333,Lluvia
+Casa de Piedra,Didelphis virginiana,00:29:55,0.020775463,0,29,0.483333333,0.483333333,Seca
+Puerto de las Palomas,Conepatus leuconotus,00:29:55,0.020775463,0,29,0.483333333,0.483333333,Seca
+Joya Oscura,Didelphis virginiana,00:31:41,0.022002315,0,31,0.516666667,0.516666667,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,00:32:30,0.022569444,0,32,0.533333333,0.533333333,Lluvia
+El Aguita,Urocyon cinereoargenteus,00:32:50,0.022800926,0,32,0.533333333,0.533333333,Seca
+Las Dalias,Didelphis virginiana,00:33:22,0.023171296,0,33,0.55,0.55,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,00:33:31,0.023275463,0,33,0.55,0.55,Seca
+Las Fabricas,Conepatus leuconotus,00:33:33,0.023298611,0,33,0.55,0.55,Seca
+Agua Linda,Sylvilagus floridanus,00:33:46,0.023449074,0,33,0.55,0.55,Lluvia
+Joya Oscura,Didelphis virginiana,00:33:55,0.023553241,0,33,0.55,0.55,Seca
+Joya Oscura 2,Didelphis virginiana,00:34:38,0.024050926,0,34,0.566666667,0.566666667,Lluvia
+El Elefante,Urocyon cinereoargenteus,00:34:38,0.024050926,0,34,0.566666667,0.566666667,Lluvia
+Esteban,Nasua narica,00:34:48,0.024166667,0,34,0.566666667,0.566666667,Seca
+Esteban,Nasua narica,00:34:48,0.024166667,0,34,0.566666667,0.566666667,Seca
+El Salto,Leopardus wiedii,00:35:11,0.02443287,0,35,0.583333333,0.583333333,Seca
+Valle Verde del Charco ,Urocyon cinereoargenteus,00:35:23,0.024571759,0,35,0.583333333,0.583333333,Seca
+Joya Oscura,Didelphis virginiana,00:35:28,0.02462963,0,35,0.583333333,0.583333333,Seca
+La Perra,Urocyon cinereoargenteus,00:35:44,0.024814815,0,35,0.583333333,0.583333333,Seca
+La Corneta,Didelphis virginiana,00:36:03,0.025034722,0,36,0.6,0.6,Seca
+El agua de Simon,Nasua narica,00:36:09,0.025104167,0,36,0.6,0.6,Seca
+El agua de Simon,Nasua narica,00:36:09,0.025104167,0,36,0.6,0.6,Seca
+Joya Oscura,Didelphis virginiana,00:36:45,0.025520833,0,36,0.6,0.6,Seca
+La Corneta,Mazama temama,00:36:53,0.025613426,0,36,0.6,0.6,Seca
+Joya Oscura,Leopardus wiedii,00:37:54,0.026319444,0,37,0.616666667,0.616666667,Seca
+El Tigre,Mazama temama,00:38:20,0.02662037,0,38,0.633333333,0.633333333,Seca
+La Tableta 2,Sylvilagus floridanus,00:38:45,0.026909722,0,38,0.633333333,0.633333333,Seca
+El Tigre,Leopardus pardalis,00:39:10,0.027199074,0,39,0.65,0.65,Seca
+Las Fabricas,Leopardus pardalis,00:40:25,0.02806713,0,40,0.666666667,0.666666667,Lluvia
+Joya Oscura,Conepatus leuconotus,00:40:34,0.028171296,0,40,0.666666667,0.666666667,Lluvia
+Joya Oscura ,Spilogale gracilis,00:40:41,0.028252315,0,40,0.666666667,0.666666667,Seca
+Joya Oscura,Conepatus leuconotus,00:40:41,0.028252315,0,40,0.666666667,0.666666667,Seca
+Puerto de las Palomas,Urocyon cinereoargenteus,00:40:49,0.028344907,0,40,0.666666667,0.666666667,Lluvia
+Cañon del Diablo ,Dasypus novemcinctus,00:41:06,0.028541667,0,41,0.683333333,0.683333333,Lluvia
+Joya Oscura,Leopardus wiedii,00:41:08,0.028564815,0,41,0.683333333,0.683333333,Seca
+El Aguita 2,Leopardus wiedii,00:41:29,0.02880787,0,41,0.683333333,0.683333333,Lluvia
+Puerto de las Palomas,Didelphis virginiana,00:41:47,0.029016204,0,41,0.683333333,0.683333333,Seca
+El Aguita 2,Mazama temama,00:42:09,0.029270833,0,42,0.7,0.7,Seca
+Casa de Piedra,Dasypus novemcinctus,00:42:20,0.029398148,0,42,0.7,0.7,Lluvia
+La Tableta,Dasypus novemcinctus,00:42:22,0.029421296,0,42,0.7,0.7,Lluvia
+Puerto de las Palomas,Mazama temama,00:43:49,0.030428241,0,43,0.716666667,0.716666667,Lluvia
+La Perra,Urocyon cinereoargenteus,00:43:57,0.030520833,0,43,0.716666667,0.716666667,Lluvia
+Puerto de las Palomas,Cuniculus paca,00:44:03,0.030590278,0,44,0.733333333,0.733333333,Lluvia
+Joya Oscura,Ursus americanus,00:44:38,0.03099537,0,44,0.733333333,0.733333333,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,00:45:20,0.031481481,0,45,0.75,0.75,Seca
+Joya Oscura 2,Mazama temama,00:45:51,0.031840278,0,45,0.75,0.75,Seca
+Puerto de las Palomas 2,Didelphis virginiana,00:45:56,0.031898148,0,45,0.75,0.75,Lluvia
+El Salto,Didelphis virginiana,00:45:59,0.03193287,0,45,0.75,0.75,Seca
+Cueva de Don Amador,Ursus americanus,00:46:33,0.032326389,0,46,0.766666667,0.766666667,Lluvia
+El Aguita,Mazama temama,00:46:51,0.032534722,0,46,0.766666667,0.766666667,Lluvia
+El Salto,Dasypus novemcinctus,00:47:02,0.032662037,0,47,0.783333333,0.783333333,Lluvia
+El Salto,Leopardus pardalis,00:47:09,0.032743056,0,47,0.783333333,0.783333333,Lluvia
+Casa de Piedra,Didelphis virginiana,00:47:18,0.032847222,0,47,0.783333333,0.783333333,Seca
+Casa de Piedra,Didelphis virginiana,00:47:42,0.033125,0,47,0.783333333,0.783333333,Lluvia
+Agua Linda,Leopardus wiedii,00:47:48,0.033194444,0,47,0.783333333,0.783333333,Lluvia
+La Corneta,Didelphis virginiana,00:47:49,0.033206019,0,47,0.783333333,0.783333333,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,00:47:53,0.033252315,0,47,0.783333333,0.783333333,Seca
+Joya Oscura 2,Urocyon cinereoargenteus,00:48:02,0.033356481,0,48,0.8,0.8,Lluvia
+La Corneta,Leopardus wiedii,00:48:08,0.033425926,0,48,0.8,0.8,Seca
+La Corneta,Sylvilagus floridanus,00:50:32,0.035092593,0,50,0.833333333,0.833333333,Seca
+Casa de Piedra,Didelphis virginiana,00:51:11,0.035543981,0,51,0.85,0.85,Seca
+El Aguita 2,Cuniculus paca,00:51:13,0.03556713,0,51,0.85,0.85,Seca
+Joya Oscura,Leopardus wiedii,00:51:41,0.035891204,0,51,0.85,0.85,Lluvia
+Joya Oscura 2,Didelphis virginiana,00:52:01,0.036122685,0,52,0.866666667,0.866666667,Seca
+La Corneta,Didelphis virginiana,00:52:09,0.036215278,0,52,0.866666667,0.866666667,Seca
+Las Dalias,Ursus americanus,00:52:17,0.03630787,0,52,0.866666667,0.866666667,Lluvia
+La Tableta 2,Dasypus novemcinctus,00:52:37,0.036539352,0,52,0.866666667,0.866666667,Lluvia
+El Salto,Conepatus leuconotus,00:52:42,0.036597222,0,52,0.866666667,0.866666667,Lluvia
+El Salto,Ursus americanus,00:53:19,0.037025463,0,53,0.883333333,0.883333333,Seca
+Las Dalias,Sylvilagus floridanus,00:54:58,0.038171296,0,54,0.9,0.9,Seca
+El Aguita 2,Panthera onca,00:56:07,0.038969907,0,56,0.933333333,0.933333333,Lluvia
+La Tableta 2,Sylvilagus floridanus,00:56:55,0.039525463,0,56,0.933333333,0.933333333,Seca
+Puerto de las Palomas,Sylvilagus floridanus,00:56:57,0.039548611,0,56,0.933333333,0.933333333,Lluvia
+Valle Verde del Charco ,Didelphis virginiana,00:57:14,0.03974537,0,57,0.95,0.95,Seca
+Valle Verde del Charco ,Didelphis virginiana,00:57:31,0.03994213,0,57,0.95,0.95,Seca
+Joya Oscura 2,Leopardus wiedii,00:57:43,0.040081019,0,57,0.95,0.95,Lluvia
+Valle Verde del Charco ,Leopardus wiedii,00:58:02,0.040300926,0,58,0.966666667,0.966666667,Lluvia
+El Aguita 2,Didelphis virginiana,00:59:12,0.041111111,0,59,0.983333333,0.983333333,Seca
+Agua Linda,Sylvilagus floridanus,00:59:23,0.041238426,0,59,0.983333333,0.983333333,Lluvia
+Agua Linda,Sylvilagus floridanus,01:00:42,0.042152778,1,0,0,1,Lluvia
+Agua Linda,Leopardus wiedii,01:00:51,0.042256944,1,0,0,1,Seca
+Puerto de las Palomas,Sylvilagus floridanus,01:01:19,0.042581019,1,1,0.016666667,1.016666667,Lluvia
+Cerro del Pilón,Ursus americanus,01:01:50,0.042939815,1,1,0.016666667,1.016666667,Seca
+La Perra,Urocyon cinereoargenteus,01:01:53,0.042974537,1,1,0.016666667,1.016666667,Seca
+El agua de Simon,Didelphis virginiana,01:01:56,0.043009259,1,1,0.016666667,1.016666667,Lluvia
+Cerro del Pilón,Ursus americanus,01:02:15,0.043229167,1,2,0.033333333,1.033333333,Lluvia
+Puerto de las Palomas 2,Didelphis virginiana,01:02:36,0.043472222,1,2,0.033333333,1.033333333,Lluvia
+Valle Verde del Charco ,Dasypus novemcinctus,01:02:42,0.043541667,1,2,0.033333333,1.033333333,Lluvia
+El Salto,Puma concolor,01:02:50,0.043634259,1,2,0.033333333,1.033333333,Seca
+El Tigre,Leopardus pardalis,01:03:14,0.043912037,1,3,0.05,1.05,Lluvia
+La Corneta,Leopardus wiedii,01:03:18,0.043958333,1,3,0.05,1.05,Seca
+Valle Verde del Charco ,Didelphis virginiana,01:03:41,0.044224537,1,3,0.05,1.05,Seca
+Joya Oscura,Leopardus pardalis,01:03:46,0.044282407,1,3,0.05,1.05,Lluvia
+El Tigre,Nasua narica,01:03:50,0.044328704,1,3,0.05,1.05,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,01:04:00,0.044444444,1,4,0.066666667,1.066666667,Lluvia
+El agua de Simon,Didelphis virginiana,01:04:14,0.044606481,1,4,0.066666667,1.066666667,Lluvia
+Joya Oscura 2,Urocyon cinereoargenteus,01:04:28,0.044768519,1,4,0.066666667,1.066666667,Lluvia
+La Corneta,Didelphis virginiana,01:05:10,0.04525463,1,5,0.083333333,1.083333333,Lluvia
+Agua Linda,Ursus americanus,01:05:28,0.045462963,1,5,0.083333333,1.083333333,Seca
+Cueva de Don Amador,Dasypus novemcinctus,01:05:33,0.045520833,1,5,0.083333333,1.083333333,Lluvia
+Casa de Piedra,Mazama temama,01:05:40,0.045601852,1,5,0.083333333,1.083333333,Seca
+Las Dalias,Mazama temama,01:06:21,0.046076389,1,6,0.1,1.1,Seca
+Joya Oscura,Mazama temama,01:07:01,0.046539352,1,7,0.116666667,1.116666667,Lluvia
+Joya Oscura,Mazama temama,01:07:43,0.047025463,1,7,0.116666667,1.116666667,Seca
+Agua Linda,Sylvilagus floridanus,01:08:05,0.047280093,1,8,0.133333333,1.133333333,Seca
+Agua Linda,Puma concolor,01:08:21,0.047465278,1,8,0.133333333,1.133333333,Lluvia
+Joya Oscura,Leopardus wiedii,01:08:38,0.047662037,1,8,0.133333333,1.133333333,Lluvia
+La Corneta,Leopardus wiedii,01:09:19,0.048136574,1,9,0.15,1.15,Lluvia
+Agua Linda,Sylvilagus floridanus,01:09:21,0.048159722,1,9,0.15,1.15,Lluvia
+El Aguita,Panthera onca,01:09:37,0.048344907,1,9,0.15,1.15,Lluvia
+Puerto de las Palomas 2,Sylvilagus floridanus,01:09:49,0.048483796,1,9,0.15,1.15,Lluvia
+Puerto de las Palomas,Leopardus wiedii,01:10:09,0.048715278,1,10,0.166666667,1.166666667,Seca
+Casa de Piedra,Dasypus novemcinctus,01:10:12,0.04875,1,10,0.166666667,1.166666667,Lluvia
+El Tigre,Leopardus wiedii,01:10:45,0.049131944,1,10,0.166666667,1.166666667,Seca
+El Aguita 2,Didelphis virginiana,01:11:11,0.04943287,1,11,0.183333333,1.183333333,Lluvia
+Valle Verde del Charco ,Didelphis virginiana,01:11:22,0.049560185,1,11,0.183333333,1.183333333,Seca
+Las Dalias,Didelphis virginiana,01:11:58,0.049976852,1,11,0.183333333,1.183333333,Lluvia
+Agua Linda,Sylvilagus floridanus,01:12:02,0.050023148,1,12,0.2,1.2,Lluvia
+Joya Oscura 2,Leopardus wiedii,01:12:11,0.050127315,1,12,0.2,1.2,Seca
+Puerto de las Palomas,Sylvilagus floridanus,01:13:05,0.050752315,1,13,0.216666667,1.216666667,Lluvia
+Las Dalias,Sylvilagus floridanus,01:13:06,0.050763889,1,13,0.216666667,1.216666667,Seca
+Puerto de las Palomas,Sylvilagus floridanus,01:13:16,0.05087963,1,13,0.216666667,1.216666667,Lluvia
+Joya Oscura,Leopardus wiedii,01:14:29,0.051724537,1,14,0.233333333,1.233333333,Seca
+La Perra,Urocyon cinereoargenteus,01:14:54,0.052013889,1,14,0.233333333,1.233333333,Lluvia
+La Perra,Ursus americanus,01:15:29,0.052418981,1,15,0.25,1.25,Lluvia
+Agua Linda,Mazama temama,01:16:01,0.052789352,1,16,0.266666667,1.266666667,Seca
+Casa de Piedra,Didelphis virginiana,01:16:20,0.053009259,1,16,0.266666667,1.266666667,Lluvia
+Casa de Piedra,Leopardus wiedii,01:16:52,0.05337963,1,16,0.266666667,1.266666667,Seca
+El Salto,Puma concolor,01:17:19,0.05369213,1,17,0.283333333,1.283333333,Lluvia
+Valle Verde del Charco ,Didelphis virginiana,01:18:06,0.054236111,1,18,0.3,1.3,Seca
+Joya Oscura,Mazama temama,01:18:59,0.054849537,1,18,0.3,1.3,Seca
+Joya Oscura 2,Conepatus leuconotus,01:19:44,0.05537037,1,19,0.316666667,1.316666667,Seca
+Joya Oscura 2,Didelphis virginiana,01:20:32,0.055925926,1,20,0.333333333,1.333333333,Lluvia
+El Aguita 2,Cuniculus paca,01:22:23,0.057210648,1,22,0.366666667,1.366666667,Seca
+Puerto de las Palomas,Puma concolor,01:23:23,0.057905093,1,23,0.383333333,1.383333333,Lluvia
+Valle Verde del Charco ,Dasypus novemcinctus,01:23:30,0.057986111,1,23,0.383333333,1.383333333,Lluvia
+Joya Oscura 2,Leopardus pardalis,01:23:58,0.058310185,1,23,0.383333333,1.383333333,Lluvia
+Casa de Piedra,Didelphis virginiana,01:23:59,0.058321759,1,23,0.383333333,1.383333333,Lluvia
+Las Fabricas,Urocyon cinereoargenteus,01:24:07,0.058414352,1,24,0.4,1.4,Lluvia
+El Tigre,Conepatus leuconotus,01:24:09,0.0584375,1,24,0.4,1.4,Seca
+Joya Oscura,Leopardus wiedii,01:24:14,0.05849537,1,24,0.4,1.4,Lluvia
+La Tableta 2,Sylvilagus floridanus,01:24:56,0.058981481,1,24,0.4,1.4,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,01:24:56,0.058981481,1,24,0.4,1.4,Seca
+La Corneta,Leopardus wiedii,01:25:01,0.059039352,1,25,0.416666667,1.416666667,Lluvia
+Cueva de Don Amador,Panthera onca,01:25:12,0.059166667,1,25,0.416666667,1.416666667,Lluvia
+Las Dalias,Sylvilagus floridanus,01:25:59,0.059710648,1,25,0.416666667,1.416666667,Lluvia
+Viveros,Didelphis virginiana,01:28:37,0.061539352,1,28,0.466666667,1.466666667,Lluvia
+Valle Verde del Charco ,Ursus americanus,01:28:41,0.061585648,1,28,0.466666667,1.466666667,Seca
+Joya Oscura 2,Conepatus leuconotus,01:28:41,0.061585648,1,28,0.466666667,1.466666667,Lluvia
+La Tableta,Sylvilagus floridanus,01:28:57,0.061770833,1,28,0.466666667,1.466666667,Lluvia
+Joya Oscura 2,Leopardus wiedii,01:28:59,0.061793981,1,28,0.466666667,1.466666667,Lluvia
+Puerto de las Palomas,Puma concolor,01:29:26,0.062106481,1,29,0.483333333,1.483333333,Seca
+Agua Linda,Sylvilagus floridanus,01:29:27,0.062118056,1,29,0.483333333,1.483333333,Lluvia
+Las Fabricas,Leopardus wiedii,01:29:36,0.062222222,1,29,0.483333333,1.483333333,Lluvia
+El Aguita,Leopardus pardalis,01:29:50,0.062384259,1,29,0.483333333,1.483333333,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,01:30:17,0.062696759,1,30,0.5,1.5,Seca
+Valle Verde del Charco ,Didelphis virginiana,01:30:43,0.062997685,1,30,0.5,1.5,Lluvia
+Joya Oscura 2,Leopardus pardalis,01:31:47,0.063738426,1,31,0.516666667,1.516666667,Seca
+Joya Oscura 2,Didelphis virginiana,01:32:30,0.064236111,1,32,0.533333333,1.533333333,Seca
+Casa de Piedra,Didelphis virginiana,01:33:25,0.064872685,1,33,0.55,1.55,Seca
+Las Dalias,Didelphis virginiana,01:33:50,0.065162037,1,33,0.55,1.55,Lluvia
+Agua Linda,Sylvilagus floridanus,01:35:22,0.066226852,1,35,0.583333333,1.583333333,Seca
+Joya Oscura 2,Leopardus pardalis,01:36:18,0.066875,1,36,0.6,1.6,Seca
+La Perra,Urocyon cinereoargenteus,01:36:58,0.067337963,1,36,0.6,1.6,Seca
+Valle Verde del Charco ,Puma concolor,01:37:17,0.06755787,1,37,0.616666667,1.616666667,Lluvia
+Casa de Piedra,Didelphis virginiana,01:37:23,0.067627315,1,37,0.616666667,1.616666667,Seca
+Puerto de las Palomas 2,Sylvilagus floridanus,01:37:41,0.067835648,1,37,0.616666667,1.616666667,Seca
+Valle Verde del Charco ,Didelphis virginiana,01:37:42,0.067847222,1,37,0.616666667,1.616666667,Lluvia
+Joya Oscura,Mazama temama,01:38:30,0.068402778,1,38,0.633333333,1.633333333,Lluvia
+Valle Verde del Charco ,Didelphis virginiana,01:38:32,0.068425926,1,38,0.633333333,1.633333333,Seca
+Casa de Piedra,Puma concolor,01:39:15,0.068923611,1,39,0.65,1.65,Lluvia
+La Corneta,Leopardus wiedii,01:40:19,0.069664352,1,40,0.666666667,1.666666667,Seca
+El Aguita,Didelphis virginiana,01:40:45,0.069965278,1,40,0.666666667,1.666666667,Lluvia
+El Elefante,Ursus americanus,01:41:26,0.070439815,1,41,0.683333333,1.683333333,Seca
+Casa de Piedra,Didelphis virginiana,01:41:31,0.070497685,1,41,0.683333333,1.683333333,Lluvia
+Cueva de Don Amador,Dasypus novemcinctus,01:41:42,0.070625,1,41,0.683333333,1.683333333,Lluvia
+Puerto de las Palomas,Didelphis virginiana,01:42:29,0.071168981,1,42,0.7,1.7,Seca
+Puerto de las Palomas 2,Sylvilagus floridanus,01:42:34,0.071226852,1,42,0.7,1.7,Seca
+El Aguita,Leopardus wiedii,01:43:39,0.071979167,1,43,0.716666667,1.716666667,Lluvia
+La Corneta,Leopardus wiedii,01:45:17,0.073113426,1,45,0.75,1.75,Seca
+Valle Verde del Charco ,Dasypus novemcinctus,01:45:34,0.073310185,1,45,0.75,1.75,Lluvia
+La Tableta 2,Panthera onca,01:45:37,0.073344907,1,45,0.75,1.75,Seca
+Esteban,Nasua narica,01:45:42,0.073402778,1,45,0.75,1.75,Seca
+La Tableta 2,Sylvilagus floridanus,01:46:27,0.073923611,1,46,0.766666667,1.766666667,Seca
+El Salto,Didelphis virginiana,01:46:53,0.074224537,1,46,0.766666667,1.766666667,Seca
+Las Dalias,Sylvilagus floridanus,01:46:54,0.074236111,1,46,0.766666667,1.766666667,Lluvia
+La Tableta 2,Leopardus wiedii,01:47:22,0.074560185,1,47,0.783333333,1.783333333,Lluvia
+Joya Oscura,Didelphis virginiana,01:48:49,0.07556713,1,48,0.8,1.8,Seca
+Agua Linda,Urocyon cinereoargenteus,01:49:15,0.075868056,1,49,0.816666667,1.816666667,Seca
+La Corneta,Didelphis virginiana,01:50:42,0.076875,1,50,0.833333333,1.833333333,Seca
+El Salto,Leopardus wiedii,01:51:06,0.077152778,1,51,0.85,1.85,Lluvia
+Agua Linda,Leopardus wiedii,01:51:53,0.077696759,1,51,0.85,1.85,Lluvia
+La Tableta,Didelphis virginiana,01:52:07,0.077858796,1,52,0.866666667,1.866666667,Seca
+Agua Linda,Sylvilagus floridanus,01:52:22,0.078032407,1,52,0.866666667,1.866666667,Lluvia
+Las Fabricas,Puma concolor,01:52:33,0.078159722,1,52,0.866666667,1.866666667,Lluvia
+Joya Oscura,Leopardus wiedii,01:52:44,0.078287037,1,52,0.866666667,1.866666667,Lluvia
+El Aguita 2,Didelphis virginiana,01:53:18,0.078680556,1,53,0.883333333,1.883333333,Lluvia
+La Tableta,Dasypus novemcinctus,01:53:54,0.079097222,1,53,0.883333333,1.883333333,Lluvia
+La Tableta 2,Dasypus novemcinctus,01:53:54,0.079097222,1,53,0.883333333,1.883333333,Lluvia
+El Aguita 2,Ursus americanus,01:54:13,0.07931713,1,54,0.9,1.9,Lluvia
+Joya Oscura,Mazama temama,01:54:34,0.079560185,1,54,0.9,1.9,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,01:55:47,0.080405093,1,55,0.916666667,1.916666667,Lluvia
+Las Dalias,Cuniculus paca,01:55:49,0.080428241,1,55,0.916666667,1.916666667,Seca
+Viveros,Leopardus wiedii,01:55:58,0.080532407,1,55,0.916666667,1.916666667,Seca
+El Elefante,Mazama temama,01:56:28,0.08087963,1,56,0.933333333,1.933333333,Seca
+Puerto de las Palomas,Urocyon cinereoargenteus,01:56:52,0.081157407,1,56,0.933333333,1.933333333,Seca
+Agua Linda,Sylvilagus floridanus,01:57:12,0.081388889,1,57,0.95,1.95,Lluvia
+Casa de Piedra,Dasypus novemcinctus,01:57:49,0.08181713,1,57,0.95,1.95,Lluvia
+Cueva de Don Amador,Dasypus novemcinctus,01:59:34,0.083032407,1,59,0.983333333,1.983333333,Lluvia
+Joya Oscura,Didelphis virginiana,02:00:26,0.083634259,2,0,0,2,Seca
+Valle Verde del Charco ,Dasypus novemcinctus,02:00:47,0.083877315,2,0,0,2,Lluvia
+La Tableta,Dasypus novemcinctus,02:00:53,0.083946759,2,0,0,2,Lluvia
+La Tableta 2,Didelphis virginiana,02:01:04,0.084074074,2,1,0.016666667,2.016666667,Lluvia
+Puerto de las Palomas 2,Sylvilagus floridanus,02:01:14,0.084189815,2,1,0.016666667,2.016666667,Seca
+Valle Verde del Charco ,Didelphis virginiana,02:01:52,0.08462963,2,1,0.016666667,2.016666667,Lluvia
+Esteban,Nasua narica,02:02:39,0.085173611,2,2,0.033333333,2.033333333,Seca
+La Tableta 2,Didelphis virginiana,02:03:15,0.085590278,2,3,0.05,2.05,Seca
+El Aguita,Didelphis virginiana,02:03:44,0.085925926,2,3,0.05,2.05,Lluvia
+La Tableta 2,Dasypus novemcinctus,02:04:06,0.086180556,2,4,0.066666667,2.066666667,Lluvia
+Agua Linda,Sylvilagus floridanus,02:04:13,0.086261574,2,4,0.066666667,2.066666667,Lluvia
+La Corneta,Didelphis virginiana,02:04:20,0.086342593,2,4,0.066666667,2.066666667,Seca
+Valle Verde del Charco ,Didelphis virginiana,02:05:53,0.087418981,2,5,0.083333333,2.083333333,Seca
+El Tigre,Leopardus pardalis,02:06:38,0.087939815,2,6,0.1,2.1,Seca
+La Tableta 2,Leopardus wiedii,02:06:42,0.087986111,2,6,0.1,2.1,Seca
+Agua Linda,Conepatus leuconotus,02:07:43,0.08869213,2,7,0.116666667,2.116666667,Lluvia
+El Aguita,Mazama temama,02:08:03,0.088923611,2,8,0.133333333,2.133333333,Lluvia
+Las Dalias,Sylvilagus floridanus,02:08:41,0.089363426,2,8,0.133333333,2.133333333,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,02:08:48,0.089444444,2,8,0.133333333,2.133333333,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,02:09:52,0.090185185,2,9,0.15,2.15,Seca
+El Salto,Didelphis virginiana,02:10:00,0.090277778,2,10,0.166666667,2.166666667,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,02:11:13,0.091122685,2,11,0.183333333,2.183333333,Seca
+El Aguita 2,Didelphis virginiana,02:11:57,0.091631944,2,11,0.183333333,2.183333333,Lluvia
+Agua Linda,Sylvilagus floridanus,02:12:18,0.091875,2,12,0.2,2.2,Lluvia
+La Tableta 2,Leopardus pardalis,02:12:44,0.092175926,2,12,0.2,2.2,Seca
+Agua Linda,Mazama temama,02:12:57,0.092326389,2,12,0.2,2.2,Lluvia
+El Aguita,Didelphis virginiana,02:13:47,0.092905093,2,13,0.216666667,2.216666667,Lluvia
+Cerro del Pilón,Eira barbara,02:14:02,0.093078704,2,14,0.233333333,2.233333333,Seca
+Agua Linda,Sylvilagus floridanus,02:15:29,0.094085648,2,15,0.25,2.25,Lluvia
+Casa de Piedra,Didelphis virginiana,02:16:21,0.0946875,2,16,0.266666667,2.266666667,Lluvia
+La Perra,Didelphis virginiana,02:16:22,0.094699074,2,16,0.266666667,2.266666667,Lluvia
+Puerto de las Palomas 2,Sylvilagus floridanus,02:16:35,0.094849537,2,16,0.266666667,2.266666667,Lluvia
+La Corneta,Dasypus novemcinctus,02:16:38,0.094884259,2,16,0.266666667,2.266666667,Lluvia
+Agua Linda,Mazama temama,02:17:23,0.095405093,2,17,0.283333333,2.283333333,Seca
+La Tableta 2,Didelphis virginiana,02:17:38,0.095578704,2,17,0.283333333,2.283333333,Lluvia
+Viveros,Cuniculus paca,02:17:58,0.095810185,2,17,0.283333333,2.283333333,Lluvia
+Puerto de las Palomas 2,Leopardus wiedii,02:18:02,0.095856481,2,18,0.3,2.3,Seca
+Puerto de las Palomas,Sylvilagus floridanus,02:18:39,0.096284722,2,18,0.3,2.3,Seca
+La Corneta,Didelphis virginiana,02:19:04,0.096574074,2,19,0.316666667,2.316666667,Lluvia
+Agua Linda,Leopardus wiedii,02:19:12,0.096666667,2,19,0.316666667,2.316666667,Lluvia
+El Tigre,Dicotyles tajacu,02:19:38,0.096967593,2,19,0.316666667,2.316666667,Lluvia
+Agua Linda,Sylvilagus floridanus,02:20:43,0.097719907,2,20,0.333333333,2.333333333,Seca
+Cerro del Pilón,Ursus americanus,02:22:45,0.099131944,2,22,0.366666667,2.366666667,Lluvia
+Puerto de las Palomas 2,Leopardus wiedii,02:22:53,0.099224537,2,22,0.366666667,2.366666667,Seca
+Joya Oscura 2,Mazama temama,02:23:33,0.0996875,2,23,0.383333333,2.383333333,Lluvia
+El Aguita,Mazama temama,02:23:57,0.099965278,2,23,0.383333333,2.383333333,Seca
+Puerto de las Palomas,Leopardus wiedii,02:24:07,0.100081019,2,24,0.4,2.4,Seca
+Casa de Piedra,Didelphis virginiana,02:24:36,0.100416667,2,24,0.4,2.4,Seca
+El Salto,Leopardus wiedii,02:25:37,0.101122685,2,25,0.416666667,2.416666667,Seca
+Las Dalias,Sylvilagus floridanus,02:25:39,0.101145833,2,25,0.416666667,2.416666667,Lluvia
+Casa de Piedra,Didelphis virginiana,02:25:40,0.101157407,2,25,0.416666667,2.416666667,Seca
+Joya Oscura,Leopardus wiedii,02:25:50,0.101273148,2,25,0.416666667,2.416666667,Seca
+La Corneta,Leopardus pardalis,02:25:51,0.101284722,2,25,0.416666667,2.416666667,Lluvia
+Casa de Piedra,Didelphis virginiana,02:26:01,0.101400463,2,26,0.433333333,2.433333333,Seca
+Joya Oscura,Panthera onca,02:26:31,0.101747685,2,26,0.433333333,2.433333333,Lluvia
+Viveros,Cuniculus paca,02:26:56,0.102037037,2,26,0.433333333,2.433333333,Lluvia
+Cueva de Don Amador,Dasypus novemcinctus,02:27:45,0.102604167,2,27,0.45,2.45,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,02:27:45,0.102604167,2,27,0.45,2.45,Seca
+Puerto de las Palomas,Sylvilagus floridanus,02:28:00,0.102777778,2,28,0.466666667,2.466666667,Seca
+Casa de Piedra,Didelphis virginiana,02:28:22,0.103032407,2,28,0.466666667,2.466666667,Lluvia
+El Aguita 2,Mazama temama,02:29:02,0.10349537,2,29,0.483333333,2.483333333,Seca
+La Corneta,Didelphis virginiana,02:29:32,0.103842593,2,29,0.483333333,2.483333333,Lluvia
+Casa de Piedra,Dasypus novemcinctus,02:30:03,0.104201389,2,30,0.5,2.5,Seca
+Joya Oscura,Leopardus wiedii,02:30:55,0.104803241,2,30,0.5,2.5,Lluvia
+La Corneta,Leopardus wiedii,02:31:03,0.104895833,2,31,0.516666667,2.516666667,Lluvia
+Valle Verde del Charco ,Didelphis virginiana,02:31:06,0.104930556,2,31,0.516666667,2.516666667,Seca
+Agua Linda,Sylvilagus floridanus,02:33:01,0.106261574,2,33,0.55,2.55,Lluvia
+El Elefante,Mazama temama,02:33:06,0.106319444,2,33,0.55,2.55,Seca
+La Corneta,Didelphis virginiana,02:33:31,0.106608796,2,33,0.55,2.55,Lluvia
+Puerto de las Palomas 2,Sylvilagus floridanus,02:33:39,0.106701389,2,33,0.55,2.55,Lluvia
+La Perra,Didelphis virginiana,02:35:10,0.10775463,2,35,0.583333333,2.583333333,Lluvia
+Joya Oscura,Didelphis virginiana,02:35:24,0.107916667,2,35,0.583333333,2.583333333,Seca
+Puerto de las Palomas,Sylvilagus floridanus,02:35:35,0.108043981,2,35,0.583333333,2.583333333,Seca
+Las Dalias,Sylvilagus floridanus,02:35:55,0.108275463,2,35,0.583333333,2.583333333,Lluvia
+Valle Verde del Charco ,Didelphis virginiana,02:35:57,0.108298611,2,35,0.583333333,2.583333333,Lluvia
+La Perra,Conepatus leuconotus,02:36:05,0.108391204,2,36,0.6,2.6,Seca
+El Salto,Mazama temama,02:36:14,0.10849537,2,36,0.6,2.6,Lluvia
+Casa de Piedra,Leopardus wiedii,02:37:06,0.109097222,2,37,0.616666667,2.616666667,Lluvia
+Puerto de las Palomas,Dasypus novemcinctus,02:38:06,0.109791667,2,38,0.633333333,2.633333333,Lluvia
+Casa de Piedra,Dasypus novemcinctus,02:38:19,0.10994213,2,38,0.633333333,2.633333333,Lluvia
+Agua Linda,Sylvilagus floridanus,02:38:32,0.110092593,2,38,0.633333333,2.633333333,Lluvia
+Joya Oscura,Mazama temama,02:38:32,0.110092593,2,38,0.633333333,2.633333333,Seca
+Casa de Piedra,Didelphis virginiana,02:39:07,0.110497685,2,39,0.65,2.65,Seca
+Joya Oscura 2,Urocyon cinereoargenteus,02:39:44,0.110925926,2,39,0.65,2.65,Seca
+El Aguita,Didelphis virginiana,02:40:17,0.11130787,2,40,0.666666667,2.666666667,Lluvia
+Las Dalias,Mazama temama,02:40:48,0.111666667,2,40,0.666666667,2.666666667,Lluvia
+Casa de Piedra,Didelphis virginiana,02:41:08,0.111898148,2,41,0.683333333,2.683333333,Lluvia
+Puerto de las Palomas,Conepatus leuconotus,02:41:10,0.111921296,2,41,0.683333333,2.683333333,Lluvia
+Casa de Piedra,Sylvilagus floridanus,02:42:10,0.112615741,2,42,0.7,2.7,Seca
+El Aguita 2,Mazama temama,02:44:35,0.114293981,2,44,0.733333333,2.733333333,Seca
+El Salto,Sylvilagus floridanus,02:44:40,0.114351852,2,44,0.733333333,2.733333333,Seca
+La Corneta,Sylvilagus floridanus,02:45:07,0.114664352,2,45,0.75,2.75,Seca
+El Salto,Mazama temama,02:45:10,0.114699074,2,45,0.75,2.75,Lluvia
+Joya Oscura,Leopardus wiedii,02:45:37,0.115011574,2,45,0.75,2.75,Lluvia
+Las Fabricas,Leopardus wiedii,02:45:38,0.115023148,2,45,0.75,2.75,Lluvia
+Casa de Piedra,Didelphis virginiana,02:45:39,0.115034722,2,45,0.75,2.75,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,02:46:16,0.115462963,2,46,0.766666667,2.766666667,Lluvia
+Casa de Piedra,Didelphis virginiana,02:46:46,0.115810185,2,46,0.766666667,2.766666667,Lluvia
+Agua Linda,Leopardus wiedii,02:46:47,0.115821759,2,46,0.766666667,2.766666667,Lluvia
+Joya Oscura 2,Leopardus pardalis,02:47:19,0.11619213,2,47,0.783333333,2.783333333,Lluvia
+Casa de Piedra,Mazama temama,02:47:57,0.116631944,2,47,0.783333333,2.783333333,Seca
+Casa de Piedra,Dasypus novemcinctus,02:48:19,0.116886574,2,48,0.8,2.8,Lluvia
+Las Fabricas,Urocyon cinereoargenteus,02:49:17,0.11755787,2,49,0.816666667,2.816666667,Lluvia
+La Tableta,Didelphis virginiana,02:49:19,0.117581019,2,49,0.816666667,2.816666667,Lluvia
+La Tableta 2,Didelphis virginiana,02:49:19,0.117581019,2,49,0.816666667,2.816666667,Lluvia
+El Elefante,Didelphis virginiana,02:49:20,0.117592593,2,49,0.816666667,2.816666667,Lluvia
+El Salto,Sylvilagus floridanus,02:49:25,0.117650463,2,49,0.816666667,2.816666667,Seca
+Joya Oscura,Leopardus pardalis,02:49:44,0.11787037,2,49,0.816666667,2.816666667,Lluvia
+Valle Verde del Charco ,Didelphis virginiana,02:49:51,0.117951389,2,49,0.816666667,2.816666667,Lluvia
+Joya Oscura,Didelphis virginiana,02:50:06,0.118125,2,50,0.833333333,2.833333333,Lluvia
+Casa de Piedra,Didelphis virginiana,02:50:33,0.1184375,2,50,0.833333333,2.833333333,Lluvia
+La Corneta,Didelphis virginiana,02:50:38,0.11849537,2,50,0.833333333,2.833333333,Seca
+Agua Linda,Mazama temama,02:50:47,0.118599537,2,50,0.833333333,2.833333333,Seca
+El Aguita,Urocyon cinereoargenteus,02:51:02,0.118773148,2,51,0.85,2.85,Seca
+Puerto de las Palomas,Didelphis virginiana,02:52:04,0.119490741,2,52,0.866666667,2.866666667,Lluvia
+Agua Linda,Sylvilagus floridanus,02:52:06,0.119513889,2,52,0.866666667,2.866666667,Lluvia
+El Salto,Mazama temama,02:52:25,0.119733796,2,52,0.866666667,2.866666667,Lluvia
+Casa de Piedra,Mazama temama,02:52:33,0.119826389,2,52,0.866666667,2.866666667,Seca
+Valle Verde del Charco ,Didelphis virginiana,02:52:50,0.120023148,2,52,0.866666667,2.866666667,Seca
+La Corneta,Mazama temama,02:53:24,0.120416667,2,53,0.883333333,2.883333333,Seca
+Puerto de las Palomas,Conepatus leuconotus,02:53:35,0.120543981,2,53,0.883333333,2.883333333,Seca
+Valle Verde del Charco ,Mazama temama,02:53:39,0.120590278,2,53,0.883333333,2.883333333,Seca
+Esteban,Nasua narica,02:53:55,0.120775463,2,53,0.883333333,2.883333333,Seca
+Valle Verde del Charco ,Didelphis virginiana,02:53:59,0.120821759,2,53,0.883333333,2.883333333,Seca
+Puerto de las Palomas,Didelphis virginiana,02:54:24,0.121111111,2,54,0.9,2.9,Lluvia
+El Aguita 2,Mazama temama,02:54:25,0.121122685,2,54,0.9,2.9,Lluvia
+La Corneta,Cuniculus paca,02:54:46,0.121365741,2,54,0.9,2.9,Seca
+Joya Oscura,Panthera onca,02:55:01,0.121539352,2,55,0.916666667,2.916666667,Lluvia
+Joya Oscura,Didelphis virginiana,02:55:06,0.121597222,2,55,0.916666667,2.916666667,Lluvia
+Las Fabricas,Leopardus pardalis,02:55:15,0.121701389,2,55,0.916666667,2.916666667,Lluvia
+Esteban,Nasua narica,02:55:20,0.121759259,2,55,0.916666667,2.916666667,Lluvia
+Agua Linda,Leopardus wiedii,02:55:38,0.121967593,2,55,0.916666667,2.916666667,Lluvia
+La Corneta,Sylvilagus floridanus,02:56:03,0.122256944,2,56,0.933333333,2.933333333,Lluvia
+El agua de Simon,Didelphis virginiana,02:56:10,0.122337963,2,56,0.933333333,2.933333333,Lluvia
+La Perra,Didelphis virginiana,02:56:18,0.122430556,2,56,0.933333333,2.933333333,Lluvia
+Agua Linda,Didelphis virginiana,02:56:44,0.122731481,2,56,0.933333333,2.933333333,Lluvia
+La Perra,Urocyon cinereoargenteus,02:56:55,0.122858796,2,56,0.933333333,2.933333333,Seca
+La Tableta 2,Didelphis virginiana,02:57:17,0.123113426,2,57,0.95,2.95,Lluvia
+Esteban,Cuniculus paca,02:57:35,0.123321759,2,57,0.95,2.95,Lluvia
+El agua de Simon,Didelphis virginiana,02:57:48,0.123472222,2,57,0.95,2.95,Lluvia
+Las Dalias,Sylvilagus floridanus,02:59:21,0.124548611,2,59,0.983333333,2.983333333,Seca
+El Salto,Dasypus novemcinctus,02:59:52,0.124907407,2,59,0.983333333,2.983333333,Lluvia
+Las Fabricas,Conepatus leuconotus,03:00:04,0.125046296,3,0,0,3,Lluvia
+Joya Oscura,Mazama temama,03:00:14,0.125162037,3,0,0,3,Lluvia
+La Corneta,Mazama temama,03:01:44,0.126203704,3,1,0.016666667,3.016666667,Seca
+El Aguita,Leopardus wiedii,03:02:43,0.126886574,3,2,0.033333333,3.033333333,Seca
+Joya Oscura,Mazama temama,03:02:54,0.127013889,3,2,0.033333333,3.033333333,Lluvia
+La Corneta,Leopardus wiedii,03:02:56,0.127037037,3,2,0.033333333,3.033333333,Lluvia
+Joya Oscura,Mazama temama,03:03:11,0.127210648,3,3,0.05,3.05,Lluvia
+Agua Linda,Mazama temama,03:04:23,0.128043981,3,4,0.066666667,3.066666667,Seca
+La Corneta,Didelphis virginiana,03:04:47,0.128321759,3,4,0.066666667,3.066666667,Seca
+Joya Oscura,Didelphis virginiana,03:05:02,0.12849537,3,5,0.083333333,3.083333333,Seca
+Joya Oscura,Mazama temama,03:05:50,0.129050926,3,5,0.083333333,3.083333333,Lluvia
+El Aguita,Leopardus pardalis,03:06:10,0.129282407,3,6,0.1,3.1,Seca
+Puerto de las Palomas,Sylvilagus floridanus,03:06:16,0.129351852,3,6,0.1,3.1,Seca
+Casa de Piedra,Mazama temama,03:06:39,0.129618056,3,6,0.1,3.1,Seca
+El Aguita 2,Panthera onca,03:07:30,0.130208333,3,7,0.116666667,3.116666667,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,03:07:58,0.130532407,3,7,0.116666667,3.116666667,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,03:08:02,0.130578704,3,8,0.133333333,3.133333333,Seca
+Las Dalias,Puma concolor,03:08:28,0.13087963,3,8,0.133333333,3.133333333,Lluvia
+Agua Linda,Sylvilagus floridanus,03:09:06,0.131319444,3,9,0.15,3.15,Seca
+Agua Linda,Sylvilagus floridanus,03:09:25,0.131539352,3,9,0.15,3.15,Seca
+Valle Verde del Charco ,Leopardus wiedii,03:09:25,0.131539352,3,9,0.15,3.15,Lluvia
+Joya Oscura,Leopardus wiedii,03:09:53,0.131863426,3,9,0.15,3.15,Lluvia
+El Aguita,Leopardus wiedii,03:10:09,0.132048611,3,10,0.166666667,3.166666667,Lluvia
+La Corneta,Didelphis virginiana,03:10:14,0.132106481,3,10,0.166666667,3.166666667,Seca
+Joya Oscura 2,Didelphis virginiana,03:10:14,0.132106481,3,10,0.166666667,3.166666667,Seca
+El agua de Simon,Ursus americanus,03:10:45,0.132465278,3,10,0.166666667,3.166666667,Lluvia
+El Tigre,Leopardus pardalis,03:10:46,0.132476852,3,10,0.166666667,3.166666667,Seca
+Joya Oscura,Mazama temama,03:10:49,0.132511574,3,10,0.166666667,3.166666667,Seca
+Casa de Piedra,Didelphis virginiana,03:10:54,0.132569444,3,10,0.166666667,3.166666667,Lluvia
+Joya Oscura,Mazama temama,03:10:56,0.132592593,3,10,0.166666667,3.166666667,Lluvia
+El Aguita 2,Dasypus novemcinctus,03:11:19,0.132858796,3,11,0.183333333,3.183333333,Lluvia
+Esteban,Cuniculus paca,03:12:23,0.133599537,3,12,0.2,3.2,Lluvia
+Joya Oscura,Didelphis virginiana,03:12:46,0.133865741,3,12,0.2,3.2,Lluvia
+El Elefante,Mazama temama,03:14:02,0.13474537,3,14,0.233333333,3.233333333,Seca
+Puerto de las Palomas,Conepatus leuconotus,03:14:03,0.134756944,3,14,0.233333333,3.233333333,Seca
+La Corneta,Leopardus wiedii,03:14:20,0.134953704,3,14,0.233333333,3.233333333,Lluvia
+Joya Oscura,Mazama temama,03:14:33,0.135104167,3,14,0.233333333,3.233333333,Lluvia
+El Infiernillo,Mazama temama,03:15:02,0.135439815,3,15,0.25,3.25,Lluvia
+Valle Verde del Charco ,Leopardus wiedii,03:16:08,0.136203704,3,16,0.266666667,3.266666667,Seca
+Agua Linda,Urocyon cinereoargenteus,03:18:59,0.13818287,3,18,0.3,3.3,Seca
+Agua Linda,Leopardus wiedii,03:19:27,0.138506944,3,19,0.316666667,3.316666667,Seca
+Cerro del Pilón,Ursus americanus,03:20:19,0.139108796,3,20,0.333333333,3.333333333,Lluvia
+La Tableta 2,Leopardus wiedii,03:20:34,0.139282407,3,20,0.333333333,3.333333333,Lluvia
+Agua Linda,Sylvilagus floridanus,03:21:03,0.139618056,3,21,0.35,3.35,Lluvia
+Cerro del Pilón,Ursus americanus,03:21:44,0.140092593,3,21,0.35,3.35,Lluvia
+El Aguita 2,Mazama temama,03:22:15,0.140451389,3,22,0.366666667,3.366666667,Lluvia
+Agua Linda,Sylvilagus floridanus,03:22:45,0.140798611,3,22,0.366666667,3.366666667,Lluvia
+Las Dalias,Sylvilagus floridanus,03:23:17,0.141168981,3,23,0.383333333,3.383333333,Seca
+Joya Oscura,Spilogale gracilis,03:23:28,0.141296296,3,23,0.383333333,3.383333333,Seca
+La Corneta,Leopardus wiedii,03:24:11,0.141793981,3,24,0.4,3.4,Lluvia
+Cerro del Pilón,Ursus americanus,03:24:12,0.141805556,3,24,0.4,3.4,Seca
+Valle Verde del Charco ,Didelphis virginiana,03:24:37,0.142094907,3,24,0.4,3.4,Lluvia
+Puerto de las Palomas 2,Sylvilagus floridanus,03:25:29,0.142696759,3,25,0.416666667,3.416666667,Lluvia
+Joya Oscura 2,Panthera onca,03:25:41,0.142835648,3,25,0.416666667,3.416666667,Lluvia
+La Tableta 2,Leopardus wiedii,03:26:45,0.143576389,3,26,0.433333333,3.433333333,Seca
+El Salto,Sylvilagus floridanus,03:26:58,0.143726852,3,26,0.433333333,3.433333333,Seca
+Agua Linda,Mazama temama,03:26:59,0.143738426,3,26,0.433333333,3.433333333,Seca
+Agua Linda,Sylvilagus floridanus,03:27:33,0.144131944,3,27,0.45,3.45,Seca
+Puerto de las Palomas 2,Sylvilagus floridanus,03:29:02,0.145162037,3,29,0.483333333,3.483333333,Seca
+El Salto,Eira barbara,03:29:21,0.145381944,3,29,0.483333333,3.483333333,Seca
+Las Dalias,Sylvilagus floridanus,03:29:46,0.145671296,3,29,0.483333333,3.483333333,Lluvia
+El Elefante,Sylvilagus floridanus,03:29:53,0.145752315,3,29,0.483333333,3.483333333,Seca
+El Salto,Didelphis virginiana,03:30:17,0.146030093,3,30,0.5,3.5,Lluvia
+Casa de Piedra,Didelphis virginiana,03:30:31,0.14619213,3,30,0.5,3.5,Lluvia
+El Salto,Didelphis virginiana,03:31:13,0.146678241,3,31,0.516666667,3.516666667,Lluvia
+Casa de Piedra,Didelphis virginiana,03:31:27,0.146840278,3,31,0.516666667,3.516666667,Lluvia
+Puerto de las Palomas,Conepatus leuconotus,03:31:40,0.146990741,3,31,0.516666667,3.516666667,Seca
+La Tableta 2,Urocyon cinereoargenteus,03:32:17,0.147418981,3,32,0.533333333,3.533333333,Seca
+El Aguita,Cuniculus paca,03:32:33,0.147604167,3,32,0.533333333,3.533333333,Seca
+Joya Oscura,Leopardus wiedii,03:32:42,0.147708333,3,32,0.533333333,3.533333333,Lluvia
+Joya Oscura,Leopardus wiedii,03:32:44,0.147731481,3,32,0.533333333,3.533333333,Seca
+La Corneta,Didelphis virginiana,03:32:56,0.14787037,3,32,0.533333333,3.533333333,Lluvia
+Las Dalias,Sylvilagus floridanus,03:32:57,0.147881944,3,32,0.533333333,3.533333333,Lluvia
+Valle Verde del Charco ,Didelphis virginiana,03:33:07,0.147997685,3,33,0.55,3.55,Seca
+Joya Oscura,Didelphis virginiana,03:34:00,0.148611111,3,34,0.566666667,3.566666667,Seca
+El Aguita 2,Didelphis virginiana,03:34:31,0.148969907,3,34,0.566666667,3.566666667,Lluvia
+Joya Oscura,Didelphis virginiana,03:36:05,0.15005787,3,36,0.6,3.6,Seca
+El Aguita,Panthera onca,03:36:29,0.150335648,3,36,0.6,3.6,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,03:36:42,0.150486111,3,36,0.6,3.6,Lluvia
+Valle Verde del Charco ,Ursus americanus,03:36:51,0.150590278,3,36,0.6,3.6,Seca
+Casa de Piedra,Didelphis virginiana,03:36:51,0.150590278,3,36,0.6,3.6,Lluvia
+Agua Linda,Leopardus wiedii,03:37:07,0.150775463,3,37,0.616666667,3.616666667,Seca
+El Aguita,Mazama temama,03:37:13,0.150844907,3,37,0.616666667,3.616666667,Seca
+Joya Oscura,Leopardus wiedii,03:37:14,0.150856481,3,37,0.616666667,3.616666667,Seca
+Casa de Piedra,Didelphis virginiana,03:37:27,0.151006944,3,37,0.616666667,3.616666667,Seca
+El agua de Simon,Didelphis virginiana,03:38:00,0.151388889,3,38,0.633333333,3.633333333,Lluvia
+El Salto,Sylvilagus floridanus,03:38:07,0.151469907,3,38,0.633333333,3.633333333,Seca
+Joya Oscura 2,Panthera onca,03:38:13,0.151539352,3,38,0.633333333,3.633333333,Lluvia
+Agua Linda,Sylvilagus floridanus,03:38:36,0.151805556,3,38,0.633333333,3.633333333,Lluvia
+Valle Verde del Charco ,Dasypus novemcinctus,03:40:39,0.153229167,3,40,0.666666667,3.666666667,Lluvia
+Joya Oscura 2,Leopardus wiedii,03:41:08,0.153564815,3,41,0.683333333,3.683333333,Seca
+Puerto de las Palomas,Sylvilagus floridanus,03:41:12,0.153611111,3,41,0.683333333,3.683333333,Seca
+Joya Oscura,Mazama temama,03:41:21,0.153715278,3,41,0.683333333,3.683333333,Lluvia
+Joya Oscura,Mazama temama,03:41:49,0.154039352,3,41,0.683333333,3.683333333,Lluvia
+Puerto de las Palomas 2,Sylvilagus floridanus,03:42:41,0.154641204,3,42,0.7,3.7,Seca
+Joya Oscura,Dasypus novemcinctus,03:42:51,0.154756944,3,42,0.7,3.7,Lluvia
+Puerto de las Palomas,Didelphis virginiana,03:43:33,0.155243056,3,43,0.716666667,3.716666667,Seca
+Casa de Piedra,Didelphis virginiana,03:44:07,0.155636574,3,44,0.733333333,3.733333333,Lluvia
+Agua Linda,Sylvilagus floridanus,03:45:28,0.156574074,3,45,0.75,3.75,Lluvia
+Puerto de las Palomas,Didelphis virginiana,03:47:32,0.158009259,3,47,0.783333333,3.783333333,Lluvia
+Puerto de las Palomas 2,Sylvilagus floridanus,03:48:40,0.158796296,3,48,0.8,3.8,Seca
+Las Dalias,Sylvilagus floridanus,03:49:24,0.159305556,3,49,0.816666667,3.816666667,Lluvia
+Joya Oscura,Didelphis virginiana,03:50:31,0.160081019,3,50,0.833333333,3.833333333,Lluvia
+Joya Oscura 2,Mazama temama,03:51:28,0.160740741,3,51,0.85,3.85,Lluvia
+El Tigre,Leopardus pardalis,03:51:57,0.161076389,3,51,0.85,3.85,Lluvia
+Joya Oscura,Mazama temama,03:52:04,0.161157407,3,52,0.866666667,3.866666667,Lluvia
+Joya Oscura 2,Leopardus wiedii,03:52:24,0.161388889,3,52,0.866666667,3.866666667,Seca
+El Salto,Mazama temama,03:53:06,0.161875,3,53,0.883333333,3.883333333,Lluvia
+El Salto,Mazama temama,03:53:16,0.161990741,3,53,0.883333333,3.883333333,Seca
+Casa de Piedra,Mazama temama,03:53:33,0.1621875,3,53,0.883333333,3.883333333,Seca
+El Aguita,Urocyon cinereoargenteus,03:53:39,0.162256944,3,53,0.883333333,3.883333333,Seca
+El Salto,Mazama temama,03:53:48,0.162361111,3,53,0.883333333,3.883333333,Seca
+El Salto,Mazama temama,03:53:48,0.162361111,3,53,0.883333333,3.883333333,Seca
+Agua Linda,Mazama temama,03:53:59,0.162488426,3,53,0.883333333,3.883333333,Seca
+El agua de Simon,Mazama temama,03:54:16,0.162685185,3,54,0.9,3.9,Lluvia
+Joya Oscura 2,Puma concolor,03:54:37,0.162928241,3,54,0.9,3.9,Lluvia
+Las Dalias,Sylvilagus floridanus,03:55:18,0.163402778,3,55,0.916666667,3.916666667,Lluvia
+Valle Verde del Charco ,Didelphis virginiana,03:55:23,0.163460648,3,55,0.916666667,3.916666667,Seca
+Agua Linda,Urocyon cinereoargenteus,03:55:45,0.163715278,3,55,0.916666667,3.916666667,Seca
+Casa de Piedra,Didelphis virginiana,03:56:40,0.164351852,3,56,0.933333333,3.933333333,Seca
+Puerto de las Palomas,Didelphis virginiana,03:57:21,0.164826389,3,57,0.95,3.95,Lluvia
+Agua Linda,Conepatus leuconotus,03:57:58,0.16525463,3,57,0.95,3.95,Lluvia
+La Tableta 2,Leopardus wiedii,03:59:07,0.166053241,3,59,0.983333333,3.983333333,Lluvia
+Agua Linda,Sylvilagus floridanus,04:03:18,0.168958333,4,3,0.05,4.05,Lluvia
+La Tableta 2,Didelphis virginiana,04:03:30,0.169097222,4,3,0.05,4.05,Seca
+El Salto,Mazama temama,04:04:00,0.169444444,4,4,0.066666667,4.066666667,Lluvia
+Puerto de las Palomas,Leopardus wiedii,04:04:19,0.169664352,4,4,0.066666667,4.066666667,Lluvia
+Joya Oscura,Leopardus wiedii,04:04:20,0.169675926,4,4,0.066666667,4.066666667,Lluvia
+La Tableta,Didelphis virginiana,04:04:20,0.169675926,4,4,0.066666667,4.066666667,Lluvia
+Joya Oscura 2,Leopardus wiedii,04:05:18,0.170347222,4,5,0.083333333,4.083333333,Seca
+Las Fabricas,Conepatus leuconotus,04:06:09,0.1709375,4,6,0.1,4.1,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,04:06:55,0.171469907,4,6,0.1,4.1,Lluvia
+Joya Oscura,Didelphis virginiana,04:07:32,0.171898148,4,7,0.116666667,4.116666667,Seca
+Casa de Piedra,Leopardus wiedii,04:08:12,0.172361111,4,8,0.133333333,4.133333333,Seca
+Puerto de las Palomas,Urocyon cinereoargenteus,04:08:12,0.172361111,4,8,0.133333333,4.133333333,Lluvia
+La Tableta,Dasypus novemcinctus,04:08:13,0.172372685,4,8,0.133333333,4.133333333,Lluvia
+Las Dalias,Cuniculus paca,04:08:39,0.172673611,4,8,0.133333333,4.133333333,Lluvia
+El Salto,Mazama temama,04:08:57,0.172881944,4,8,0.133333333,4.133333333,Lluvia
+El Elefante,Mazama temama,04:08:59,0.172905093,4,8,0.133333333,4.133333333,Seca
+El Aguita,Panthera onca,04:09:30,0.173263889,4,9,0.15,4.15,Lluvia
+Las Dalias,Puma concolor,04:09:47,0.173460648,4,9,0.15,4.15,Lluvia
+Joya Oscura,Leopardus wiedii,04:10:00,0.173611111,4,10,0.166666667,4.166666667,Lluvia
+Las Dalias,Mazama temama,04:10:27,0.173923611,4,10,0.166666667,4.166666667,Lluvia
+Joya Oscura 2,Leopardus wiedii,04:10:33,0.173993056,4,10,0.166666667,4.166666667,Seca
+Joya Oscura,Leopardus wiedii,04:10:53,0.174224537,4,10,0.166666667,4.166666667,Seca
+El Infiernillo,Ursus americanus,04:11:55,0.17494213,4,11,0.183333333,4.183333333,Lluvia
+Joya Oscura,Mazama temama,04:12:26,0.175300926,4,12,0.2,4.2,Lluvia
+El Aguita 2,Panthera onca,04:13:06,0.175763889,4,13,0.216666667,4.216666667,Lluvia
+Casa de Piedra,Leopardus wiedii,04:13:12,0.175833333,4,13,0.216666667,4.216666667,Seca
+Agua Linda,Sylvilagus floridanus,04:13:48,0.17625,4,13,0.216666667,4.216666667,Lluvia
+Agua Linda,Sylvilagus floridanus,04:13:55,0.176331019,4,13,0.216666667,4.216666667,Lluvia
+Cueva de Don Amador,Dasypus novemcinctus,04:13:59,0.176377315,4,13,0.216666667,4.216666667,Lluvia
+Las Dalias,Sylvilagus floridanus,04:14:15,0.1765625,4,14,0.233333333,4.233333333,Seca
+Puerto de las Palomas,Didelphis virginiana,04:14:44,0.176898148,4,14,0.233333333,4.233333333,Seca
+El Tigre,Nasua narica,04:14:56,0.177037037,4,14,0.233333333,4.233333333,Seca
+Puerto de las Palomas,Urocyon cinereoargenteus,04:15:36,0.1775,4,15,0.25,4.25,Lluvia
+La Corneta,Leopardus wiedii,04:16:08,0.17787037,4,16,0.266666667,4.266666667,Lluvia
+Joya Oscura 2,Leopardus wiedii,04:16:08,0.17787037,4,16,0.266666667,4.266666667,Seca
+Agua Linda,Sylvilagus floridanus,04:16:27,0.178090278,4,16,0.266666667,4.266666667,Seca
+El Aguita 2,Mazama temama,04:16:31,0.178136574,4,16,0.266666667,4.266666667,Seca
+Casa de Piedra,Leopardus wiedii,04:17:20,0.178703704,4,17,0.283333333,4.283333333,Lluvia
+Las Dalias,Sylvilagus floridanus,04:17:22,0.178726852,4,17,0.283333333,4.283333333,Seca
+Valle Verde del Charco ,Didelphis virginiana,04:21:07,0.181331019,4,21,0.35,4.35,Seca
+Cueva de Don Amador,Dasypus novemcinctus,04:21:12,0.181388889,4,21,0.35,4.35,Lluvia
+El Aguita,Leopardus pardalis,04:21:49,0.18181713,4,21,0.35,4.35,Seca
+El agua de Simon,Leopardus wiedii,04:22:42,0.182430556,4,22,0.366666667,4.366666667,Lluvia
+La Corneta,Didelphis virginiana,04:23:00,0.182638889,4,23,0.383333333,4.383333333,Lluvia
+El Tigre,Urocyon cinereoargenteus,04:24:06,0.183402778,4,24,0.4,4.4,Seca
+La Tableta 2,Leopardus wiedii,04:25:19,0.184247685,4,25,0.416666667,4.416666667,Seca
+Casa de Piedra,Didelphis virginiana,04:26:08,0.184814815,4,26,0.433333333,4.433333333,Seca
+Las Dalias,Cuniculus paca,04:26:35,0.185127315,4,26,0.433333333,4.433333333,Seca
+Cueva de Don Amador,Dasypus novemcinctus,04:26:55,0.185358796,4,26,0.433333333,4.433333333,Lluvia
+Las Dalias,Sylvilagus floridanus,04:26:55,0.185358796,4,26,0.433333333,4.433333333,Seca
+Joya Oscura,Didelphis virginiana,04:27:04,0.185462963,4,27,0.45,4.45,Lluvia
+Agua Linda,Sylvilagus floridanus,04:27:18,0.185625,4,27,0.45,4.45,Seca
+La Corneta,Leopardus wiedii,04:27:54,0.186041667,4,27,0.45,4.45,Seca
+Casa de Piedra,Didelphis virginiana,04:27:56,0.186064815,4,27,0.45,4.45,Lluvia
+Joya Oscura,Mazama temama,04:28:58,0.186782407,4,28,0.466666667,4.466666667,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,04:29:47,0.187349537,4,29,0.483333333,4.483333333,Lluvia
+El Aguita,Mazama temama,04:30:30,0.187847222,4,30,0.5,4.5,Lluvia
+Puerto de las Palomas,Conepatus leuconotus,04:30:40,0.187962963,4,30,0.5,4.5,Seca
+Esteban,Nasua narica,04:30:44,0.188009259,4,30,0.5,4.5,Lluvia
+Cueva de Don Amador,Dasypus novemcinctus,04:31:44,0.188703704,4,31,0.516666667,4.516666667,Lluvia
+Casa de Piedra,Didelphis virginiana,04:32:45,0.189409722,4,32,0.533333333,4.533333333,Lluvia
+Cueva de Don Amador,Mazama temama,04:34:27,0.190590278,4,34,0.566666667,4.566666667,Lluvia
+Cueva de Don Amador,Dasypus novemcinctus,04:34:30,0.190625,4,34,0.566666667,4.566666667,Lluvia
+El Salto,Mazama temama,04:34:50,0.190856481,4,34,0.566666667,4.566666667,Seca
+Puerto de las Palomas 2,Sylvilagus floridanus,04:35:35,0.191377315,4,35,0.583333333,4.583333333,Seca
+Puerto de las Palomas,Sylvilagus floridanus,04:35:55,0.191608796,4,35,0.583333333,4.583333333,Seca
+Casa de Piedra,Leopardus wiedii,04:35:58,0.191643519,4,35,0.583333333,4.583333333,Seca
+Puerto de las Palomas 2,Sylvilagus floridanus,04:36:59,0.192349537,4,36,0.6,4.6,Seca
+Valle Verde del Charco ,Dasypus novemcinctus,04:37:27,0.192673611,4,37,0.616666667,4.616666667,Lluvia
+La Tableta 2,Puma concolor,04:37:37,0.192789352,4,37,0.616666667,4.616666667,Seca
+Joya Oscura,Didelphis virginiana,04:37:46,0.192893519,4,37,0.616666667,4.616666667,Lluvia
+Joya Oscura,Mazama temama,04:38:12,0.193194444,4,38,0.633333333,4.633333333,Lluvia
+Agua Linda,Sylvilagus floridanus,04:38:20,0.193287037,4,38,0.633333333,4.633333333,Lluvia
+La Corneta,Leopardus pardalis,04:38:20,0.193287037,4,38,0.633333333,4.633333333,Seca
+Agua Linda,Sylvilagus floridanus,04:38:27,0.193368056,4,38,0.633333333,4.633333333,Seca
+El Salto,Ursus americanus,04:38:46,0.193587963,4,38,0.633333333,4.633333333,Seca
+Joya Oscura,Didelphis virginiana,04:38:53,0.193668981,4,38,0.633333333,4.633333333,Lluvia
+Valle Verde del Charco ,Dasypus novemcinctus,04:39:24,0.194027778,4,39,0.65,4.65,Lluvia
+El Aguita 2,Mazama temama,04:39:53,0.194363426,4,39,0.65,4.65,Seca
+Casa de Piedra,Didelphis virginiana,04:40:39,0.194895833,4,40,0.666666667,4.666666667,Seca
+Valle Verde del Charco ,Urocyon cinereoargenteus,04:40:44,0.194953704,4,40,0.666666667,4.666666667,Seca
+Esteban,Panthera onca,04:40:59,0.195127315,4,40,0.666666667,4.666666667,Seca
+Joya Oscura,Panthera onca,04:41:17,0.195335648,4,41,0.683333333,4.683333333,Lluvia
+Agua Linda,Sylvilagus floridanus,04:42:59,0.196516204,4,42,0.7,4.7,Lluvia
+Joya Oscura,Leopardus wiedii,04:43:15,0.196701389,4,43,0.716666667,4.716666667,Lluvia
+El Aguita 2,Mazama temama,04:43:37,0.196956019,4,43,0.716666667,4.716666667,Seca
+Valle Verde del Charco ,Dasypus novemcinctus,04:44:15,0.197395833,4,44,0.733333333,4.733333333,Lluvia
+Las Dalias,Conepatus leuconotus,04:45:35,0.198321759,4,45,0.75,4.75,Seca
+La Tableta,Didelphis virginiana,04:46:07,0.19869213,4,46,0.766666667,4.766666667,Lluvia
+Las Dalias,Sylvilagus floridanus,04:46:13,0.198761574,4,46,0.766666667,4.766666667,Seca
+Valle Verde del Charco ,Dasypus novemcinctus,04:48:15,0.200173611,4,48,0.8,4.8,Lluvia
+Joya Oscura,Didelphis virginiana,04:49:20,0.200925926,4,49,0.816666667,4.816666667,Seca
+Joya Oscura,Didelphis virginiana,04:50:07,0.201469907,4,50,0.833333333,4.833333333,Lluvia
+Agua Linda,Sylvilagus floridanus,04:50:10,0.20150463,4,50,0.833333333,4.833333333,Lluvia
+Las Dalias,Sylvilagus floridanus,04:50:22,0.201643519,4,50,0.833333333,4.833333333,Lluvia
+Esteban,Mazama temama,04:50:52,0.201990741,4,50,0.833333333,4.833333333,Seca
+Las Dalias,Sylvilagus floridanus,04:51:13,0.202233796,4,51,0.85,4.85,Seca
+Joya Oscura,Leopardus wiedii,04:51:41,0.20255787,4,51,0.85,4.85,Lluvia
+Casa de Piedra,Didelphis virginiana,04:51:54,0.202708333,4,51,0.85,4.85,Seca
+Las Dalias,Sylvilagus floridanus,04:52:17,0.202974537,4,52,0.866666667,4.866666667,Seca
+Agua Linda,Sylvilagus floridanus,04:52:33,0.203159722,4,52,0.866666667,4.866666667,Seca
+Las Dalias,Sylvilagus floridanus,04:52:56,0.203425926,4,52,0.866666667,4.866666667,Lluvia
+Joya Oscura,Didelphis virginiana,04:53:15,0.203645833,4,53,0.883333333,4.883333333,Lluvia
+Casa de Piedra,Leopardus wiedii,04:53:29,0.20380787,4,53,0.883333333,4.883333333,Seca
+Agua Linda,Puma concolor,04:56:02,0.205578704,4,56,0.933333333,4.933333333,Lluvia
+El Salto,Puma concolor,04:56:18,0.205763889,4,56,0.933333333,4.933333333,Lluvia
+El Elefante,Conepatus leuconotus,04:56:27,0.205868056,4,56,0.933333333,4.933333333,Lluvia
+Las Fabricas,Dasypus novemcinctus,04:56:34,0.205949074,4,56,0.933333333,4.933333333,Lluvia
+Esteban,Nasua narica,04:57:13,0.206400463,4,57,0.95,4.95,Seca
+Valle Verde del Charco ,Dasypus novemcinctus,04:57:40,0.206712963,4,57,0.95,4.95,Lluvia
+Joya Oscura,Leopardus wiedii,04:57:45,0.206770833,4,57,0.95,4.95,Lluvia
+Cerro del Pilón,Ursus americanus,04:57:48,0.206805556,4,57,0.95,4.95,Lluvia
+La Tableta 2,Leopardus wiedii,04:58:44,0.207453704,4,58,0.966666667,4.966666667,Lluvia
+La Tableta 2,Didelphis virginiana,04:59:11,0.207766204,4,59,0.983333333,4.983333333,Lluvia
+Puerto de las Palomas,Conepatus leuconotus,04:59:49,0.208206019,4,59,0.983333333,4.983333333,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,05:00:04,0.20837963,5,0,0,5,Lluvia
+La Corneta,Didelphis virginiana,05:02:41,0.210196759,5,2,0.033333333,5.033333333,Seca
+Las Dalias,Sylvilagus floridanus,05:03:05,0.210474537,5,3,0.05,5.05,Seca
+Las Fabricas,Dasypus novemcinctus,05:03:09,0.210520833,5,3,0.05,5.05,Lluvia
+El Salto,Didelphis virginiana,05:03:26,0.210717593,5,3,0.05,5.05,Seca
+Las Dalias,Sylvilagus floridanus,05:03:27,0.210729167,5,3,0.05,5.05,Seca
+Esteban,Sylvilagus floridanus,05:03:30,0.210763889,5,3,0.05,5.05,Lluvia
+El Salto,Urocyon cinereoargenteus,05:03:32,0.210787037,5,3,0.05,5.05,Lluvia
+Casa de Piedra,Didelphis virginiana,05:04:22,0.211365741,5,4,0.066666667,5.066666667,Seca
+Joya Oscura 2,Leopardus wiedii,05:04:24,0.211388889,5,4,0.066666667,5.066666667,Seca
+Casa de Piedra,Dasypus novemcinctus,05:04:32,0.211481481,5,4,0.066666667,5.066666667,Lluvia
+El Salto,Mazama temama,05:04:57,0.211770833,5,4,0.066666667,5.066666667,Seca
+El Salto,Leopardus pardalis,05:05:34,0.212199074,5,5,0.083333333,5.083333333,Lluvia
+Las Dalias,Sylvilagus floridanus,05:06:42,0.212986111,5,6,0.1,5.1,Seca
+Valle Verde del Charco ,Didelphis virginiana,05:06:48,0.213055556,5,6,0.1,5.1,Seca
+Casa de Piedra,Dasypus novemcinctus,05:07:13,0.213344907,5,7,0.116666667,5.116666667,Lluvia
+Valle Verde del Charco ,Didelphis virginiana,05:08:20,0.21412037,5,8,0.133333333,5.133333333,Seca
+Joya Oscura 2,Leopardus wiedii,05:08:27,0.214201389,5,8,0.133333333,5.133333333,Seca
+Las Fabricas,Didelphis virginiana,05:10:32,0.215648148,5,10,0.166666667,5.166666667,Lluvia
+Agua Linda,Sylvilagus floridanus,05:10:43,0.215775463,5,10,0.166666667,5.166666667,Lluvia
+Joya Oscura,Didelphis virginiana,05:11:01,0.215983796,5,11,0.183333333,5.183333333,Lluvia
+El Elefante,Sylvilagus floridanus,05:11:09,0.216076389,5,11,0.183333333,5.183333333,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,05:11:12,0.216111111,5,11,0.183333333,5.183333333,Lluvia
+Joya Oscura,Leopardus wiedii,05:11:18,0.216180556,5,11,0.183333333,5.183333333,Seca
+La Corneta,Leopardus wiedii,05:11:58,0.216643519,5,11,0.183333333,5.183333333,Seca
+Las Dalias,Conepatus leuconotus,05:12:12,0.216805556,5,12,0.2,5.2,Lluvia
+La Corneta,Didelphis virginiana,05:12:18,0.216875,5,12,0.2,5.2,Lluvia
+Casa de Piedra,Didelphis virginiana,05:12:35,0.217071759,5,12,0.2,5.2,Seca
+Agua Linda,Sylvilagus floridanus,05:12:58,0.217337963,5,12,0.2,5.2,Seca
+Casa de Piedra,Dasypus novemcinctus,05:13:17,0.21755787,5,13,0.216666667,5.216666667,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,05:13:43,0.217858796,5,13,0.216666667,5.216666667,Lluvia
+Casa de Piedra,Dasypus novemcinctus,05:13:49,0.217928241,5,13,0.216666667,5.216666667,Lluvia
+Joya Oscura,Didelphis virginiana,05:14:11,0.21818287,5,14,0.233333333,5.233333333,Seca
+El Elefante,Sylvilagus floridanus,05:14:24,0.218333333,5,14,0.233333333,5.233333333,Lluvia
+Valle Verde del Charco ,Didelphis virginiana,05:15:00,0.21875,5,15,0.25,5.25,Lluvia
+El Elefante,Mazama temama,05:15:35,0.219155093,5,15,0.25,5.25,Lluvia
+Las Dalias,Sylvilagus floridanus,05:15:48,0.219305556,5,15,0.25,5.25,Seca
+La Perra,Urocyon cinereoargenteus,05:16:09,0.219548611,5,16,0.266666667,5.266666667,Seca
+Las Dalias,Sylvilagus floridanus,05:16:38,0.219884259,5,16,0.266666667,5.266666667,Seca
+Joya Oscura,Didelphis virginiana,05:17:53,0.220752315,5,17,0.283333333,5.283333333,Seca
+La Corneta,Didelphis virginiana,05:18:05,0.220891204,5,18,0.3,5.3,Lluvia
+Agua Linda,Sylvilagus floridanus,05:19:34,0.221921296,5,19,0.316666667,5.316666667,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,05:20:48,0.222777778,5,20,0.333333333,5.333333333,Lluvia
+El Tigre,Leopardus wiedii,05:20:49,0.222789352,5,20,0.333333333,5.333333333,Seca
+La Corneta,Leopardus wiedii,05:22:28,0.223935185,5,22,0.366666667,5.366666667,Seca
+El Aguita 2,Leopardus wiedii,05:23:28,0.22462963,5,23,0.383333333,5.383333333,Lluvia
+Valle Verde del Charco ,Dasypus novemcinctus,05:24:42,0.225486111,5,24,0.4,5.4,Lluvia
+Valle Verde del Charco ,Didelphis virginiana,05:24:46,0.225532407,5,24,0.4,5.4,Lluvia
+Joya Oscura,Conepatus leuconotus,05:25:44,0.226203704,5,25,0.416666667,5.416666667,Seca
+Las Dalias,Sylvilagus floridanus,05:26:03,0.226423611,5,26,0.433333333,5.433333333,Seca
+El Aguita,Conepatus leuconotus,05:27:12,0.227222222,5,27,0.45,5.45,Seca
+La Corneta,Didelphis virginiana,05:27:31,0.22744213,5,27,0.45,5.45,Lluvia
+Joya Oscura,Leopardus wiedii,05:27:40,0.227546296,5,27,0.45,5.45,Lluvia
+El Aguita,Leopardus wiedii,05:28:40,0.228240741,5,28,0.466666667,5.466666667,Lluvia
+El Aguita 2,Mazama temama,05:29:05,0.228530093,5,29,0.483333333,5.483333333,Seca
+El Tigre,Panthera onca,05:30:13,0.22931713,5,30,0.5,5.5,Lluvia
+Joya Oscura,Puma concolor,05:31:05,0.229918981,5,31,0.516666667,5.516666667,Lluvia
+Joya Oscura 2,Panthera onca,05:31:29,0.230196759,5,31,0.516666667,5.516666667,Lluvia
+La Corneta,Didelphis virginiana,05:31:31,0.230219907,5,31,0.516666667,5.516666667,Lluvia
+Joya Oscura,Didelphis virginiana,05:32:07,0.230636574,5,32,0.533333333,5.533333333,Seca
+El Salto,Mazama temama,05:32:10,0.230671296,5,32,0.533333333,5.533333333,Seca
+El Aguita,Conepatus leuconotus,05:32:13,0.230706019,5,32,0.533333333,5.533333333,Seca
+El Tigre,Mazama temama,05:33:12,0.231388889,5,33,0.55,5.55,Lluvia
+La Tableta 2,Conepatus leuconotus,05:33:39,0.231701389,5,33,0.55,5.55,Lluvia
+Agua Linda,Sylvilagus floridanus,05:35:38,0.233078704,5,35,0.583333333,5.583333333,Lluvia
+El Salto,Mazama temama,05:37:57,0.2346875,5,37,0.616666667,5.616666667,Lluvia
+La Corneta,Leopardus wiedii,05:39:21,0.235659722,5,39,0.65,5.65,Lluvia
+Casa de Piedra,Dasypus novemcinctus,05:40:17,0.23630787,5,40,0.666666667,5.666666667,Lluvia
+La Perra,Urocyon cinereoargenteus,05:40:31,0.236469907,5,40,0.666666667,5.666666667,Seca
+Las Dalias,Sylvilagus floridanus,05:40:32,0.236481481,5,40,0.666666667,5.666666667,Lluvia
+Las Fabricas,Conepatus leuconotus,05:40:56,0.236759259,5,40,0.666666667,5.666666667,Lluvia
+El Aguita 2,Mazama temama,05:41:13,0.236956019,5,41,0.683333333,5.683333333,Seca
+La Tableta 2,Sylvilagus floridanus,05:42:37,0.237928241,5,42,0.7,5.7,Lluvia
+La Corneta,Didelphis virginiana,05:42:37,0.237928241,5,42,0.7,5.7,Lluvia
+El Tigre,Nasua narica,05:44:14,0.239050926,5,44,0.733333333,5.733333333,Lluvia
+El Tigre,Nasua narica,05:44:14,0.239050926,5,44,0.733333333,5.733333333,Lluvia
+Puerto de las Palomas 2,Sylvilagus floridanus,05:44:51,0.239479167,5,44,0.733333333,5.733333333,Lluvia
+El Tigre,Odocoileus virginianus,05:45:53,0.240196759,5,45,0.75,5.75,Lluvia
+Joya Oscura 2,Leopardus wiedii,05:45:58,0.24025463,5,45,0.75,5.75,Seca
+El Salto,Urocyon cinereoargenteus,05:46:05,0.240335648,5,46,0.766666667,5.766666667,Lluvia
+Puerto de las Palomas,Leopardus wiedii,05:46:15,0.240451389,5,46,0.766666667,5.766666667,Lluvia
+La Perra,Urocyon cinereoargenteus,05:46:23,0.240543981,5,46,0.766666667,5.766666667,Seca
+La Tableta 2,Puma concolor,05:47:50,0.241550926,5,47,0.783333333,5.783333333,Seca
+Joya Oscura 2,Leopardus wiedii,05:48:21,0.241909722,5,48,0.8,5.8,Lluvia
+El Tigre,Dicotyles tajacu,05:48:24,0.241944444,5,48,0.8,5.8,Lluvia
+El Tigre,Dicotyles tajacu,05:48:24,0.241944444,5,48,0.8,5.8,Lluvia
+El Tigre,Dicotyles tajacu,05:48:24,0.241944444,5,48,0.8,5.8,Lluvia
+El Tigre,Dicotyles tajacu,05:48:24,0.241944444,5,48,0.8,5.8,Lluvia
+Valle Verde del Charco ,Dasypus novemcinctus,05:48:37,0.242094907,5,48,0.8,5.8,Lluvia
+La Perra,Urocyon cinereoargenteus,05:48:44,0.242175926,5,48,0.8,5.8,Lluvia
+Joya Oscura,Didelphis virginiana,05:48:54,0.242291667,5,48,0.8,5.8,Lluvia
+Casa de Piedra,Didelphis virginiana,05:49:51,0.242951389,5,49,0.816666667,5.816666667,Lluvia
+Las Dalias,Sylvilagus floridanus,05:51:18,0.243958333,5,51,0.85,5.85,Seca
+Joya Oscura,Leopardus wiedii,05:51:44,0.244259259,5,51,0.85,5.85,Lluvia
+La Corneta,Mazama temama,05:52:47,0.244988426,5,52,0.866666667,5.866666667,Lluvia
+Las Dalias,Leopardus pardalis,05:53:00,0.245138889,5,53,0.883333333,5.883333333,Lluvia
+Agua Linda,Leopardus wiedii,05:54:36,0.24625,5,54,0.9,5.9,Lluvia
+La Tableta 2,Sylvilagus floridanus,05:54:50,0.246412037,5,54,0.9,5.9,Seca
+Las Fabricas,Conepatus leuconotus,05:54:50,0.246412037,5,54,0.9,5.9,Lluvia
+La Tableta 2,Urocyon cinereoargenteus,05:54:54,0.246458333,5,54,0.9,5.9,Seca
+Joya Oscura 2,Dasypus novemcinctus,05:55:47,0.247071759,5,55,0.916666667,5.916666667,Seca
+Las Dalias,Conepatus leuconotus,05:56:52,0.247824074,5,56,0.933333333,5.933333333,Seca
+La Tableta,Sylvilagus floridanus,05:57:19,0.248136574,5,57,0.95,5.95,Lluvia
+Casa de Piedra,Didelphis virginiana,05:57:22,0.248171296,5,57,0.95,5.95,Lluvia
+El Tigre,Leopardus wiedii,05:58:40,0.249074074,5,58,0.966666667,5.966666667,Seca
+Puerto de las Palomas,Leopardus wiedii,05:59:13,0.249456019,5,59,0.983333333,5.983333333,Lluvia
+Casa de Piedra,Dasypus novemcinctus,06:01:49,0.251261574,6,1,0.016666667,6.016666667,Seca
+El Elefante,Leopardus wiedii,06:03:19,0.252303241,6,3,0.05,6.05,Lluvia
+Joya Oscura,Dasypus novemcinctus,06:05:17,0.253668981,6,5,0.083333333,6.083333333,Lluvia
+El Aguita,Leopardus pardalis,06:05:22,0.253726852,6,5,0.083333333,6.083333333,Seca
+Joya Oscura,Leopardus wiedii,06:05:25,0.253761574,6,5,0.083333333,6.083333333,Seca
+Joya Oscura,Leopardus wiedii,06:05:25,0.253761574,6,5,0.083333333,6.083333333,Lluvia
+El Aguita 2,Panthera onca,06:06:01,0.254178241,6,6,0.1,6.1,Lluvia
+Joya Oscura,Leopardus wiedii,06:06:48,0.254722222,6,6,0.1,6.1,Lluvia
+La Tableta 2,Sylvilagus floridanus,06:07:31,0.255219907,6,7,0.116666667,6.116666667,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,06:08:14,0.255717593,6,8,0.133333333,6.133333333,Lluvia
+La Perra,Urocyon cinereoargenteus,06:08:14,0.255717593,6,8,0.133333333,6.133333333,Lluvia
+La Perra,Leopardus wiedii,06:08:21,0.255798611,6,8,0.133333333,6.133333333,Seca
+La Perra,Urocyon cinereoargenteus,06:08:46,0.256087963,6,8,0.133333333,6.133333333,Lluvia
+El agua de Simon,Mazama temama,06:08:53,0.256168981,6,8,0.133333333,6.133333333,Lluvia
+Agua Linda,Sylvilagus floridanus,06:08:58,0.256226852,6,8,0.133333333,6.133333333,Seca
+El Aguita 2,Mazama temama,06:09:00,0.25625,6,9,0.15,6.15,Seca
+Joya Oscura,Panthera onca,06:09:42,0.256736111,6,9,0.15,6.15,Lluvia
+Casa de Piedra,Mazama temama,06:11:40,0.258101852,6,11,0.183333333,6.183333333,Seca
+Joya Oscura,Mazama temama,06:13:09,0.259131944,6,13,0.216666667,6.216666667,Lluvia
+La Perra,Urocyon cinereoargenteus,06:13:34,0.259421296,6,13,0.216666667,6.216666667,Lluvia
+El Aguita 2,Mazama temama,06:13:56,0.259675926,6,13,0.216666667,6.216666667,Lluvia
+El Aguita 2,Urocyon cinereoargenteus,06:14:49,0.260289352,6,14,0.233333333,6.233333333,Seca
+La Tableta 2,Leopardus wiedii,06:15:02,0.260439815,6,15,0.25,6.25,Seca
+El Infiernillo,Mazama temama,06:15:21,0.260659722,6,15,0.25,6.25,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,06:17:09,0.261909722,6,17,0.283333333,6.283333333,Lluvia
+Puerto de las Palomas,Conepatus leuconotus,06:17:43,0.262303241,6,17,0.283333333,6.283333333,Lluvia
+La Tableta 2,Sylvilagus floridanus,06:17:46,0.262337963,6,17,0.283333333,6.283333333,Seca
+Joya Oscura 2,Nasua narica,06:18:58,0.263171296,6,18,0.3,6.3,Lluvia
+Puerto de las Palomas,Conepatus leuconotus,06:19:01,0.263206019,6,19,0.316666667,6.316666667,Lluvia
+Las Dalias,Conepatus leuconotus,06:20:18,0.264097222,6,20,0.333333333,6.333333333,Seca
+Valle Verde del Charco ,Didelphis virginiana,06:22:19,0.265497685,6,22,0.366666667,6.366666667,Seca
+Agua Linda,Sylvilagus floridanus,06:24:54,0.267291667,6,24,0.4,6.4,Seca
+La Tableta,Sylvilagus floridanus,06:25:02,0.267384259,6,25,0.416666667,6.416666667,Lluvia
+Agua Linda,Puma concolor,06:25:53,0.267974537,6,25,0.416666667,6.416666667,Lluvia
+Las Fabricas,Urocyon cinereoargenteus,06:27:24,0.269027778,6,27,0.45,6.45,Lluvia
+Valle Verde del Charco ,Leopardus wiedii,06:29:48,0.270694444,6,29,0.483333333,6.483333333,Seca
+Las Dalias,Sylvilagus floridanus,06:30:38,0.271273148,6,30,0.5,6.5,Lluvia
+La Tableta,Sylvilagus floridanus,06:31:20,0.271759259,6,31,0.516666667,6.516666667,Lluvia
+Joya Oscura,Didelphis virginiana,06:32:02,0.27224537,6,32,0.533333333,6.533333333,Seca
+La Tableta 2,Leopardus wiedii,06:33:11,0.273043981,6,33,0.55,6.55,Seca
+Cerro del Pilón,Mazama temama,06:33:40,0.27337963,6,33,0.55,6.55,Seca
+Casa de Piedra,Ursus americanus,06:35:23,0.274571759,6,35,0.583333333,6.583333333,Seca
+Agua Linda,Mazama temama,06:35:57,0.274965278,6,35,0.583333333,6.583333333,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,06:36:05,0.27505787,6,36,0.6,6.6,Lluvia
+El Aguita 2,Puma concolor,06:36:13,0.275150463,6,36,0.6,6.6,Lluvia
+El Aguita 2,Ursus americanus,06:37:56,0.276342593,6,37,0.616666667,6.616666667,Lluvia
+Joya Oscura,Conepatus leuconotus,06:38:32,0.276759259,6,38,0.633333333,6.633333333,Lluvia
+Agua Linda,Sylvilagus floridanus,06:39:40,0.277546296,6,39,0.65,6.65,Lluvia
+Valle Verde del Charco ,Urocyon cinereoargenteus,06:40:22,0.278032407,6,40,0.666666667,6.666666667,Seca
+Cerro del Pilón,Mazama temama,06:40:29,0.278113426,6,40,0.666666667,6.666666667,Lluvia
+El Aguita 2,Leopardus pardalis,06:41:24,0.27875,6,41,0.683333333,6.683333333,Seca
+La Corneta,Puma concolor,06:42:05,0.279224537,6,42,0.7,6.7,Lluvia
+Agua Linda,Mazama temama,06:42:05,0.279224537,6,42,0.7,6.7,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,06:42:16,0.279351852,6,42,0.7,6.7,Lluvia
+La Tableta 2,Nasua narica,06:42:19,0.279386574,6,42,0.7,6.7,Lluvia
+Puerto de las Palomas,Conepatus leuconotus,06:42:28,0.279490741,6,42,0.7,6.7,Seca
+Puerto de las Palomas,Conepatus leuconotus,06:42:37,0.279594907,6,42,0.7,6.7,Lluvia
+Puerto de las Palomas,Leopardus wiedii,06:43:02,0.279884259,6,43,0.716666667,6.716666667,Seca
+Joya Oscura,Leopardus wiedii,06:43:24,0.280138889,6,43,0.716666667,6.716666667,Lluvia
+Cerro del Pilón,Eira barbara,06:43:42,0.280347222,6,43,0.716666667,6.716666667,Seca
+Cerro del Pilón,Mazama temama,06:44:53,0.281168981,6,44,0.733333333,6.733333333,Lluvia
+Joya Oscura,Panthera onca,06:46:09,0.282048611,6,46,0.766666667,6.766666667,Lluvia
+Agua Linda,Sylvilagus floridanus,06:46:47,0.282488426,6,46,0.766666667,6.766666667,Seca
+La Tableta 2,Sylvilagus floridanus,06:46:56,0.282592593,6,46,0.766666667,6.766666667,Seca
+Valle Verde del Charco ,Didelphis virginiana,06:47:36,0.283055556,6,47,0.783333333,6.783333333,Seca
+La Tableta 2,Sylvilagus floridanus,06:47:41,0.283113426,6,47,0.783333333,6.783333333,Seca
+La Perra,Urocyon cinereoargenteus,06:47:43,0.283136574,6,47,0.783333333,6.783333333,Seca
+El agua de Simon,Didelphis virginiana,06:47:47,0.28318287,6,47,0.783333333,6.783333333,Lluvia
+Joya Oscura,Ursus americanus,06:48:20,0.283564815,6,48,0.8,6.8,Lluvia
+Las Dalias,Puma concolor,06:48:35,0.283738426,6,48,0.8,6.8,Lluvia
+Puerto de las Palomas,Didelphis virginiana,06:49:29,0.284363426,6,49,0.816666667,6.816666667,Lluvia
+El Salto,Leopardus wiedii,06:49:48,0.284583333,6,49,0.816666667,6.816666667,Lluvia
+El Elefante,Conepatus leuconotus,06:50:40,0.285185185,6,50,0.833333333,6.833333333,Lluvia
+Cerro del Pilón,Mazama temama,06:50:52,0.285324074,6,50,0.833333333,6.833333333,Seca
+La Corneta,Mazama temama,06:52:04,0.286157407,6,52,0.866666667,6.866666667,Seca
+Joya Oscura,Mazama temama,06:52:23,0.286377315,6,52,0.866666667,6.866666667,Lluvia
+Valle Verde del Charco ,Didelphis virginiana,06:52:45,0.286631944,6,52,0.866666667,6.866666667,Lluvia
+Puerto de las Palomas,Leopardus wiedii,06:54:29,0.287835648,6,54,0.9,6.9,Seca
+El agua de Simon,Nasua narica,06:54:56,0.288148148,6,54,0.9,6.9,Seca
+Cerro del Pilón,Ursus americanus,06:55:30,0.288541667,6,55,0.916666667,6.916666667,Lluvia
+El Infiernillo,Ursus americanus,06:55:31,0.288553241,6,55,0.916666667,6.916666667,Lluvia
+El agua de Simon,Ursus americanus,06:55:34,0.288587963,6,55,0.916666667,6.916666667,Lluvia
+La Tableta,Sylvilagus floridanus,06:56:35,0.289293981,6,56,0.933333333,6.933333333,Lluvia
+La Perra,Nasua narica,06:57:09,0.2896875,6,57,0.95,6.95,Lluvia
+Agua Linda,Sylvilagus floridanus,06:57:48,0.290138889,6,57,0.95,6.95,Lluvia
+Agua Linda,Ursus americanus,07:00:03,0.291701389,7,0,0,7,Lluvia
+Las Dalias,Sylvilagus floridanus,07:01:52,0.292962963,7,1,0.016666667,7.016666667,Lluvia
+Joya Oscura,Mazama temama,07:02:08,0.293148148,7,2,0.033333333,7.033333333,Lluvia
+El Infiernillo,Ursus americanus,07:05:23,0.295405093,7,5,0.083333333,7.083333333,Lluvia
+El Tigre,Nasua narica,07:05:35,0.295543981,7,5,0.083333333,7.083333333,Seca
+Cerro del Pilón,Ursus americanus,07:06:10,0.295949074,7,6,0.1,7.1,Lluvia
+Casa de Piedra,Didelphis virginiana,07:06:24,0.296111111,7,6,0.1,7.1,Seca
+Esteban,Leopardus wiedii,07:06:29,0.296168981,7,6,0.1,7.1,Lluvia
+El agua de Simon,Mazama temama,07:06:52,0.296435185,7,6,0.1,7.1,Seca
+El Infiernillo,Mazama temama,07:07:11,0.296655093,7,7,0.116666667,7.116666667,Lluvia
+El Tigre,Urocyon cinereoargenteus,07:07:30,0.296875,7,7,0.116666667,7.116666667,Seca
+El Elefante,Sylvilagus floridanus,07:08:58,0.297893519,7,8,0.133333333,7.133333333,Lluvia
+La Tableta 2,Sylvilagus floridanus,07:09:18,0.298125,7,9,0.15,7.15,Lluvia
+Cerro del Pilón,Sylvilagus floridanus,07:10:10,0.298726852,7,10,0.166666667,7.166666667,Lluvia
+La Tableta 2,Sylvilagus floridanus,07:10:34,0.29900463,7,10,0.166666667,7.166666667,Seca
+Joya Oscura,Nasua narica,07:11:32,0.299675926,7,11,0.183333333,7.183333333,Seca
+El Salto,Mazama temama,07:12:47,0.300543981,7,12,0.2,7.2,Seca
+Las Dalias,Puma concolor,07:13:07,0.300775463,7,13,0.216666667,7.216666667,Lluvia
+Agua Linda,Ursus americanus,07:13:14,0.300856481,7,13,0.216666667,7.216666667,Seca
+El Aguita 2,Puma concolor,07:14:37,0.30181713,7,14,0.233333333,7.233333333,Seca
+Puerto de las Palomas,Eira barbara,07:17:20,0.303703704,7,17,0.283333333,7.283333333,Lluvia
+Puerto de las Palomas,Eira barbara,07:18:39,0.304618056,7,18,0.3,7.3,Seca
+El agua de Simon,Didelphis virginiana,07:18:42,0.304652778,7,18,0.3,7.3,Seca
+Puerto de las Palomas,Sylvilagus floridanus,07:18:48,0.304722222,7,18,0.3,7.3,Lluvia
+Puerto de las Palomas,Ursus americanus,07:19:29,0.305196759,7,19,0.316666667,7.316666667,Lluvia
+Agua Linda,Ursus americanus,07:21:29,0.306585648,7,21,0.35,7.35,Lluvia
+Cerro del Pilón,Puma concolor,07:21:32,0.30662037,7,21,0.35,7.35,Seca
+El agua de Simon,Sylvilagus floridanus,07:22:36,0.307361111,7,22,0.366666667,7.366666667,Lluvia
+El Aguita,Urocyon cinereoargenteus,07:23:16,0.307824074,7,23,0.383333333,7.383333333,Lluvia
+Puerto de las Palomas,Conepatus leuconotus,07:24:56,0.308981481,7,24,0.4,7.4,Seca
+Agua Linda,Mazama temama,07:25:04,0.309074074,7,25,0.416666667,7.416666667,Seca
+Agua Linda,Sylvilagus floridanus,07:25:11,0.309155093,7,25,0.416666667,7.416666667,Seca
+La Tableta 2,Sylvilagus floridanus,07:25:25,0.30931713,7,25,0.416666667,7.416666667,Seca
+El Infiernillo,Ursus americanus,07:25:31,0.309386574,7,25,0.416666667,7.416666667,Lluvia
+Las Dalias,Mazama temama,07:26:22,0.309976852,7,26,0.433333333,7.433333333,Lluvia
+El Aguita 2,Mazama temama,07:27:02,0.310439815,7,27,0.45,7.45,Lluvia
+Cueva de Don Amador,Nasua narica,07:28:10,0.311226852,7,28,0.466666667,7.466666667,Lluvia
+La Tableta 2,Sylvilagus floridanus,07:28:12,0.31125,7,28,0.466666667,7.466666667,Seca
+Las Dalias,Puma concolor,07:29:33,0.3121875,7,29,0.483333333,7.483333333,Lluvia
+Cerro del Pilón,Ursus americanus,07:30:39,0.312951389,7,30,0.5,7.5,Lluvia
+Cerro del Pilón,Ursus americanus,07:32:22,0.314143519,7,32,0.533333333,7.533333333,Seca
+Puerto de las Palomas,Urocyon cinereoargenteus,07:34:27,0.315590278,7,34,0.566666667,7.566666667,Lluvia
+El Infiernillo,Mazama temama,07:34:53,0.315891204,7,34,0.566666667,7.566666667,Lluvia
+Cerro del Pilón,Nasua narica,07:36:59,0.317349537,7,36,0.6,7.6,Lluvia
+Joya Oscura 2,Nasua narica,07:37:30,0.317708333,7,37,0.616666667,7.616666667,Lluvia
+Valle Verde del Charco ,Dasypus novemcinctus,07:37:45,0.317881944,7,37,0.616666667,7.616666667,Lluvia
+Joya Oscura,Ursus americanus,07:40:00,0.319444444,7,40,0.666666667,7.666666667,Lluvia
+Esteban,Leopardus pardalis,07:40:06,0.319513889,7,40,0.666666667,7.666666667,Seca
+La Tableta 2,Sylvilagus floridanus,07:40:27,0.319756944,7,40,0.666666667,7.666666667,Seca
+Cerro del Pilón,Ursus americanus,07:40:27,0.319756944,7,40,0.666666667,7.666666667,Seca
+El agua de Simon,Leopardus pardalis,07:40:47,0.319988426,7,40,0.666666667,7.666666667,Lluvia
+La Perra,Urocyon cinereoargenteus,07:41:39,0.320590278,7,41,0.683333333,7.683333333,Seca
+Las Fabricas,Leopardus wiedii,07:43:42,0.322013889,7,43,0.716666667,7.716666667,Lluvia
+Joya Oscura,Mazama temama,07:46:03,0.323645833,7,46,0.766666667,7.766666667,Lluvia
+El agua de Simon,Mazama temama,07:46:17,0.32380787,7,46,0.766666667,7.766666667,Lluvia
+Cerro del Pilón,Sylvilagus floridanus,07:47:43,0.324803241,7,47,0.783333333,7.783333333,Seca
+Las Dalias,Mazama temama,07:48:18,0.325208333,7,48,0.8,7.8,Seca
+La Corneta,Didelphis virginiana,07:48:23,0.325266204,7,48,0.8,7.8,Seca
+Las Dalias,Mazama temama,07:48:29,0.325335648,7,48,0.8,7.8,Lluvia
+Las Dalias,Puma concolor,07:49:06,0.325763889,7,49,0.816666667,7.816666667,Lluvia
+La Tableta 2,Sylvilagus floridanus,07:50:40,0.326851852,7,50,0.833333333,7.833333333,Lluvia
+Agua Linda,Urocyon cinereoargenteus,07:51:28,0.327407407,7,51,0.85,7.85,Seca
+Puerto de las Palomas,Eira barbara,07:51:35,0.327488426,7,51,0.85,7.85,Lluvia
+Esteban,Mazama temama,07:52:38,0.328217593,7,52,0.866666667,7.866666667,Seca
+El Aguita 2,Puma concolor,07:52:53,0.328391204,7,52,0.866666667,7.866666667,Lluvia
+Cerro del Pilón,Ursus americanus,07:54:33,0.329548611,7,54,0.9,7.9,Lluvia
+Cañon del Diablo ,Puma concolor,07:54:39,0.329618056,7,54,0.9,7.9,Lluvia
+El agua de Simon,Didelphis virginiana,07:55:28,0.330185185,7,55,0.916666667,7.916666667,Seca
+Agua Linda,Mazama temama,07:55:35,0.330266204,7,55,0.916666667,7.916666667,Lluvia
+Cerro del Pilón,Ursus americanus,07:55:41,0.330335648,7,55,0.916666667,7.916666667,Lluvia
+Agua Linda,Ursus americanus,07:56:55,0.33119213,7,56,0.933333333,7.933333333,Lluvia
+Esteban,Panthera onca,07:58:20,0.332175926,7,58,0.966666667,7.966666667,Seca
+La Corneta,Ursus americanus,08:00:11,0.333460648,8,0,0,8,Lluvia
+Puerto de las Palomas,Ursus americanus,08:00:23,0.333599537,8,0,0,8,Lluvia
+Puerto de las Palomas,Ursus americanus,08:01:12,0.334166667,8,1,0.016666667,8.016666667,Lluvia
+Esteban,Panthera onca,08:01:19,0.334247685,8,1,0.016666667,8.016666667,Seca
+El Tigre,Leopardus pardalis,08:01:55,0.334664352,8,1,0.016666667,8.016666667,Seca
+Esteban,Dasypus novemcinctus,08:02:27,0.335034722,8,2,0.033333333,8.033333333,Seca
+Puerto de las Palomas,Conepatus leuconotus,08:03:04,0.335462963,8,3,0.05,8.05,Seca
+Agua Linda,Puma concolor,08:03:44,0.335925926,8,3,0.05,8.05,Lluvia
+Puerto de las Palomas,Ursus americanus,08:04:50,0.336689815,8,4,0.066666667,8.066666667,Seca
+El Infiernillo,Ursus americanus,08:05:06,0.336875,8,5,0.083333333,8.083333333,Lluvia
+Esteban,Leopardus wiedii,08:06:06,0.337569444,8,6,0.1,8.1,Lluvia
+Valle Verde del Charco ,Ursus americanus,08:07:24,0.338472222,8,7,0.116666667,8.116666667,Lluvia
+Joya Oscura 2,Ursus americanus,08:07:39,0.338645833,8,7,0.116666667,8.116666667,Lluvia
+El Salto,Leopardus wiedii,08:07:56,0.338842593,8,7,0.116666667,8.116666667,Lluvia
+El Elefante,Mazama temama,08:14:07,0.343136574,8,14,0.233333333,8.233333333,Seca
+Esteban,Dasypus novemcinctus,08:15:03,0.343784722,8,15,0.25,8.25,Seca
+Agua Linda,Mazama temama,08:15:25,0.344039352,8,15,0.25,8.25,Lluvia
+Puerto de las Palomas,Eira barbara,08:17:12,0.345277778,8,17,0.283333333,8.283333333,Seca
+El Salto,Mazama temama,08:17:55,0.345775463,8,17,0.283333333,8.283333333,Seca
+Joya Oscura,Nasua narica,08:18:42,0.346319444,8,18,0.3,8.3,Lluvia
+El Salto,Sylvilagus floridanus,08:18:58,0.34650463,8,18,0.3,8.3,Lluvia
+Valle Verde del Charco ,Ursus americanus,08:19:30,0.346875,8,19,0.316666667,8.316666667,Seca
+Las Dalias,Leopardus wiedii,08:20:33,0.347604167,8,20,0.333333333,8.333333333,Seca
+El agua de Simon,Leopardus pardalis,08:20:44,0.347731481,8,20,0.333333333,8.333333333,Lluvia
+Cerro del Pilón,Ursus americanus,08:22:00,0.348611111,8,22,0.366666667,8.366666667,Lluvia
+El Elefante,Ursus americanus,08:22:41,0.349085648,8,22,0.366666667,8.366666667,Seca
+Cerro del Pilón,Ursus americanus,08:22:53,0.349224537,8,22,0.366666667,8.366666667,Lluvia
+Puerto de las Palomas,Eira barbara,08:22:55,0.349247685,8,22,0.366666667,8.366666667,Seca
+Agua Linda,Mazama temama,08:25:00,0.350694444,8,25,0.416666667,8.416666667,Lluvia
+El Salto,Conepatus leuconotus,08:26:01,0.351400463,8,26,0.433333333,8.433333333,Lluvia
+El agua de Simon,Mazama temama,08:26:04,0.351435185,8,26,0.433333333,8.433333333,Lluvia
+Valle Verde del Charco ,Ursus americanus,08:26:39,0.351840278,8,26,0.433333333,8.433333333,Seca
+La Perra,Nasua narica,08:27:03,0.352118056,8,27,0.45,8.45,Seca
+Casa de Piedra,Nasua narica,08:29:09,0.353576389,8,29,0.483333333,8.483333333,Lluvia
+La Corneta,Mazama temama,08:29:26,0.353773148,8,29,0.483333333,8.483333333,Lluvia
+Las Dalias,Puma concolor,08:29:44,0.353981481,8,29,0.483333333,8.483333333,Seca
+Puerto de las Palomas,Eira barbara,08:31:14,0.355023148,8,31,0.516666667,8.516666667,Seca
+Cañon del Diablo ,Ursus americanus,08:32:15,0.355729167,8,32,0.533333333,8.533333333,Lluvia
+Puerto de las Palomas,Ursus americanus,08:32:22,0.355810185,8,32,0.533333333,8.533333333,Seca
+La Corneta,Ursus americanus,08:33:43,0.356747685,8,33,0.55,8.55,Seca
+Joya Oscura,Mazama temama,08:33:45,0.356770833,8,33,0.55,8.55,Lluvia
+Agua Linda,Ursus americanus,08:34:56,0.357592593,8,34,0.566666667,8.566666667,Lluvia
+Puerto de las Palomas,Eira barbara,08:35:53,0.358252315,8,35,0.583333333,8.583333333,Seca
+Agua Linda,Mazama temama,08:36:19,0.358553241,8,36,0.6,8.6,Seca
+Agua Linda,Ursus americanus,08:36:39,0.358784722,8,36,0.6,8.6,Lluvia
+El agua de Simon,Puma concolor,08:36:39,0.358784722,8,36,0.6,8.6,Lluvia
+La Corneta,Leopardus wiedii,08:39:18,0.360625,8,39,0.65,8.65,Lluvia
+Cerro del Pilón,Leopardus wiedii,08:40:02,0.361134259,8,40,0.666666667,8.666666667,Lluvia
+Puerto de las Palomas,Eira barbara,08:41:11,0.36193287,8,41,0.683333333,8.683333333,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,08:41:55,0.36244213,8,41,0.683333333,8.683333333,Lluvia
+Joya Oscura,Mazama temama,08:44:35,0.364293981,8,44,0.733333333,8.733333333,Lluvia
+El Tigre,Dicotyles tajacu,08:45:20,0.364814815,8,45,0.75,8.75,Seca
+El Salto,Mazama temama,08:45:20,0.364814815,8,45,0.75,8.75,Seca
+Joya Oscura,Leopardus wiedii,08:45:31,0.36494213,8,45,0.75,8.75,Lluvia
+Joya Oscura,Mazama temama,08:46:24,0.365555556,8,46,0.766666667,8.766666667,Seca
+Esteban,Panthera onca,08:47:04,0.366018519,8,47,0.783333333,8.783333333,Seca
+Cerro del Pilón,Sylvilagus floridanus,08:47:32,0.366342593,8,47,0.783333333,8.783333333,Lluvia
+Valle Verde del Charco ,Ursus americanus,08:49:25,0.367650463,8,49,0.816666667,8.816666667,Seca
+El Elefante,Sylvilagus floridanus,08:49:50,0.367939815,8,49,0.816666667,8.816666667,Lluvia
+El Aguita,Puma concolor,08:53:44,0.370648148,8,53,0.883333333,8.883333333,Seca
+Agua Linda,Ursus americanus,08:55:39,0.371979167,8,55,0.916666667,8.916666667,Seca
+La Corneta,Mazama temama,08:55:41,0.372002315,8,55,0.916666667,8.916666667,Seca
+Esteban,Panthera onca,08:57:20,0.373148148,8,57,0.95,8.95,Lluvia
+El Tigre,Leopardus pardalis,08:57:30,0.373263889,8,57,0.95,8.95,Seca
+Casa de Piedra,Mazama temama,08:57:30,0.373263889,8,57,0.95,8.95,Lluvia
+Agua Linda,Eira barbara,08:58:48,0.374166667,8,58,0.966666667,8.966666667,Seca
+Joya Oscura 2,Ursus americanus,09:00:24,0.375277778,9,0,0,9,Seca
+Puerto de las Palomas,Eira barbara,09:00:42,0.375486111,9,0,0,9,Seca
+Puerto de las Palomas,Ursus americanus,09:02:19,0.376608796,9,2,0.033333333,9.033333333,Lluvia
+Esteban,Nasua narica,09:03:22,0.377337963,9,3,0.05,9.05,Seca
+Cerro del Pilón,Puma concolor,09:03:27,0.377395833,9,3,0.05,9.05,Lluvia
+Casa de Piedra,Mazama temama,09:07:15,0.380034722,9,7,0.116666667,9.116666667,Lluvia
+El Aguita,Ursus americanus,09:07:26,0.380162037,9,7,0.116666667,9.116666667,Lluvia
+Joya Oscura 2,Ursus americanus,09:09:26,0.381550926,9,9,0.15,9.15,Seca
+La Corneta,Ursus americanus,09:12:09,0.3834375,9,12,0.2,9.2,Seca
+La Corneta,Dicotyles tajacu,09:12:31,0.38369213,9,12,0.2,9.2,Seca
+Valle Verde del Charco ,Ursus americanus,09:13:42,0.384513889,9,13,0.216666667,9.216666667,Lluvia
+Agua Linda,Ursus americanus,09:13:44,0.384537037,9,13,0.216666667,9.216666667,Lluvia
+Puerto de las Palomas,Eira barbara,09:13:51,0.384618056,9,13,0.216666667,9.216666667,Lluvia
+El Aguita,Ursus americanus,09:14:32,0.385092593,9,14,0.233333333,9.233333333,Lluvia
+Casa de Piedra,Didelphis virginiana,09:16:01,0.386122685,9,16,0.266666667,9.266666667,Lluvia
+El Aguita 2,Ursus americanus,09:16:28,0.386435185,9,16,0.266666667,9.266666667,Lluvia
+El agua de Simon,Didelphis virginiana,09:16:40,0.386574074,9,16,0.266666667,9.266666667,Seca
+Puerto de las Palomas,Puma concolor,09:17:01,0.38681713,9,17,0.283333333,9.283333333,Seca
+Joya Oscura,Panthera onca,09:18:23,0.387766204,9,18,0.3,9.3,Lluvia
+Esteban,Mazama temama,09:19:10,0.388310185,9,19,0.316666667,9.316666667,Seca
+Puerto de las Palomas,Ursus americanus,09:19:14,0.388356481,9,19,0.316666667,9.316666667,Lluvia
+Valle Verde del Charco ,Ursus americanus,09:19:39,0.388645833,9,19,0.316666667,9.316666667,Seca
+Puerto de las Palomas,Eira barbara,09:19:46,0.388726852,9,19,0.316666667,9.316666667,Seca
+Agua Linda,Ursus americanus,09:21:46,0.390115741,9,21,0.35,9.35,Lluvia
+El Aguita 2,Mazama temama,09:23:23,0.391238426,9,23,0.383333333,9.383333333,Seca
+Cañon del Diablo ,Puma concolor,09:23:32,0.391342593,9,23,0.383333333,9.383333333,Lluvia
+Joya Oscura,Puma concolor,09:23:42,0.391458333,9,23,0.383333333,9.383333333,Lluvia
+Valle Verde del Charco ,Ursus americanus,09:23:48,0.391527778,9,23,0.383333333,9.383333333,Lluvia
+Las Dalias,Ursus americanus,09:23:49,0.391539352,9,23,0.383333333,9.383333333,Seca
+Joya Oscura,Mazama temama,09:24:32,0.392037037,9,24,0.4,9.4,Lluvia
+Agua Linda,Ursus americanus,09:25:58,0.393032407,9,25,0.416666667,9.416666667,Seca
+La Perra,Nasua narica,09:27:50,0.394328704,9,27,0.45,9.45,Lluvia
+Valle Verde del Charco ,Ursus americanus,09:28:26,0.39474537,9,28,0.466666667,9.466666667,Lluvia
+Joya Oscura,Nasua narica,09:28:28,0.394768519,9,28,0.466666667,9.466666667,Lluvia
+Agua Linda,Nasua narica,09:29:23,0.395405093,9,29,0.483333333,9.483333333,Lluvia
+Puerto de las Palomas,Ursus americanus,09:29:40,0.395601852,9,29,0.483333333,9.483333333,Lluvia
+Cañon del Diablo ,Mazama temama,09:30:53,0.396446759,9,30,0.5,9.5,Lluvia
+El Aguita,Mazama temama,09:33:23,0.39818287,9,33,0.55,9.55,Lluvia
+El Tigre,Dicotyles tajacu,09:33:43,0.398414352,9,33,0.55,9.55,Seca
+Joya Oscura 2,Puma concolor,09:33:46,0.398449074,9,33,0.55,9.55,Lluvia
+Joya Oscura,Didelphis virginiana,09:34:07,0.39869213,9,34,0.566666667,9.566666667,Lluvia
+Joya Oscura,Mazama temama,09:34:10,0.398726852,9,34,0.566666667,9.566666667,Lluvia
+Puerto de las Palomas,Ursus americanus,09:34:17,0.39880787,9,34,0.566666667,9.566666667,Seca
+La Corneta,Mazama temama,09:35:03,0.399340278,9,35,0.583333333,9.583333333,Lluvia
+Puerto de las Palomas,Eira barbara,09:35:24,0.399583333,9,35,0.583333333,9.583333333,Seca
+Joya Oscura,Ursus americanus,09:36:40,0.400462963,9,36,0.6,9.6,Lluvia
+Joya Oscura,Nasua narica,09:37:04,0.400740741,9,37,0.616666667,9.616666667,Lluvia
+Esteban,Mazama temama,09:37:16,0.40087963,9,37,0.616666667,9.616666667,Seca
+El Salto,Ursus americanus,09:39:11,0.402210648,9,39,0.65,9.65,Seca
+Las Fabricas,Odocoileus virginianus,09:39:21,0.402326389,9,39,0.65,9.65,Lluvia
+Agua Linda,Mazama temama,09:39:47,0.402627315,9,39,0.65,9.65,Seca
+El Aguita 2,Mazama temama,09:41:03,0.403506944,9,41,0.683333333,9.683333333,Lluvia
+La Corneta,Leopardus wiedii,09:41:29,0.40380787,9,41,0.683333333,9.683333333,Seca
+El agua de Simon,Mazama temama,09:41:33,0.403854167,9,41,0.683333333,9.683333333,Seca
+La Perra,Ursus americanus,09:43:04,0.404907407,9,43,0.716666667,9.716666667,Lluvia
+Las Dalias,Mazama temama,09:43:42,0.405347222,9,43,0.716666667,9.716666667,Seca
+Puerto de las Palomas,Ursus americanus,09:44:28,0.40587963,9,44,0.733333333,9.733333333,Lluvia
+Puerto de las Palomas,Mazama temama,09:45:39,0.406701389,9,45,0.75,9.75,Lluvia
+Agua Linda,Mazama temama,09:47:04,0.407685185,9,47,0.783333333,9.783333333,Lluvia
+Joya Oscura,Ursus americanus,09:49:26,0.409328704,9,49,0.816666667,9.816666667,Lluvia
+El Tigre,Puma concolor,09:51:52,0.411018519,9,51,0.85,9.85,Seca
+Valle Verde del Charco ,Ursus americanus,09:54:40,0.412962963,9,54,0.9,9.9,Lluvia
+El Tigre,Leopardus wiedii,09:55:35,0.413599537,9,55,0.916666667,9.916666667,Lluvia
+El Salto,Ursus americanus,09:58:21,0.415520833,9,58,0.966666667,9.966666667,Seca
+El Aguita 2,Dicotyles tajacu,09:59:22,0.416226852,9,59,0.983333333,9.983333333,Seca
+El Elefante,Didelphis virginiana,09:59:22,0.416226852,9,59,0.983333333,9.983333333,Lluvia
+Agua Linda,Ursus americanus,10:01:14,0.417523148,10,1,0.016666667,10.01666667,Lluvia
+Agua Linda,Ursus americanus,10:04:41,0.419918981,10,4,0.066666667,10.06666667,Lluvia
+Puerto de las Palomas,Ursus americanus,10:06:07,0.420914352,10,6,0.1,10.1,Lluvia
+El Salto,Sylvilagus floridanus,10:09:37,0.423344907,10,9,0.15,10.15,Seca
+Joya Oscura,Puma concolor,10:13:20,0.425925926,10,13,0.216666667,10.21666667,Lluvia
+La Perra,Nasua narica,10:14:03,0.426423611,10,14,0.233333333,10.23333333,Lluvia
+Joya Oscura,Nasua narica,10:14:06,0.426458333,10,14,0.233333333,10.23333333,Lluvia
+Agua Linda,Nasua narica,10:15:51,0.427673611,10,15,0.25,10.25,Lluvia
+Cerro del Pilón,Didelphis virginiana,10:16:00,0.427777778,10,16,0.266666667,10.26666667,Lluvia
+La Tableta,Mazama temama,10:19:07,0.42994213,10,19,0.316666667,10.31666667,Lluvia
+Esteban,Leopardus wiedii,10:19:15,0.430034722,10,19,0.316666667,10.31666667,Seca
+Agua Linda,Mazama temama,10:19:22,0.430115741,10,19,0.316666667,10.31666667,Lluvia
+Agua Linda,Mazama temama,10:26:32,0.435092593,10,26,0.433333333,10.43333333,Seca
+El agua de Simon,Didelphis virginiana,10:31:23,0.438460648,10,31,0.516666667,10.51666667,Seca
+La Corneta,Ursus americanus,10:32:11,0.439016204,10,32,0.533333333,10.53333333,Seca
+El Infiernillo,Ursus americanus,10:32:58,0.439560185,10,32,0.533333333,10.53333333,Lluvia
+El Infiernillo,Mazama temama,10:33:29,0.439918981,10,33,0.55,10.55,Lluvia
+El agua de Simon,Mazama temama,10:33:43,0.440081019,10,33,0.55,10.55,Lluvia
+Agua Linda,Odocoileus virginianus,10:33:47,0.440127315,10,33,0.55,10.55,Seca
+El Infiernillo,Dicotyles tajacu,10:33:51,0.440173611,10,33,0.55,10.55,Lluvia
+El Elefante,Puma concolor,10:34:26,0.440578704,10,34,0.566666667,10.56666667,Lluvia
+Esteban,Leopardus wiedii,10:36:50,0.44224537,10,36,0.6,10.6,Lluvia
+Esteban,Leopardus wiedii,10:36:50,0.44224537,10,36,0.6,10.6,Lluvia
+Joya Oscura,Mazama temama,10:37:31,0.442719907,10,37,0.616666667,10.61666667,Lluvia
+El Salto,Mazama temama,10:37:57,0.443020833,10,37,0.616666667,10.61666667,Seca
+Puerto de las Palomas,Leopardus wiedii,10:38:48,0.443611111,10,38,0.633333333,10.63333333,Seca
+Joya Oscura,Panthera onca,10:38:51,0.443645833,10,38,0.633333333,10.63333333,Lluvia
+Valle Verde del Charco ,Mazama temama,10:40:20,0.444675926,10,40,0.666666667,10.66666667,Lluvia
+El Tigre,Ursus americanus,10:40:28,0.444768519,10,40,0.666666667,10.66666667,Lluvia
+El Infiernillo,Mazama temama,10:41:08,0.445231481,10,41,0.683333333,10.68333333,Lluvia
+Las Dalias,Ursus americanus,10:42:05,0.445891204,10,42,0.7,10.7,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,10:42:15,0.446006944,10,42,0.7,10.7,Lluvia
+El Salto,Sylvilagus floridanus,10:43:22,0.446782407,10,43,0.716666667,10.71666667,Seca
+Las Fabricas,Nasua narica,10:44:48,0.447777778,10,44,0.733333333,10.73333333,Lluvia
+El Salto,Sylvilagus floridanus,10:45:03,0.447951389,10,45,0.75,10.75,Lluvia
+Las Dalias,Mazama temama,10:45:47,0.448460648,10,45,0.75,10.75,Lluvia
+La Corneta,Mazama temama,10:46:05,0.448668981,10,46,0.766666667,10.76666667,Lluvia
+La Corneta,Ursus americanus,10:46:58,0.449282407,10,46,0.766666667,10.76666667,Seca
+Cerro del Pilón,Didelphis virginiana,10:49:41,0.451168981,10,49,0.816666667,10.81666667,Seca
+El Salto,Sylvilagus floridanus,10:50:15,0.4515625,10,50,0.833333333,10.83333333,Seca
+Joya Oscura,Mazama temama,10:50:28,0.451712963,10,50,0.833333333,10.83333333,Lluvia
+Puerto de las Palomas 2,Galictis vittata,10:52:07,0.452858796,10,52,0.866666667,10.86666667,Seca
+El Salto,Mazama temama,10:53:42,0.453958333,10,53,0.883333333,10.88333333,Seca
+Valle Verde del Charco ,Ursus americanus,10:56:00,0.455555556,10,56,0.933333333,10.93333333,Lluvia
+La Tableta,Nasua narica,10:56:01,0.45556713,10,56,0.933333333,10.93333333,Lluvia
+Agua Linda,Puma concolor,10:56:19,0.455775463,10,56,0.933333333,10.93333333,Lluvia
+Puerto de las Palomas,Mazama temama,10:59:48,0.458194444,10,59,0.983333333,10.98333333,Seca
+El Tigre,Nasua narica,11:00:33,0.458715278,11,0,0,11,Lluvia
+El Tigre,Nasua narica,11:00:33,0.458715278,11,0,0,11,Lluvia
+La Corneta,Mazama temama,11:01:12,0.459166667,11,1,0.016666667,11.01666667,Lluvia
+Las Dalias,Mazama temama,11:01:39,0.459479167,11,1,0.016666667,11.01666667,Seca
+Puerto de las Palomas,Eira barbara,11:01:58,0.459699074,11,1,0.016666667,11.01666667,Lluvia
+El Salto,Sylvilagus floridanus,11:02:00,0.459722222,11,2,0.033333333,11.03333333,Lluvia
+El Elefante,Sylvilagus floridanus,11:02:04,0.459768519,11,2,0.033333333,11.03333333,Lluvia
+Agua Linda,Puma concolor,11:02:35,0.460127315,11,2,0.033333333,11.03333333,Lluvia
+La Corneta,Mazama temama,11:02:41,0.460196759,11,2,0.033333333,11.03333333,Lluvia
+Puerto de las Palomas,Mazama temama,11:03:19,0.460636574,11,3,0.05,11.05,Seca
+El Salto,Didelphis virginiana,11:04:08,0.461203704,11,4,0.066666667,11.06666667,Seca
+Las Dalias,Eira barbara,11:04:36,0.461527778,11,4,0.066666667,11.06666667,Seca
+La Corneta,Didelphis virginiana,11:05:04,0.461851852,11,5,0.083333333,11.08333333,Seca
+El Tigre,Dicotyles tajacu,11:06:49,0.46306713,11,6,0.1,11.1,Lluvia
+El Tigre,Dicotyles tajacu,11:06:49,0.46306713,11,6,0.1,11.1,Lluvia
+El Tigre,Dicotyles tajacu,11:07:10,0.463310185,11,7,0.116666667,11.11666667,Lluvia
+Joya Oscura 2,Puma concolor,11:07:31,0.463553241,11,7,0.116666667,11.11666667,Lluvia
+La Corneta,Mazama temama,11:07:57,0.463854167,11,7,0.116666667,11.11666667,Lluvia
+Esteban,Panthera onca,11:08:43,0.464386574,11,8,0.133333333,11.13333333,Seca
+El Salto,Didelphis virginiana,11:09:51,0.465173611,11,9,0.15,11.15,Seca
+Puerto de las Palomas,Eira barbara,11:09:54,0.465208333,11,9,0.15,11.15,Lluvia
+Agua Linda,Mazama temama,11:10:27,0.465590278,11,10,0.166666667,11.16666667,Lluvia
+El Salto,Didelphis virginiana,11:10:51,0.465868056,11,10,0.166666667,11.16666667,Seca
+El Salto,Sylvilagus floridanus,11:12:20,0.466898148,11,12,0.2,11.2,Seca
+Joya Oscura,Mazama temama,11:14:12,0.468194444,11,14,0.233333333,11.23333333,Lluvia
+Cerro del Pilón,Puma concolor,11:14:30,0.468402778,11,14,0.233333333,11.23333333,Seca
+Agua Linda,Mazama temama,11:15:17,0.468946759,11,15,0.25,11.25,Seca
+Puerto de las Palomas,Galictis vittata,11:15:51,0.469340278,11,15,0.25,11.25,Seca
+Valle Verde del Charco ,Dasypus novemcinctus,11:15:57,0.469409722,11,15,0.25,11.25,Lluvia
+El Aguita,Mazama temama,11:17:00,0.470138889,11,17,0.283333333,11.28333333,Lluvia
+El Aguita,Mazama temama,11:17:08,0.470231481,11,17,0.283333333,11.28333333,Lluvia
+El Aguita,Mazama temama,11:17:17,0.470335648,11,17,0.283333333,11.28333333,Lluvia
+El Tigre,Sylvilagus floridanus,11:17:29,0.470474537,11,17,0.283333333,11.28333333,Lluvia
+Puerto de las Palomas,Eira barbara,11:18:53,0.471446759,11,18,0.3,11.3,Seca
+El agua de Simon,Puma concolor,11:19:01,0.471539352,11,19,0.316666667,11.31666667,Lluvia
+Agua Linda,Mazama temama,11:21:00,0.472916667,11,21,0.35,11.35,Seca
+El agua de Simon,Sylvilagus floridanus,11:21:24,0.473194444,11,21,0.35,11.35,Lluvia
+La Corneta,Mazama temama,11:21:24,0.473194444,11,21,0.35,11.35,Lluvia
+Puerto de las Palomas,Leopardus wiedii,11:22:17,0.47380787,11,22,0.366666667,11.36666667,Seca
+Puerto de las Palomas 2,Ursus americanus,11:24:48,0.475555556,11,24,0.4,11.4,Lluvia
+El Aguita,Mazama temama,11:26:12,0.476527778,11,26,0.433333333,11.43333333,Lluvia
+Agua Linda,Mazama temama,11:26:23,0.476655093,11,26,0.433333333,11.43333333,Lluvia
+Puerto de las Palomas,Eira barbara,11:26:59,0.477071759,11,26,0.433333333,11.43333333,Lluvia
+Puerto de las Palomas,Ursus americanus,11:27:21,0.477326389,11,27,0.45,11.45,Lluvia
+El Salto,Mazama temama,11:27:21,0.477326389,11,27,0.45,11.45,Seca
+El Tigre,Didelphis virginiana,11:28:27,0.478090278,11,28,0.466666667,11.46666667,Seca
+El agua de Simon,Didelphis virginiana,11:28:46,0.478310185,11,28,0.466666667,11.46666667,Seca
+Agua Linda,Mazama temama,11:30:39,0.479618056,11,30,0.5,11.5,Lluvia
+Agua Linda,Mazama temama,11:30:46,0.479699074,11,30,0.5,11.5,Lluvia
+Las Fabricas,Mazama temama,11:31:12,0.48,11,31,0.516666667,11.51666667,Lluvia
+Agua Linda,Mazama temama,11:31:22,0.480115741,11,31,0.516666667,11.51666667,Lluvia
+Las Fabricas,Mazama temama,11:31:24,0.480138889,11,31,0.516666667,11.51666667,Lluvia
+Cerro del Pilón,Ursus americanus,11:31:34,0.48025463,11,31,0.516666667,11.51666667,Lluvia
+El Salto,Leopardus wiedii,11:31:49,0.480428241,11,31,0.516666667,11.51666667,Seca
+El Salto,Mazama temama,11:32:17,0.480752315,11,32,0.533333333,11.53333333,Seca
+Puerto de las Palomas,Ursus americanus,11:33:08,0.481342593,11,33,0.55,11.55,Seca
+El Aguita,Nasua narica,11:34:15,0.482118056,11,34,0.566666667,11.56666667,Lluvia
+Joya Oscura,Mazama temama,11:34:35,0.482349537,11,34,0.566666667,11.56666667,Lluvia
+Agua Linda,Nasua narica,11:34:49,0.482511574,11,34,0.566666667,11.56666667,Lluvia
+El Salto,Mazama temama,11:35:26,0.482939815,11,35,0.583333333,11.58333333,Lluvia
+El Salto,Mazama temama,11:35:54,0.483263889,11,35,0.583333333,11.58333333,Seca
+Esteban,Sylvilagus floridanus,11:36:31,0.48369213,11,36,0.6,11.6,Lluvia
+El Salto,Mazama temama,11:36:41,0.48380787,11,36,0.6,11.6,Seca
+Casa de Piedra,Mazama temama,11:37:18,0.484236111,11,37,0.616666667,11.61666667,Lluvia
+El Tigre,Dicotyles tajacu,11:37:21,0.484270833,11,37,0.616666667,11.61666667,Seca
+El agua de Simon,Mazama temama,11:37:28,0.484351852,11,37,0.616666667,11.61666667,Lluvia
+El Salto,Ursus americanus,11:39:26,0.485717593,11,39,0.65,11.65,Seca
+Agua Linda,Mazama temama,11:42:02,0.487523148,11,42,0.7,11.7,Lluvia
+Puerto de las Palomas,Leopardus wiedii,11:42:04,0.487546296,11,42,0.7,11.7,Lluvia
+Puerto de las Palomas,Eira barbara,11:42:11,0.487627315,11,42,0.7,11.7,Lluvia
+El Tigre,Dicotyles tajacu,11:43:15,0.488368056,11,43,0.716666667,11.71666667,Lluvia
+La Corneta,Mazama temama,11:43:55,0.488831019,11,43,0.716666667,11.71666667,Lluvia
+El Tigre,Dicotyles tajacu,11:43:59,0.488877315,11,43,0.716666667,11.71666667,Lluvia
+El Tigre,Dicotyles tajacu,11:43:59,0.488877315,11,43,0.716666667,11.71666667,Lluvia
+El Tigre,Dicotyles tajacu,11:43:59,0.488877315,11,43,0.716666667,11.71666667,Lluvia
+Agua Linda,Mazama temama,11:44:07,0.488969907,11,44,0.733333333,11.73333333,Seca
+Puerto de las Palomas,Eira barbara,11:44:13,0.489039352,11,44,0.733333333,11.73333333,Lluvia
+Joya Oscura,Cuniculus paca,11:46:56,0.490925926,11,46,0.766666667,11.76666667,Lluvia
+El Aguita,Ursus americanus,11:47:18,0.491180556,11,47,0.783333333,11.78333333,Seca
+Cerro del Pilón,Urocyon cinereoargenteus,11:49:16,0.492546296,11,49,0.816666667,11.81666667,Lluvia
+El Salto,Sylvilagus floridanus,11:49:21,0.492604167,11,49,0.816666667,11.81666667,Seca
+Casa de Piedra,Mazama temama,11:52:37,0.494872685,11,52,0.866666667,11.86666667,Lluvia
+Esteban,Leopardus wiedii,11:53:26,0.495439815,11,53,0.883333333,11.88333333,Seca
+Joya Oscura 2,Nasua narica,11:57:25,0.498206019,11,57,0.95,11.95,Lluvia
+El Aguita,Mazama temama,11:58:35,0.499016204,11,58,0.966666667,11.96666667,Lluvia
+Puerto de las Palomas,Ursus americanus,11:58:48,0.499166667,11,58,0.966666667,11.96666667,Lluvia
+Cerro del Pilón,Didelphis virginiana,11:59:29,0.499641204,11,59,0.983333333,11.98333333,Seca
+Cerro del Pilón,Cuniculus paca,12:02:12,0.501527778,12,2,0.033333333,12.03333333,Lluvia
+El Aguita,Mazama temama,12:06:55,0.504803241,12,6,0.1,12.1,Lluvia
+El Aguita 2,Mazama temama,12:07:23,0.505127315,12,7,0.116666667,12.11666667,Lluvia
+El Salto,Didelphis virginiana,12:07:35,0.505266204,12,7,0.116666667,12.11666667,Seca
+El Salto,Didelphis virginiana,12:07:35,0.505266204,12,7,0.116666667,12.11666667,Seca
+El agua de Simon,Didelphis virginiana,12:08:18,0.505763889,12,8,0.133333333,12.13333333,Lluvia
+Cerro del Pilón,Puma concolor,12:08:19,0.505775463,12,8,0.133333333,12.13333333,Lluvia
+Joya Oscura,Mazama temama,12:08:35,0.505960648,12,8,0.133333333,12.13333333,Lluvia
+Agua Linda,Puma concolor,12:09:18,0.506458333,12,9,0.15,12.15,Seca
+El Aguita 2,Puma concolor,12:09:58,0.506921296,12,9,0.15,12.15,Lluvia
+El Aguita,Mazama temama,12:10:13,0.507094907,12,10,0.166666667,12.16666667,Lluvia
+Casa de Piedra,Mazama temama,12:10:15,0.507118056,12,10,0.166666667,12.16666667,Lluvia
+El agua de Simon,Leopardus wiedii,12:11:59,0.508321759,12,11,0.183333333,12.18333333,Lluvia
+Las Dalias,Mazama temama,12:13:40,0.509490741,12,13,0.216666667,12.21666667,Lluvia
+Joya Oscura 2,Panthera onca,12:13:54,0.509652778,12,13,0.216666667,12.21666667,Seca
+El Tigre,Odocoileus virginianus,12:14:34,0.510115741,12,14,0.233333333,12.23333333,Lluvia
+La Perra,Urocyon cinereoargenteus,12:14:39,0.510173611,12,14,0.233333333,12.23333333,Lluvia
+Puerto de las Palomas,Eira barbara,12:15:38,0.510856481,12,15,0.25,12.25,Seca
+El Salto,Mazama temama,12:19:20,0.513425926,12,19,0.316666667,12.31666667,Seca
+Las Dalias,Puma concolor,12:20:33,0.514270833,12,20,0.333333333,12.33333333,Seca
+Cañon del Diablo ,Mazama temama,12:22:29,0.515613426,12,22,0.366666667,12.36666667,Lluvia
+El Aguita,Mazama temama,12:24:33,0.517048611,12,24,0.4,12.4,Lluvia
+La Perra,Nasua narica,12:25:01,0.517372685,12,25,0.416666667,12.41666667,Lluvia
+Agua Linda,Eira barbara,12:26:54,0.518680556,12,26,0.433333333,12.43333333,Lluvia
+El Salto,Mazama temama,12:27:38,0.519189815,12,27,0.45,12.45,Seca
+Agua Linda,Ursus americanus,12:28:19,0.519664352,12,28,0.466666667,12.46666667,Lluvia
+Agua Linda,Mazama temama,12:29:37,0.52056713,12,29,0.483333333,12.48333333,Seca
+El Salto,Conepatus leuconotus,12:35:29,0.524641204,12,35,0.583333333,12.58333333,Seca
+Las Dalias,Mazama temama,12:36:18,0.525208333,12,36,0.6,12.6,Seca
+Agua Linda,Mazama temama,12:36:20,0.525231481,12,36,0.6,12.6,Seca
+Valle Verde del Charco ,Mazama temama,12:40:07,0.527858796,12,40,0.666666667,12.66666667,Lluvia
+Joya Oscura,Mazama temama,12:42:25,0.529456019,12,42,0.7,12.7,Lluvia
+Las Dalias,Mazama temama,12:43:42,0.530347222,12,43,0.716666667,12.71666667,Seca
+La Perra,Ursus americanus,12:43:57,0.530520833,12,43,0.716666667,12.71666667,Lluvia
+El Salto,Conepatus leuconotus,12:45:04,0.531296296,12,45,0.75,12.75,Seca
+Agua Linda,Dasypus novemcinctus,12:47:34,0.533032407,12,47,0.783333333,12.78333333,Lluvia
+Cerro del Pilón,Didelphis virginiana,12:48:33,0.533715278,12,48,0.8,12.8,Seca
+El Tigre,Urocyon cinereoargenteus,12:48:47,0.533877315,12,48,0.8,12.8,Lluvia
+Joya Oscura,Ursus americanus,12:49:20,0.534259259,12,49,0.816666667,12.81666667,Lluvia
+La Tableta 2,Mazama temama,12:49:34,0.534421296,12,49,0.816666667,12.81666667,Lluvia
+El Salto,Mazama temama,12:52:10,0.536226852,12,52,0.866666667,12.86666667,Lluvia
+El Aguita,Ursus americanus,12:52:51,0.536701389,12,52,0.866666667,12.86666667,Seca
+Puerto de las Palomas,Leopardus wiedii,12:53:47,0.537349537,12,53,0.883333333,12.88333333,Seca
+El agua de Simon,Didelphis virginiana,12:55:07,0.538275463,12,55,0.916666667,12.91666667,Lluvia
+El Salto,Sylvilagus floridanus,12:56:55,0.539525463,12,56,0.933333333,12.93333333,Seca
+Cerro del Pilón,Sylvilagus floridanus,12:57:59,0.540266204,12,57,0.95,12.95,Lluvia
+Puerto de las Palomas 2,Ursus americanus,12:58:23,0.540543981,12,58,0.966666667,12.96666667,Lluvia
+El Tigre,Nasua narica,13:00:10,0.541782407,13,0,0,13,Lluvia
+El Aguita,Mazama temama,13:01:03,0.542395833,13,1,0.016666667,13.01666667,Lluvia
+El Elefante,Puma concolor,13:02:11,0.54318287,13,2,0.033333333,13.03333333,Lluvia
+Cerro del Pilón,Puma concolor,13:02:25,0.543344907,13,2,0.033333333,13.03333333,Lluvia
+Cerro del Pilón,Mazama temama,13:02:30,0.543402778,13,2,0.033333333,13.03333333,Seca
+El Salto,Sylvilagus floridanus,13:03:09,0.543854167,13,3,0.05,13.05,Seca
+La Corneta,Panthera onca,13:05:14,0.545300926,13,5,0.083333333,13.08333333,Lluvia
+El Tigre,Dicotyles tajacu,13:05:14,0.545300926,13,5,0.083333333,13.08333333,Seca
+La Perra,Nasua narica,13:05:49,0.545706019,13,5,0.083333333,13.08333333,Lluvia
+Joya Oscura,Mazama temama,13:06:39,0.546284722,13,6,0.1,13.1,Lluvia
+El Salto,Didelphis virginiana,13:07:25,0.54681713,13,7,0.116666667,13.11666667,Seca
+Valle Verde del Charco ,Leopardus wiedii,13:07:41,0.547002315,13,7,0.116666667,13.11666667,Seca
+El agua de Simon,Mazama temama,13:10:09,0.548715278,13,10,0.166666667,13.16666667,Lluvia
+Puerto de las Palomas,Eira barbara,13:13:59,0.551377315,13,13,0.216666667,13.21666667,Seca
+El Salto,Leopardus wiedii,13:14:05,0.551446759,13,14,0.233333333,13.23333333,Seca
+Agua Linda,Ursus americanus,13:14:53,0.552002315,13,14,0.233333333,13.23333333,Seca
+Joya Oscura,Nasua narica,13:14:55,0.552025463,13,14,0.233333333,13.23333333,Seca
+Puerto de las Palomas 2,Ursus americanus,13:15:14,0.55224537,13,15,0.25,13.25,Lluvia
+Joya Oscura,Puma concolor,13:17:01,0.553483796,13,17,0.283333333,13.28333333,Lluvia
+Joya Oscura,Puma concolor,13:17:12,0.553611111,13,17,0.283333333,13.28333333,Lluvia
+Casa de Piedra,Mazama temama,13:17:29,0.55380787,13,17,0.283333333,13.28333333,Lluvia
+El Tigre,Odocoileus virginianus,13:18:09,0.554270833,13,18,0.3,13.3,Lluvia
+El Salto,Didelphis virginiana,13:20:36,0.555972222,13,20,0.333333333,13.33333333,Seca
+Joya Oscura 2,Nasua narica,13:21:16,0.556435185,13,21,0.35,13.35,Lluvia
+El agua de Simon,Mazama temama,13:25:47,0.559571759,13,25,0.416666667,13.41666667,Seca
+El Salto,Sylvilagus floridanus,13:27:24,0.560694444,13,27,0.45,13.45,Seca
+Puerto de las Palomas,Eira barbara,13:27:48,0.560972222,13,27,0.45,13.45,Lluvia
+Las Dalias,Mazama temama,13:30:54,0.563125,13,30,0.5,13.5,Lluvia
+El Aguita,Mazama temama,13:31:04,0.563240741,13,31,0.516666667,13.51666667,Lluvia
+El Aguita,Mazama temama,13:31:19,0.563414352,13,31,0.516666667,13.51666667,Lluvia
+El Salto,Sylvilagus floridanus,13:31:34,0.563587963,13,31,0.516666667,13.51666667,Seca
+Puerto de las Palomas,Eira barbara,13:33:23,0.564849537,13,33,0.55,13.55,Lluvia
+Agua Linda,Eira barbara,13:35:41,0.566446759,13,35,0.583333333,13.58333333,Seca
+El Salto,Didelphis virginiana,13:36:38,0.567106481,13,36,0.6,13.6,Seca
+Las Dalias,Puma concolor,13:37:27,0.567673611,13,37,0.616666667,13.61666667,Seca
+El agua de Simon,Sylvilagus floridanus,13:37:28,0.567685185,13,37,0.616666667,13.61666667,Seca
+Casa de Piedra,Dasypus novemcinctus,13:37:59,0.568043981,13,37,0.616666667,13.61666667,Lluvia
+La Tableta,Mazama temama,13:39:47,0.569293981,13,39,0.65,13.65,Lluvia
+El Salto,Didelphis virginiana,13:43:02,0.571550926,13,43,0.716666667,13.71666667,Seca
+Puerto de las Palomas 2,Leopardus wiedii,13:43:36,0.571944444,13,43,0.716666667,13.71666667,Lluvia
+Cerro del Pilón,Panthera onca,13:43:43,0.572025463,13,43,0.716666667,13.71666667,Lluvia
+Esteban,Panthera onca,13:47:43,0.574803241,13,47,0.783333333,13.78333333,Lluvia
+El agua de Simon,Mazama temama,13:48:23,0.575266204,13,48,0.8,13.8,Seca
+Puerto de las Palomas,Puma concolor,13:48:54,0.575625,13,48,0.8,13.8,Lluvia
+El Aguita,Puma concolor,13:49:40,0.576157407,13,49,0.816666667,13.81666667,Seca
+El agua de Simon,Puma concolor,13:50:14,0.576550926,13,50,0.833333333,13.83333333,Lluvia
+Joya Oscura,Mazama temama,13:50:19,0.576608796,13,50,0.833333333,13.83333333,Lluvia
+Puerto de las Palomas,Nasua narica,13:50:24,0.576666667,13,50,0.833333333,13.83333333,Lluvia
+El Salto,Mazama temama,13:51:33,0.577465278,13,51,0.85,13.85,Seca
+El Aguita 2,Nasua narica,13:52:28,0.578101852,13,52,0.866666667,13.86666667,Lluvia
+El Salto,Mazama temama,13:52:32,0.578148148,13,52,0.866666667,13.86666667,Seca
+Agua Linda,Mazama temama,13:52:58,0.578449074,13,52,0.866666667,13.86666667,Lluvia
+Puerto de las Palomas,Ursus americanus,13:54:34,0.579560185,13,54,0.9,13.9,Lluvia
+El Tigre,Dicotyles tajacu,13:57:15,0.581423611,13,57,0.95,13.95,Lluvia
+Las Dalias,Mazama temama,13:58:09,0.582048611,13,58,0.966666667,13.96666667,Seca
+El Salto,Conepatus leuconotus,13:58:20,0.582175926,13,58,0.966666667,13.96666667,Lluvia
+Agua Linda,Ursus americanus,13:58:22,0.582199074,13,58,0.966666667,13.96666667,Seca
+Agua Linda,Puma concolor,14:02:53,0.585335648,14,2,0.033333333,14.03333333,Lluvia
+Puerto de las Palomas 2,Ursus americanus,14:03:47,0.585960648,14,3,0.05,14.05,Lluvia
+Joya Oscura,Mazama temama,14:04:51,0.586701389,14,4,0.066666667,14.06666667,Lluvia
+Las Dalias,Mazama temama,14:05:30,0.587152778,14,5,0.083333333,14.08333333,Lluvia
+El Salto,Didelphis virginiana,14:06:58,0.588171296,14,6,0.1,14.1,Seca
+Puerto de las Palomas,Ursus americanus,14:07:00,0.588194444,14,7,0.116666667,14.11666667,Seca
+Joya Oscura 2,Nasua narica,14:07:28,0.588518519,14,7,0.116666667,14.11666667,Lluvia
+El Salto,Mazama temama,14:07:52,0.588796296,14,7,0.116666667,14.11666667,Seca
+El Salto,Mazama temama,14:08:53,0.589502315,14,7,0.116666667,14.11666667,Lluvia
+Las Dalias,Puma concolor,14:09:20,0.589814815,14,8,0.133333333,14.13333333,Seca
+Agua Linda,Nasua narica,14:10:19,0.590497685,14,9,0.15,14.15,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,14:10:44,0.590787037,14,10,0.166666667,14.16666667,Lluvia
+El agua de Simon,Didelphis virginiana,14:11:36,0.591388889,14,11,0.183333333,14.18333333,Lluvia
+El Infiernillo,Nasua narica,14:11:56,0.59162037,14,11,0.183333333,14.18333333,Seca
+El Aguita 2,Puma concolor,14:11:56,0.59162037,14,11,0.183333333,14.18333333,Seca
+El Aguita 2,Dicotyles tajacu,14:12:10,0.591782407,14,12,0.2,14.2,Seca
+La Corneta,Mazama temama,14:12:55,0.592303241,14,12,0.2,14.2,Lluvia
+El Tigre,Odocoileus virginianus,14:13:00,0.592361111,14,13,0.216666667,14.21666667,Seca
+Agua Linda,Mazama temama,14:14:09,0.593159722,14,14,0.233333333,14.23333333,Lluvia
+Agua Linda,Mazama temama,14:14:19,0.593275463,14,14,0.233333333,14.23333333,Lluvia
+Joya Oscura,Nasua narica,14:14:58,0.593726852,14,14,0.233333333,14.23333333,Lluvia
+El agua de Simon,Mazama temama,14:15:48,0.594305556,14,15,0.25,14.25,Seca
+El agua de Simon,Sylvilagus floridanus,14:18:44,0.596342593,14,18,0.3,14.3,Lluvia
+La Perra,Urocyon cinereoargenteus,14:18:53,0.596446759,14,18,0.3,14.3,Lluvia
+Casa de Piedra,Ursus americanus,14:19:12,0.596666667,14,19,0.316666667,14.31666667,Seca
+El Salto,Sylvilagus floridanus,14:21:58,0.598587963,14,21,0.35,14.35,Seca
+Puerto de las Palomas 2,Ursus americanus,14:22:13,0.598761574,14,22,0.366666667,14.36666667,Lluvia
+El Aguita 2,Ursus americanus,14:24:12,0.600138889,14,24,0.4,14.4,Seca
+El Salto,Sylvilagus floridanus,14:24:28,0.600324074,14,24,0.4,14.4,Seca
+El Infiernillo,Mazama temama,14:25:31,0.601053241,14,25,0.416666667,14.41666667,Lluvia
+El Salto,Didelphis virginiana,14:25:43,0.60119213,14,25,0.416666667,14.41666667,Seca
+Puerto de las Palomas 2,Puma concolor,14:26:06,0.601458333,14,26,0.433333333,14.43333333,Lluvia
+Las Dalias,Puma concolor,14:26:37,0.60181713,14,26,0.433333333,14.43333333,Seca
+El Salto,Sylvilagus floridanus,14:27:24,0.602361111,14,27,0.45,14.45,Seca
+Cerro del Pilón,Puma concolor,14:28:29,0.603113426,14,28,0.466666667,14.46666667,Lluvia
+El Salto,Sylvilagus floridanus,14:30:22,0.604421296,14,30,0.5,14.5,Seca
+El Aguita 2,Ursus americanus,14:31:26,0.605162037,14,31,0.516666667,14.51666667,Seca
+El Elefante,Sylvilagus floridanus,14:32:14,0.605717593,14,32,0.533333333,14.53333333,Lluvia
+Puerto de las Palomas,Eira barbara,14:35:56,0.608287037,14,35,0.583333333,14.58333333,Lluvia
+El Tigre,Odocoileus virginianus,14:35:59,0.608321759,14,35,0.583333333,14.58333333,Lluvia
+Agua Linda,Ursus americanus,14:37:49,0.609594907,14,37,0.616666667,14.61666667,Lluvia
+El Aguita 2,Puma concolor,14:38:38,0.610162037,14,38,0.633333333,14.63333333,Seca
+El Salto,Sylvilagus floridanus,14:40:23,0.611377315,14,40,0.666666667,14.66666667,Lluvia
+El Salto,Sylvilagus floridanus,14:40:37,0.611539352,14,40,0.666666667,14.66666667,Seca
+El agua de Simon,Mazama temama,14:43:23,0.613460648,14,43,0.716666667,14.71666667,Seca
+Puerto de las Palomas 2,Urocyon cinereoargenteus,14:43:36,0.613611111,14,43,0.716666667,14.71666667,Lluvia
+Las Dalias,Puma concolor,14:43:40,0.613657407,14,43,0.716666667,14.71666667,Lluvia
+Puerto de las Palomas 2,Dicotyles tajacu,14:44:58,0.614560185,14,44,0.733333333,14.73333333,Lluvia
+El Salto,Sylvilagus floridanus,14:45:04,0.61462963,14,45,0.75,14.75,Seca
+Agua Linda,Leopardus wiedii,14:45:31,0.61494213,14,45,0.75,14.75,Seca
+El Infiernillo,Ursus americanus,14:46:03,0.6153125,14,46,0.766666667,14.76666667,Seca
+Puerto de las Palomas,Ursus americanus,14:46:16,0.615462963,14,46,0.766666667,14.76666667,Lluvia
+El agua de Simon,Leopardus pardalis,14:46:34,0.615671296,14,46,0.766666667,14.76666667,Lluvia
+El Salto,Mazama temama,14:46:50,0.615856481,14,46,0.766666667,14.76666667,Seca
+Agua Linda,Ursus americanus,14:47:55,0.616608796,14,47,0.783333333,14.78333333,Seca
+Puerto de las Palomas,Eira barbara,14:51:27,0.6190625,14,51,0.85,14.85,Seca
+Cerro del Pilón,Didelphis virginiana,14:52:32,0.619814815,14,52,0.866666667,14.86666667,Lluvia
+El Aguita 2,Mazama temama,14:52:44,0.619953704,14,52,0.866666667,14.86666667,Seca
+El agua de Simon,Didelphis virginiana,14:52:48,0.62,14,52,0.866666667,14.86666667,Lluvia
+El Aguita 2,Mazama temama,14:52:52,0.620046296,14,52,0.866666667,14.86666667,Seca
+Puerto de las Palomas,Ursus americanus,14:53:29,0.620474537,14,53,0.883333333,14.88333333,Lluvia
+Puerto de las Palomas,Leopardus wiedii,14:54:09,0.6209375,14,54,0.9,14.9,Lluvia
+El Salto,Didelphis virginiana,14:56:38,0.622662037,14,56,0.933333333,14.93333333,Seca
+Puerto de las Palomas,Puma concolor,14:56:50,0.622800926,14,56,0.933333333,14.93333333,Lluvia
+Joya Oscura,Puma concolor,14:57:08,0.623009259,14,57,0.95,14.95,Lluvia
+Joya Oscura,Puma concolor,14:57:31,0.623275463,14,57,0.95,14.95,Seca
+El Salto,Mazama temama,14:57:48,0.623472222,14,57,0.95,14.95,Lluvia
+El Salto,Sylvilagus floridanus,14:58:34,0.62400463,14,58,0.966666667,14.96666667,Seca
+El Tigre,Panthera onca,14:59:38,0.62474537,14,59,0.983333333,14.98333333,Seca
+Las Dalias,Puma concolor,14:59:56,0.624953704,14,59,0.983333333,14.98333333,Seca
+El Salto,Mazama temama,15:00:06,0.625069444,15,0,0,15,Seca
+Cerro del Pilón,Didelphis virginiana,15:01:02,0.625717593,15,1,0.016666667,15.01666667,Lluvia
+El Tigre,Panthera onca,15:05:54,0.629097222,15,5,0.083333333,15.08333333,Seca
+Casa de Piedra,Mazama temama,15:08:24,0.630833333,15,8,0.133333333,15.13333333,Lluvia
+Agua Linda,Ursus americanus,15:12:57,0.633993056,15,12,0.2,15.2,Lluvia
+Agua Linda,Mazama temama,15:13:05,0.634085648,15,13,0.216666667,15.21666667,Seca
+Joya Oscura,Nasua narica,15:16:16,0.636296296,15,16,0.266666667,15.26666667,Seca
+Puerto de las Palomas,Eira barbara,15:16:23,0.636377315,15,16,0.266666667,15.26666667,Seca
+Cerro del Pilón,Didelphis virginiana,15:17:02,0.636828704,15,17,0.283333333,15.28333333,Seca
+Valle Verde del Charco ,Mazama temama,15:17:57,0.637465278,15,17,0.283333333,15.28333333,Lluvia
+Las Dalias,Mazama temama,15:21:13,0.639733796,15,21,0.35,15.35,Lluvia
+Puerto de las Palomas,Eira barbara,15:21:20,0.639814815,15,21,0.35,15.35,Seca
+Cerro del Pilón,Didelphis virginiana,15:21:52,0.640185185,15,21,0.35,15.35,Lluvia
+Puerto de las Palomas,Ursus americanus,15:22:55,0.640914352,15,22,0.366666667,15.36666667,Lluvia
+Las Dalias,Mazama temama,15:23:09,0.641076389,15,23,0.383333333,15.38333333,Lluvia
+El agua de Simon,Eira barbara,15:24:43,0.642164352,15,24,0.4,15.4,Lluvia
+Casa de Piedra,Ursus americanus,15:24:46,0.642199074,15,24,0.4,15.4,Lluvia
+El Infiernillo,Ursus americanus,15:24:59,0.642349537,15,24,0.4,15.4,Seca
+Esteban,Panthera onca,15:25:02,0.642384259,15,25,0.416666667,15.41666667,Seca
+El Infiernillo,Urocyon cinereoargenteus,15:25:36,0.642777778,15,25,0.416666667,15.41666667,Lluvia
+El agua de Simon,Didelphis virginiana,15:29:34,0.645532407,15,29,0.483333333,15.48333333,Lluvia
+El Aguita,Nasua narica,15:29:48,0.645694444,15,29,0.483333333,15.48333333,Lluvia
+La Corneta,Puma concolor,15:31:30,0.646875,15,31,0.516666667,15.51666667,Lluvia
+Las Dalias,Ursus americanus,15:33:10,0.648032407,15,33,0.55,15.55,Lluvia
+Puerto de las Palomas,Eira barbara,15:34:13,0.648761574,15,34,0.566666667,15.56666667,Lluvia
+Cerro del Pilón,Puma concolor,15:34:15,0.648784722,15,34,0.566666667,15.56666667,Seca
+Las Fabricas,Puma concolor,15:34:35,0.649016204,15,34,0.566666667,15.56666667,Lluvia
+Casa de Piedra,Ursus americanus,15:35:22,0.649560185,15,35,0.583333333,15.58333333,Seca
+El Tigre,Dicotyles tajacu,15:36:29,0.650335648,15,36,0.6,15.6,Seca
+El Tigre,Leopardus wiedii,15:36:54,0.650625,15,36,0.6,15.6,Lluvia
+Cerro del Pilón,Sylvilagus floridanus,15:36:57,0.650659722,15,36,0.6,15.6,Lluvia
+Puerto de las Palomas,Eira barbara,15:37:16,0.65087963,15,37,0.616666667,15.61666667,Seca
+El Tigre,Nasua narica,15:37:54,0.651319444,15,37,0.616666667,15.61666667,Lluvia
+Joya Oscura,Puma concolor,15:43:32,0.655231481,15,43,0.716666667,15.71666667,Seca
+Cerro del Pilón,Leopardus wiedii,15:44:18,0.655763889,15,44,0.733333333,15.73333333,Lluvia
+El Salto,Mazama temama,15:44:28,0.65587963,15,44,0.733333333,15.73333333,Seca
+Las Dalias,Panthera onca,15:44:39,0.656006944,15,44,0.733333333,15.73333333,Lluvia
+Joya Oscura,Puma concolor,15:50:48,0.660277778,15,50,0.833333333,15.83333333,Lluvia
+El Tigre,Dicotyles tajacu,15:53:52,0.662407407,15,53,0.883333333,15.88333333,Seca
+Puerto de las Palomas,Leopardus wiedii,15:55:15,0.663368056,15,55,0.916666667,15.91666667,Seca
+La Perra,Urocyon cinereoargenteus,15:55:18,0.663402778,15,55,0.916666667,15.91666667,Seca
+Cerro del Pilón,Leopardus wiedii,15:56:15,0.6640625,15,56,0.933333333,15.93333333,Seca
+El Tigre,Nasua narica,15:56:29,0.664224537,15,56,0.933333333,15.93333333,Seca
+La Corneta,Ursus americanus,15:56:59,0.664571759,15,56,0.933333333,15.93333333,Seca
+Las Dalias,Ursus americanus,15:57:23,0.664849537,15,57,0.95,15.95,Seca
+El Salto,Sylvilagus floridanus,15:58:13,0.665428241,15,58,0.966666667,15.96666667,Seca
+El Salto,Mazama temama,15:58:42,0.665763889,15,58,0.966666667,15.96666667,Lluvia
+Joya Oscura,Nasua narica,15:58:54,0.665902778,15,58,0.966666667,15.96666667,Lluvia
+Puerto de las Palomas,Eira barbara,16:00:06,0.666736111,16,0,0,16,Lluvia
+El Salto,Leopardus wiedii,16:01:39,0.6678125,16,1,0.016666667,16.01666667,Seca
+Valle Verde del Charco ,Ursus americanus,16:03:17,0.668946759,16,3,0.05,16.05,Lluvia
+El Salto,Didelphis virginiana,16:03:47,0.669293981,16,3,0.05,16.05,Seca
+El Salto,Mazama temama,16:03:50,0.669328704,16,3,0.05,16.05,Lluvia
+Agua Linda,Ursus americanus,16:05:01,0.670150463,16,5,0.083333333,16.08333333,Lluvia
+El agua de Simon,Mazama temama,16:05:21,0.670381944,16,5,0.083333333,16.08333333,Seca
+El agua de Simon,Mazama temama,16:09:21,0.673159722,16,9,0.15,16.15,Lluvia
+Agua Linda,Puma concolor,16:10:08,0.673703704,16,10,0.166666667,16.16666667,Seca
+Cerro del Pilón,Puma concolor,16:10:36,0.674027778,16,10,0.166666667,16.16666667,Lluvia
+El Infiernillo,Nasua narica,16:11:12,0.674444444,16,11,0.183333333,16.18333333,Lluvia
+El agua de Simon,Mazama temama,16:11:45,0.674826389,16,11,0.183333333,16.18333333,Lluvia
+El Tigre,Odocoileus virginianus,16:12:45,0.675520833,16,12,0.2,16.2,Lluvia
+Joya Oscura,Nasua narica,16:15:43,0.677581019,16,15,0.25,16.25,Lluvia
+Agua Linda,Ursus americanus,16:16:22,0.678032407,16,16,0.266666667,16.26666667,Seca
+Agua Linda,Mazama temama,16:17:16,0.678657407,16,17,0.283333333,16.28333333,Seca
+El agua de Simon,Puma concolor,16:19:57,0.680520833,16,19,0.316666667,16.31666667,Lluvia
+El Salto,Sylvilagus floridanus,16:21:18,0.681458333,16,21,0.35,16.35,Seca
+Agua Linda,Ursus americanus,16:25:22,0.684282407,16,25,0.416666667,16.41666667,Lluvia
+Esteban,Ursus americanus,16:25:51,0.684618056,16,25,0.416666667,16.41666667,Lluvia
+Puerto de las Palomas,Eira barbara,16:29:38,0.68724537,16,29,0.483333333,16.48333333,Seca
+Puerto de las Palomas,Eira barbara,16:32:29,0.689224537,16,32,0.533333333,16.53333333,Lluvia
+Agua Linda,Leopardus wiedii,16:34:00,0.690277778,16,34,0.566666667,16.56666667,Lluvia
+Puerto de las Palomas,Ursus americanus,16:34:51,0.690868056,16,34,0.566666667,16.56666667,Seca
+Joya Oscura 2,Nasua narica,16:35:21,0.691215278,16,35,0.583333333,16.58333333,Lluvia
+Agua Linda,Mazama temama,16:35:54,0.691597222,16,35,0.583333333,16.58333333,Lluvia
+La Corneta,Ursus americanus,16:37:42,0.692847222,16,37,0.616666667,16.61666667,Seca
+El Tigre,Odocoileus virginianus,16:38:00,0.693055556,16,38,0.633333333,16.63333333,Lluvia
+El Tigre,Odocoileus virginianus,16:38:07,0.693136574,16,38,0.633333333,16.63333333,Lluvia
+Puerto de las Palomas,Eira barbara,16:39:38,0.694189815,16,39,0.65,16.65,Lluvia
+El agua de Simon,Leopardus wiedii,16:39:41,0.694224537,16,39,0.65,16.65,Lluvia
+El Salto,Sylvilagus floridanus,16:42:08,0.695925926,16,42,0.7,16.7,Seca
+Agua Linda,Puma concolor,16:45:20,0.698148148,16,45,0.75,16.75,Lluvia
+El Salto,Didelphis virginiana,16:45:33,0.698298611,16,45,0.75,16.75,Seca
+Puerto de las Palomas,Mazama temama,16:45:55,0.698553241,16,45,0.75,16.75,Seca
+El Aguita 2,Ursus americanus,16:50:25,0.701678241,16,50,0.833333333,16.83333333,Seca
+El agua de Simon,Leopardus wiedii,16:50:34,0.701782407,16,50,0.833333333,16.83333333,Seca
+El Salto,Leopardus wiedii,16:52:30,0.703125,16,52,0.866666667,16.86666667,Seca
+El Salto,Didelphis virginiana,16:52:47,0.703321759,16,52,0.866666667,16.86666667,Seca
+La Corneta,Dicotyles tajacu,16:54:52,0.704768519,16,54,0.9,16.9,Seca
+El agua de Simon,Didelphis virginiana,16:54:54,0.704791667,16,54,0.9,16.9,Seca
+Joya Oscura 2,Nasua narica,16:58:15,0.707118056,16,58,0.966666667,16.96666667,Lluvia
+Esteban,Nasua narica,16:58:15,0.707118056,16,58,0.966666667,16.96666667,Seca
+Puerto de las Palomas,Eira barbara,16:58:45,0.707465278,16,58,0.966666667,16.96666667,Seca
+Las Dalias,Ursus americanus,17:05:05,0.711863426,17,5,0.083333333,17.08333333,Lluvia
+Joya Oscura,Mazama temama,17:05:05,0.711863426,17,5,0.083333333,17.08333333,Lluvia
+El Tigre,Odocoileus virginianus,17:05:34,0.712199074,17,5,0.083333333,17.08333333,Lluvia
+Joya Oscura,Mazama temama,17:07:49,0.713761574,17,7,0.116666667,17.11666667,Seca
+El Salto,Sylvilagus floridanus,17:07:52,0.713796296,17,7,0.116666667,17.11666667,Seca
+Las Dalias,Leopardus wiedii,17:08:30,0.714236111,17,8,0.133333333,17.13333333,Lluvia
+El Aguita 2,Panthera onca,17:08:36,0.714305556,17,8,0.133333333,17.13333333,Lluvia
+Joya Oscura,Nasua narica,17:08:47,0.71443287,17,8,0.133333333,17.13333333,Lluvia
+Agua Linda,Ursus americanus,17:09:32,0.714953704,17,9,0.15,17.15,Seca
+Esteban,Panthera onca,17:10:36,0.715694444,17,10,0.166666667,17.16666667,Lluvia
+Puerto de las Palomas,Ursus americanus,17:10:43,0.715775463,17,10,0.166666667,17.16666667,Seca
+Puerto de las Palomas,Eira barbara,17:11:32,0.716342593,17,11,0.183333333,17.18333333,Lluvia
+Puerto de las Palomas,Eira barbara,17:11:55,0.716608796,17,11,0.183333333,17.18333333,Lluvia
+El Salto,Leopardus wiedii,17:12:19,0.716886574,17,12,0.2,17.2,Seca
+La Corneta,Mazama temama,17:16:17,0.719641204,17,16,0.266666667,17.26666667,Lluvia
+Las Dalias,Mazama temama,17:17:05,0.720196759,17,17,0.283333333,17.28333333,Lluvia
+Joya Oscura 2,Puma concolor,17:17:54,0.720763889,17,17,0.283333333,17.28333333,Lluvia
+Puerto de las Palomas,Ursus americanus,17:19:54,0.722152778,17,19,0.316666667,17.31666667,Lluvia
+Casa de Piedra,Ursus americanus,17:20:59,0.722905093,17,20,0.333333333,17.33333333,Lluvia
+El Salto,Didelphis virginiana,17:21:10,0.723032407,17,21,0.35,17.35,Seca
+Esteban,Nasua narica,17:21:45,0.7234375,17,21,0.35,17.35,Seca
+El Salto,Mazama temama,17:23:29,0.724641204,17,23,0.383333333,17.38333333,Seca
+La Corneta,Ursus americanus,17:25:33,0.726076389,17,25,0.416666667,17.41666667,Seca
+Cañon del Diablo ,Puma concolor,17:27:09,0.7271875,17,27,0.45,17.45,Lluvia
+El Elefante,Ursus americanus,17:30:02,0.729189815,17,30,0.5,17.5,Lluvia
+El Tigre,Nasua narica,17:33:30,0.731597222,17,33,0.55,17.55,Lluvia
+Agua Linda,Mazama temama,17:34:41,0.732418981,17,34,0.566666667,17.56666667,Seca
+La Perra,Nasua narica,17:34:52,0.732546296,17,34,0.566666667,17.56666667,Lluvia
+Joya Oscura,Mazama temama,17:35:16,0.732824074,17,35,0.583333333,17.58333333,Lluvia
+Joya Oscura 2,Mazama temama,17:38:36,0.735138889,17,38,0.633333333,17.63333333,Lluvia
+Puerto de las Palomas,Puma concolor,17:39:15,0.735590278,17,39,0.65,17.65,Seca
+Casa de Piedra,Dasypus novemcinctus,17:40:27,0.736423611,17,40,0.666666667,17.66666667,Lluvia
+La Corneta,Mazama temama,17:42:22,0.73775463,17,42,0.7,17.7,Lluvia
+El Aguita,Mazama temama,17:42:30,0.737847222,17,42,0.7,17.7,Lluvia
+El Aguita,Mazama temama,17:42:54,0.738125,17,42,0.7,17.7,Lluvia
+El agua de Simon,Didelphis virginiana,17:44:23,0.739155093,17,44,0.733333333,17.73333333,Seca
+El Salto,Sylvilagus floridanus,17:44:31,0.739247685,17,44,0.733333333,17.73333333,Seca
+El Salto,Sylvilagus floridanus,17:44:46,0.739421296,17,44,0.733333333,17.73333333,Seca
+Agua Linda,Ursus americanus,17:44:47,0.73943287,17,44,0.733333333,17.73333333,Seca
+Valle Verde del Charco ,Eira barbara,17:45:08,0.739675926,17,45,0.75,17.75,Seca
+El Aguita,Mazama temama,17:47:00,0.740972222,17,47,0.783333333,17.78333333,Lluvia
+El Aguita,Mazama temama,17:48:28,0.741990741,17,48,0.8,17.8,Seca
+Joya Oscura 2,Mazama temama,17:51:15,0.743923611,17,51,0.85,17.85,Seca
+Esteban,Nasua narica,17:51:44,0.744259259,17,51,0.85,17.85,Seca
+El Tigre,Dicotyles tajacu,17:52:13,0.744594907,17,52,0.866666667,17.86666667,Seca
+El Aguita,Panthera onca,17:52:36,0.744861111,17,52,0.866666667,17.86666667,Seca
+El Salto,Didelphis virginiana,17:52:55,0.745081019,17,52,0.866666667,17.86666667,Seca
+Puerto de las Palomas,Ursus americanus,17:53:33,0.745520833,17,53,0.883333333,17.88333333,Lluvia
+Joya Oscura,Mazama temama,17:53:58,0.745810185,17,53,0.883333333,17.88333333,Lluvia
+Agua Linda,Mazama temama,17:55:06,0.746597222,17,55,0.916666667,17.91666667,Lluvia
+El Aguita,Mazama temama,17:55:32,0.746898148,17,55,0.916666667,17.91666667,Lluvia
+Agua Linda,Mazama temama,17:55:36,0.746944444,17,55,0.916666667,17.91666667,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,17:56:03,0.747256944,17,56,0.933333333,17.93333333,Seca
+El Aguita 2,Puma concolor,17:56:10,0.747337963,17,56,0.933333333,17.93333333,Seca
+Joya Oscura,Mazama temama,17:57:31,0.748275463,17,57,0.95,17.95,Lluvia
+Esteban,Nasua narica,17:57:38,0.748356481,17,57,0.95,17.95,Seca
+Las Dalias,Mazama temama,17:58:12,0.74875,17,58,0.966666667,17.96666667,Lluvia
+Esteban,Nasua narica,17:58:18,0.748819444,17,58,0.966666667,17.96666667,Seca
+Joya Oscura 2,Mazama temama,17:58:55,0.749247685,17,58,0.966666667,17.96666667,Seca
+El Tigre,Panthera onca,18:00:37,0.750428241,18,0,0,18,Seca
+El Salto,Sylvilagus floridanus,18:01:33,0.751076389,18,1,0.016666667,18.01666667,Seca
+El Tigre,Puma concolor,18:04:06,0.752847222,18,4,0.066666667,18.06666667,Seca
+El Tigre,Leopardus pardalis,18:04:20,0.753009259,18,4,0.066666667,18.06666667,Lluvia
+Agua Linda,Mazama temama,18:04:24,0.753055556,18,4,0.066666667,18.06666667,Seca
+El Tigre,Odocoileus virginianus,18:05:34,0.753865741,18,5,0.083333333,18.08333333,Lluvia
+Agua Linda,Mazama temama,18:05:48,0.754027778,18,5,0.083333333,18.08333333,Lluvia
+La Corneta,Ursus americanus,18:05:56,0.75412037,18,5,0.083333333,18.08333333,Seca
+Agua Linda,Mazama temama,18:06:10,0.754282407,18,6,0.1,18.1,Seca
+El Salto,Ursus americanus,18:08:20,0.755787037,18,8,0.133333333,18.13333333,Seca
+El Aguita,Puma concolor,18:08:38,0.75599537,18,8,0.133333333,18.13333333,Lluvia
+El Tigre,Leopardus pardalis,18:09:37,0.756678241,18,9,0.15,18.15,Seca
+Las Dalias,Mazama temama,18:09:40,0.756712963,18,9,0.15,18.15,Lluvia
+Puerto de las Palomas,Ursus americanus,18:10:25,0.757233796,18,10,0.166666667,18.16666667,Lluvia
+El Elefante,Mazama temama,18:11:04,0.757685185,18,11,0.183333333,18.18333333,Seca
+Casa de Piedra,Cuniculus paca,18:11:22,0.757893519,18,11,0.183333333,18.18333333,Lluvia
+El Salto,Sylvilagus floridanus,18:11:40,0.758101852,18,11,0.183333333,18.18333333,Seca
+Puerto de las Palomas,Ursus americanus,18:13:30,0.759375,18,13,0.216666667,18.21666667,Lluvia
+Puerto de las Palomas,Eira barbara,18:13:42,0.759513889,18,13,0.216666667,18.21666667,Seca
+Agua Linda,Sylvilagus floridanus,18:15:06,0.760486111,18,15,0.25,18.25,Lluvia
+El Salto,Didelphis virginiana,18:15:34,0.760810185,18,15,0.25,18.25,Seca
+Puerto de las Palomas,Eira barbara,18:16:20,0.761342593,18,16,0.266666667,18.26666667,Lluvia
+El Salto,Sylvilagus floridanus,18:16:56,0.761759259,18,16,0.266666667,18.26666667,Seca
+Puerto de las Palomas 2,Ursus americanus,18:17:27,0.762118056,18,17,0.283333333,18.28333333,Lluvia
+Agua Linda,Eira barbara,18:19:25,0.763483796,18,19,0.316666667,18.31666667,Lluvia
+El Tigre,Dasypus novemcinctus,18:20:02,0.763912037,18,20,0.333333333,18.33333333,Lluvia
+Joya Oscura,Ursus americanus,18:21:08,0.764675926,18,21,0.35,18.35,Seca
+Cañon del Diablo ,Mazama temama,18:22:03,0.7653125,18,22,0.366666667,18.36666667,Lluvia
+Las Dalias,Ursus americanus,18:23:10,0.766087963,18,23,0.383333333,18.38333333,Lluvia
+La Corneta,Conepatus leuconotus,18:24:14,0.766828704,18,24,0.4,18.4,Seca
+Las Fabricas,Panthera onca,18:24:16,0.766851852,18,24,0.4,18.4,Lluvia
+Cerro del Pilón,Puma concolor,18:24:18,0.766875,18,24,0.4,18.4,Seca
+Puerto de las Palomas,Mazama temama,18:25:57,0.768020833,18,25,0.416666667,18.41666667,Lluvia
+Puerto de las Palomas,Leopardus wiedii,18:26:06,0.768125,18,26,0.433333333,18.43333333,Seca
+Agua Linda,Mazama temama,18:26:18,0.768263889,18,26,0.433333333,18.43333333,Lluvia
+La Tableta,Urocyon cinereoargenteus,18:26:23,0.768321759,18,26,0.433333333,18.43333333,Lluvia
+Puerto de las Palomas,Eira barbara,18:27:23,0.769016204,18,27,0.45,18.45,Seca
+Agua Linda,Mazama temama,18:27:54,0.769375,18,27,0.45,18.45,Lluvia
+Agua Linda,Ursus americanus,18:28:48,0.77,18,28,0.466666667,18.46666667,Seca
+Agua Linda,Ursus americanus,18:30:53,0.771446759,18,30,0.5,18.5,Lluvia
+Las Dalias,Sylvilagus floridanus,18:31:54,0.772152778,18,31,0.516666667,18.51666667,Seca
+Joya Oscura 2,Ursus americanus,18:34:15,0.773784722,18,34,0.566666667,18.56666667,Lluvia
+El Aguita,Conepatus leuconotus,18:34:25,0.773900463,18,34,0.566666667,18.56666667,Seca
+Joya Oscura,Nasua narica,18:35:32,0.774675926,18,35,0.583333333,18.58333333,Seca
+Valle Verde del Charco ,Ursus americanus,18:35:37,0.774733796,18,35,0.583333333,18.58333333,Lluvia
+Esteban,Nasua narica,18:35:50,0.774884259,18,35,0.583333333,18.58333333,Seca
+El Salto,Mazama temama,18:36:13,0.775150463,18,36,0.6,18.6,Seca
+Agua Linda,Mazama temama,18:36:41,0.775474537,18,36,0.6,18.6,Lluvia
+La Tableta 2,Mazama temama,18:36:52,0.775601852,18,36,0.6,18.6,Seca
+Joya Oscura,Mazama temama,18:37:00,0.775694444,18,37,0.616666667,18.61666667,Lluvia
+Joya Oscura,Mazama temama,18:37:56,0.776342593,18,37,0.616666667,18.61666667,Lluvia
+Esteban,Nasua narica,18:37:57,0.776354167,18,37,0.616666667,18.61666667,Seca
+El Aguita 2,Nasua narica,18:38:15,0.7765625,18,38,0.633333333,18.63333333,Seca
+Casa de Piedra,Puma concolor,18:38:18,0.776597222,18,38,0.633333333,18.63333333,Lluvia
+El Elefante,Sylvilagus floridanus,18:38:25,0.776678241,18,38,0.633333333,18.63333333,Lluvia
+Casa de Piedra,Didelphis virginiana,18:38:31,0.776747685,18,38,0.633333333,18.63333333,Seca
+Agua Linda,Puma concolor,18:38:42,0.776875,18,38,0.633333333,18.63333333,Lluvia
+Puerto de las Palomas,Leopardus wiedii,18:40:02,0.777800926,18,40,0.666666667,18.66666667,Lluvia
+La Corneta,Ursus americanus,18:40:05,0.777835648,18,40,0.666666667,18.66666667,Seca
+Puerto de las Palomas,Ursus americanus,18:40:20,0.778009259,18,40,0.666666667,18.66666667,Lluvia
+El Aguita 2,Mazama temama,18:40:58,0.778449074,18,40,0.666666667,18.66666667,Lluvia
+El Aguita 2,Mazama temama,18:41:57,0.779131944,18,41,0.683333333,18.68333333,Lluvia
+Valle Verde del Charco ,Mazama temama,18:42:43,0.779664352,18,42,0.7,18.7,Lluvia
+El Aguita,Mazama temama,18:44:43,0.781053241,18,44,0.733333333,18.73333333,Lluvia
+El Aguita,Mazama temama,18:44:45,0.781076389,18,44,0.733333333,18.73333333,Seca
+Joya Oscura,Mazama temama,18:45:11,0.781377315,18,45,0.75,18.75,Lluvia
+Casa de Piedra,Mazama temama,18:45:30,0.781597222,18,45,0.75,18.75,Lluvia
+Agua Linda,Ursus americanus,18:46:39,0.782395833,18,46,0.766666667,18.76666667,Lluvia
+Puerto de las Palomas,Mazama temama,18:46:42,0.782430556,18,46,0.766666667,18.76666667,Seca
+Puerto de las Palomas,Sylvilagus floridanus,18:47:03,0.782673611,18,47,0.783333333,18.78333333,Seca
+El Aguita 2,Mazama temama,18:48:28,0.783657407,18,48,0.8,18.8,Seca
+La Corneta,Ursus americanus,18:48:55,0.783969907,18,48,0.8,18.8,Lluvia
+El Elefante,Ursus americanus,18:51:42,0.785902778,18,51,0.85,18.85,Lluvia
+Agua Linda,Mazama temama,18:51:55,0.786053241,18,51,0.85,18.85,Lluvia
+El Salto,Leopardus wiedii,18:52:12,0.78625,18,52,0.866666667,18.86666667,Seca
+Puerto de las Palomas 2,Puma concolor,18:53:15,0.786979167,18,53,0.883333333,18.88333333,Lluvia
+El Salto,Sylvilagus floridanus,18:54:08,0.787592593,18,54,0.9,18.9,Seca
+Casa de Piedra,Mazama temama,18:54:12,0.787638889,18,54,0.9,18.9,Lluvia
+La Tableta 2,Sylvilagus floridanus,18:54:21,0.787743056,18,54,0.9,18.9,Lluvia
+Las Dalias,Ursus americanus,18:54:40,0.787962963,18,54,0.9,18.9,Seca
+El agua de Simon,Ursus americanus,18:55:00,0.788194444,18,55,0.916666667,18.91666667,Seca
+El Aguita 2,Puma concolor,18:55:43,0.78869213,18,55,0.916666667,18.91666667,Seca
+Agua Linda,Mazama temama,18:56:17,0.789085648,18,56,0.933333333,18.93333333,Seca
+Agua Linda,Dasypus novemcinctus,18:56:26,0.789189815,18,56,0.933333333,18.93333333,Lluvia
+El Salto,Mazama temama,18:57:32,0.789953704,18,57,0.95,18.95,Seca
+Agua Linda,Sylvilagus floridanus,18:57:55,0.790219907,18,57,0.95,18.95,Seca
+Joya Oscura,Leopardus wiedii,18:58:25,0.79056713,18,58,0.966666667,18.96666667,Seca
+La Tableta 2,Mazama temama,18:58:42,0.790763889,18,58,0.966666667,18.96666667,Lluvia
+Joya Oscura,Nasua narica,19:00:39,0.792118056,19,0,0,19,Lluvia
+Esteban,Herpailurus yagouaroundi,19:02:04,0.793101852,19,2,0.033333333,19.03333333,Seca
+Joya Oscura,Urocyon cinereoargenteus,19:02:38,0.79349537,19,2,0.033333333,19.03333333,Seca
+El Salto,Mazama temama,19:03:20,0.793981481,19,3,0.05,19.05,Seca
+Las Dalias,Puma concolor,19:03:28,0.794074074,19,3,0.05,19.05,Seca
+El Salto,Mazama temama,19:03:55,0.794386574,19,3,0.05,19.05,Seca
+La Tableta 2,Mazama temama,19:05:17,0.795335648,19,5,0.083333333,19.08333333,Lluvia
+Joya Oscura,Panthera onca,19:05:20,0.79537037,19,5,0.083333333,19.08333333,Lluvia
+Agua Linda,Dasypus novemcinctus,19:05:26,0.795439815,19,5,0.083333333,19.08333333,Lluvia
+La Tableta 2,Sylvilagus floridanus,19:06:06,0.795902778,19,6,0.1,19.1,Seca
+Puerto de las Palomas,Conepatus leuconotus,19:06:30,0.796180556,19,6,0.1,19.1,Seca
+El Salto,Sylvilagus floridanus,19:06:48,0.796388889,19,6,0.1,19.1,Seca
+El Salto,Sylvilagus floridanus,19:06:49,0.796400463,19,6,0.1,19.1,Seca
+El Salto,Didelphis virginiana,19:07:09,0.796631944,19,7,0.116666667,19.11666667,Seca
+La Corneta,Mazama temama,19:07:53,0.797141204,19,7,0.116666667,19.11666667,Seca
+La Corneta,Mazama temama,19:07:57,0.7971875,19,7,0.116666667,19.11666667,Lluvia
+Agua Linda,Mazama temama,19:08:27,0.797534722,19,8,0.133333333,19.13333333,Lluvia
+El Aguita 2,Leopardus wiedii,19:09:31,0.798275463,19,9,0.15,19.15,Seca
+Agua Linda,Ursus americanus,19:09:36,0.798333333,19,9,0.15,19.15,Lluvia
+La Tableta,Sylvilagus floridanus,19:12:51,0.800590278,19,12,0.2,19.2,Seca
+Puerto de las Palomas,Mazama temama,19:13:47,0.801238426,19,13,0.216666667,19.21666667,Lluvia
+Puerto de las Palomas,Puma concolor,19:13:53,0.80130787,19,13,0.216666667,19.21666667,Lluvia
+Las Dalias,Urocyon cinereoargenteus,19:13:54,0.801319444,19,13,0.216666667,19.21666667,Seca
+Las Dalias,Mazama temama,19:15:00,0.802083333,19,15,0.25,19.25,Lluvia
+La Corneta,Mazama temama,19:15:13,0.802233796,19,15,0.25,19.25,Lluvia
+Agua Linda,Ursus americanus,19:15:16,0.802268519,19,15,0.25,19.25,Seca
+Puerto de las Palomas,Ursus americanus,19:15:55,0.802719907,19,15,0.25,19.25,Seca
+Agua Linda,Mazama temama,19:15:58,0.80275463,19,15,0.25,19.25,Seca
+Valle Verde del Charco ,Mazama temama,19:17:32,0.803842593,19,17,0.283333333,19.28333333,Lluvia
+El Aguita 2,Mazama temama,19:17:55,0.804108796,19,17,0.283333333,19.28333333,Seca
+Puerto de las Palomas,Mazama temama,19:17:58,0.804143519,19,17,0.283333333,19.28333333,Seca
+La Corneta,Mazama temama,19:18:07,0.804247685,19,18,0.3,19.3,Seca
+Casa de Piedra,Ursus americanus,19:18:58,0.804837963,19,18,0.3,19.3,Lluvia
+El Infiernillo,Ursus americanus,19:19:00,0.804861111,19,19,0.316666667,19.31666667,Lluvia
+Las Dalias,Ursus americanus,19:19:11,0.804988426,19,19,0.316666667,19.31666667,Lluvia
+El Salto,Puma concolor,19:19:11,0.804988426,19,19,0.316666667,19.31666667,Lluvia
+La Tableta 2,Sylvilagus floridanus,19:19:19,0.805081019,19,19,0.316666667,19.31666667,Seca
+Casa de Piedra,Didelphis virginiana,19:19:19,0.805081019,19,19,0.316666667,19.31666667,Seca
+Cueva de Don Amador,Eira barbara,19:19:24,0.805138889,19,19,0.316666667,19.31666667,Lluvia
+El Aguita 2,Mazama temama,19:20:29,0.805891204,19,20,0.333333333,19.33333333,Lluvia
+La Tableta 2,Sylvilagus floridanus,19:20:51,0.806145833,19,20,0.333333333,19.33333333,Lluvia
+El Tigre,Panthera onca,19:20:51,0.806145833,19,20,0.333333333,19.33333333,Lluvia
+El Salto,Didelphis virginiana,19:20:56,0.806203704,19,20,0.333333333,19.33333333,Seca
+La Tableta 2,Sylvilagus floridanus,19:21:19,0.806469907,19,21,0.35,19.35,Seca
+La Corneta,Ursus americanus,19:21:34,0.806643519,19,21,0.35,19.35,Lluvia
+El Salto,Didelphis virginiana,19:23:22,0.807893519,19,23,0.383333333,19.38333333,Seca
+La Tableta 2,Sylvilagus floridanus,19:23:29,0.807974537,19,23,0.383333333,19.38333333,Lluvia
+Cañon del Diablo ,Mazama temama,19:23:29,0.807974537,19,23,0.383333333,19.38333333,Lluvia
+La Perra,Ursus americanus,19:25:41,0.809502315,19,25,0.416666667,19.41666667,Seca
+El Aguita 2,Ursus americanus,19:25:47,0.809571759,19,25,0.416666667,19.41666667,Seca
+El Elefante,Sylvilagus floridanus,19:26:14,0.809884259,19,26,0.433333333,19.43333333,Seca
+Las Dalias,Mazama temama,19:26:18,0.809930556,19,26,0.433333333,19.43333333,Lluvia
+Joya Oscura,Mazama temama,19:27:31,0.810775463,19,27,0.45,19.45,Lluvia
+El Aguita 2,Mazama temama,19:27:39,0.810868056,19,27,0.45,19.45,Seca
+Joya Oscura 2,Mazama temama,19:27:47,0.810960648,19,27,0.45,19.45,Seca
+Esteban,Puma concolor,19:28:15,0.811284722,19,28,0.466666667,19.46666667,Seca
+El Salto,Didelphis virginiana,19:28:31,0.811469907,19,28,0.466666667,19.46666667,Lluvia
+Agua Linda,Sylvilagus floridanus,19:31:42,0.813680556,19,31,0.516666667,19.51666667,Lluvia
+Joya Oscura,Nasua narica,19:32:54,0.814513889,19,32,0.533333333,19.53333333,Lluvia
+El Aguita 2,Mazama temama,19:33:20,0.814814815,19,33,0.55,19.55,Seca
+El Tigre,Urocyon cinereoargenteus,19:33:36,0.815,19,33,0.55,19.55,Seca
+El Aguita,Leopardus pardalis,19:34:44,0.815787037,19,34,0.566666667,19.56666667,Seca
+Joya Oscura,Nasua narica,19:34:52,0.81587963,19,34,0.566666667,19.56666667,Lluvia
+La Tableta,Mazama temama,19:35:09,0.816076389,19,35,0.583333333,19.58333333,Lluvia
+Agua Linda,Mazama temama,19:35:59,0.816655093,19,35,0.583333333,19.58333333,Lluvia
+La Tableta 2,Sylvilagus floridanus,19:36:03,0.816701389,19,36,0.6,19.6,Seca
+Valle Verde del Charco ,Mazama temama,19:36:52,0.817268519,19,36,0.6,19.6,Lluvia
+La Tableta,Mazama temama,19:37:09,0.817465278,19,37,0.616666667,19.61666667,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,19:37:38,0.817800926,19,37,0.616666667,19.61666667,Seca
+Las Dalias,Puma concolor,19:37:39,0.8178125,19,37,0.616666667,19.61666667,Lluvia
+El Salto,Didelphis virginiana,19:38:11,0.81818287,19,38,0.633333333,19.63333333,Seca
+El Salto,Sylvilagus floridanus,19:38:32,0.818425926,19,38,0.633333333,19.63333333,Lluvia
+La Tableta 2,Sylvilagus floridanus,19:38:53,0.818668981,19,38,0.633333333,19.63333333,Seca
+La Corneta,Leopardus wiedii,19:40:31,0.819803241,19,40,0.666666667,19.66666667,Seca
+Agua Linda,Sylvilagus floridanus,19:41:07,0.820219907,19,41,0.683333333,19.68333333,Lluvia
+El agua de Simon,Ursus americanus,19:41:25,0.820428241,19,41,0.683333333,19.68333333,Lluvia
+La Tableta 2,Sylvilagus floridanus,19:42:34,0.821226852,19,42,0.7,19.7,Seca
+Agua Linda,Sylvilagus floridanus,19:42:56,0.821481481,19,42,0.7,19.7,Seca
+El Aguita,Leopardus wiedii,19:43:35,0.82193287,19,43,0.716666667,19.71666667,Seca
+La Tableta 2,Sylvilagus floridanus,19:43:38,0.821967593,19,43,0.716666667,19.71666667,Seca
+Agua Linda,Sylvilagus floridanus,19:43:49,0.822094907,19,43,0.716666667,19.71666667,Seca
+Puerto de las Palomas,Ursus americanus,19:44:12,0.822361111,19,44,0.733333333,19.73333333,Seca
+Las Dalias,Ursus americanus,19:44:40,0.822685185,19,44,0.733333333,19.73333333,Lluvia
+Agua Linda,Sylvilagus floridanus,19:46:36,0.824027778,19,46,0.766666667,19.76666667,Seca
+Casa de Piedra,Mazama temama,19:47:00,0.824305556,19,47,0.783333333,19.78333333,Lluvia
+Cerro del Pilón,Sylvilagus floridanus,19:47:13,0.824456019,19,47,0.783333333,19.78333333,Seca
+Joya Oscura 2,Ursus americanus,19:47:14,0.824467593,19,47,0.783333333,19.78333333,Seca
+Agua Linda,Ursus americanus,19:48:24,0.825277778,19,48,0.8,19.8,Lluvia
+Cerro del Pilón,Ursus americanus,19:48:57,0.825659722,19,48,0.8,19.8,Seca
+Puerto de las Palomas 2,Ursus americanus,19:49:22,0.825949074,19,49,0.816666667,19.81666667,Seca
+La Corneta,Mazama temama,19:49:39,0.826145833,19,49,0.816666667,19.81666667,Seca
+Valle Verde del Charco ,Ursus americanus,19:49:44,0.826203704,19,49,0.816666667,19.81666667,Lluvia
+El Salto,Didelphis virginiana,19:50:29,0.826724537,19,50,0.833333333,19.83333333,Seca
+Valle Verde del Charco ,Mazama temama,19:51:26,0.827384259,19,51,0.85,19.85,Lluvia
+La Corneta,Didelphis virginiana,19:51:41,0.82755787,19,51,0.85,19.85,Seca
+Agua Linda,Sylvilagus floridanus,19:52:01,0.827789352,19,52,0.866666667,19.86666667,Lluvia
+Joya Oscura 2,Mazama temama,19:52:13,0.827928241,19,52,0.866666667,19.86666667,Seca
+El agua de Simon,Ursus americanus,19:52:50,0.828356481,19,52,0.866666667,19.86666667,Seca
+El Salto,Conepatus leuconotus,19:53:15,0.828645833,19,53,0.883333333,19.88333333,Seca
+Agua Linda,Sylvilagus floridanus,19:53:41,0.828946759,19,53,0.883333333,19.88333333,Seca
+El agua de Simon,Ursus americanus,19:54:19,0.829386574,19,54,0.9,19.9,Seca
+Agua Linda,Mazama temama,19:54:50,0.82974537,19,54,0.9,19.9,Seca
+Agua Linda,Sylvilagus floridanus,19:54:58,0.829837963,19,54,0.9,19.9,Seca
+El Tigre,Odocoileus virginianus,19:55:13,0.830011574,19,55,0.916666667,19.91666667,Lluvia
+El Tigre,Odocoileus virginianus,19:55:13,0.830011574,19,55,0.916666667,19.91666667,Lluvia
+Agua Linda,Sylvilagus floridanus,19:55:32,0.830231481,19,55,0.916666667,19.91666667,Seca
+Puerto de las Palomas,Sylvilagus floridanus,19:55:49,0.830428241,19,55,0.916666667,19.91666667,Lluvia
+Puerto de las Palomas,Ursus americanus,19:55:55,0.830497685,19,55,0.916666667,19.91666667,Lluvia
+El Aguita 2,Leopardus wiedii,19:56:21,0.830798611,19,56,0.933333333,19.93333333,Seca
+El Aguita 2,Mazama temama,19:56:45,0.831076389,19,56,0.933333333,19.93333333,Seca
+Las Dalias,Ursus americanus,19:57:49,0.83181713,19,57,0.95,19.95,Lluvia
+Joya Oscura,Didelphis virginiana,19:58:24,0.832222222,19,58,0.966666667,19.96666667,Seca
+Casa de Piedra,Mazama temama,19:59:16,0.832824074,19,59,0.983333333,19.98333333,Seca
+Cerro del Pilón,Ursus americanus,19:59:36,0.833055556,19,59,0.983333333,19.98333333,Seca
+El Salto,Mazama temama,20:00:01,0.833344907,20,0,0,20,Seca
+Casa de Piedra,Mazama temama,20:00:18,0.833541667,20,0,0,20,Lluvia
+Valle Verde del Charco ,Ursus americanus,20:00:47,0.833877315,20,0,0,20,Lluvia
+Joya Oscura 2,Leopardus wiedii,20:01:26,0.834328704,20,1,0.016666667,20.01666667,Lluvia
+Joya Oscura,Didelphis virginiana,20:02:21,0.834965278,20,2,0.033333333,20.03333333,Seca
+Casa de Piedra,Didelphis virginiana,20:03:16,0.835601852,20,3,0.05,20.05,Seca
+Puerto de las Palomas,Ursus americanus,20:03:22,0.835671296,20,3,0.05,20.05,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,20:03:23,0.83568287,20,3,0.05,20.05,Lluvia
+Puerto de las Palomas,Didelphis virginiana,20:03:23,0.83568287,20,3,0.05,20.05,Seca
+El Tigre,Leopardus pardalis,20:03:26,0.835717593,20,3,0.05,20.05,Seca
+Puerto de las Palomas,Sylvilagus floridanus,20:04:02,0.836134259,20,4,0.066666667,20.06666667,Seca
+Puerto de las Palomas,Eira barbara,20:04:02,0.836134259,20,4,0.066666667,20.06666667,Lluvia
+El Salto,Didelphis virginiana,20:05:08,0.836898148,20,5,0.083333333,20.08333333,Seca
+Valle Verde del Charco ,Didelphis virginiana,20:05:33,0.8371875,20,5,0.083333333,20.08333333,Seca
+Casa de Piedra,Mazama temama,20:06:06,0.837569444,20,6,0.1,20.1,Lluvia
+Las Dalias,Sylvilagus floridanus,20:06:42,0.837986111,20,6,0.1,20.1,Lluvia
+Joya Oscura,Leopardus wiedii,20:06:46,0.838032407,20,6,0.1,20.1,Seca
+Agua Linda,Sylvilagus floridanus,20:07:14,0.838356481,20,7,0.116666667,20.11666667,Seca
+Agua Linda,Mazama temama,20:07:22,0.838449074,20,7,0.116666667,20.11666667,Seca
+El Aguita,Mazama temama,20:07:28,0.838518519,20,7,0.116666667,20.11666667,Seca
+El Salto,Sylvilagus floridanus,20:07:42,0.838680556,20,7,0.116666667,20.11666667,Seca
+La Perra,Urocyon cinereoargenteus,20:08:00,0.838888889,20,8,0.133333333,20.13333333,Seca
+Joya Oscura 2,Ursus americanus,20:08:49,0.839456019,20,8,0.133333333,20.13333333,Seca
+El Aguita,Leopardus wiedii,20:08:54,0.839513889,20,8,0.133333333,20.13333333,Lluvia
+Casa de Piedra,Didelphis virginiana,20:09:51,0.840173611,20,9,0.15,20.15,Lluvia
+La Tableta 2,Sylvilagus floridanus,20:10:00,0.840277778,20,10,0.166666667,20.16666667,Seca
+Puerto de las Palomas,Sylvilagus floridanus,20:10:40,0.840740741,20,10,0.166666667,20.16666667,Seca
+La Corneta,Leopardus wiedii,20:10:47,0.840821759,20,10,0.166666667,20.16666667,Seca
+Puerto de las Palomas,Sylvilagus floridanus,20:10:48,0.840833333,20,10,0.166666667,20.16666667,Seca
+El Salto,Didelphis virginiana,20:10:51,0.840868056,20,10,0.166666667,20.16666667,Seca
+El Salto,Sylvilagus floridanus,20:11:07,0.841053241,20,11,0.183333333,20.18333333,Seca
+Puerto de las Palomas,Ursus americanus,20:12:05,0.841724537,20,12,0.2,20.2,Lluvia
+Las Dalias,Ursus americanus,20:12:08,0.841759259,20,12,0.2,20.2,Lluvia
+La Tableta 2,Sylvilagus floridanus,20:12:33,0.842048611,20,12,0.2,20.2,Seca
+Agua Linda,Sylvilagus floridanus,20:12:41,0.842141204,20,12,0.2,20.2,Seca
+Agua Linda,Sylvilagus floridanus,20:13:30,0.842708333,20,13,0.216666667,20.21666667,Seca
+Joya Oscura 2,Leopardus wiedii,20:13:57,0.843020833,20,13,0.216666667,20.21666667,Lluvia
+Joya Oscura 2,Urocyon cinereoargenteus,20:14:07,0.843136574,20,14,0.233333333,20.23333333,Lluvia
+Las Dalias,Puma concolor,20:14:23,0.843321759,20,14,0.233333333,20.23333333,Lluvia
+Agua Linda,Sylvilagus floridanus,20:14:25,0.843344907,20,14,0.233333333,20.23333333,Seca
+Las Dalias,Puma concolor,20:14:38,0.84349537,20,14,0.233333333,20.23333333,Lluvia
+Agua Linda,Sylvilagus floridanus,20:14:43,0.843553241,20,14,0.233333333,20.23333333,Seca
+Agua Linda,Panthera onca,20:15:07,0.843831019,20,15,0.25,20.25,Lluvia
+Joya Oscura,Nasua narica,20:15:22,0.84400463,20,15,0.25,20.25,Seca
+Agua Linda,Sylvilagus floridanus,20:15:31,0.844108796,20,15,0.25,20.25,Lluvia
+Agua Linda,Mazama temama,20:15:37,0.844178241,20,15,0.25,20.25,Seca
+Las Dalias,Sylvilagus floridanus,20:15:39,0.844201389,20,15,0.25,20.25,Seca
+Agua Linda,Sylvilagus floridanus,20:16:09,0.844548611,20,16,0.266666667,20.26666667,Seca
+Puerto de las Palomas 2,Mazama temama,20:16:25,0.844733796,20,16,0.266666667,20.26666667,Lluvia
+La Tableta 2,Sylvilagus floridanus,20:17:06,0.845208333,20,17,0.283333333,20.28333333,Seca
+El Aguita,Mazama temama,20:17:12,0.845277778,20,17,0.283333333,20.28333333,Seca
+La Tableta 2,Sylvilagus floridanus,20:18:49,0.846400463,20,18,0.3,20.3,Lluvia
+Casa de Piedra,Didelphis virginiana,20:19:05,0.846585648,20,19,0.316666667,20.31666667,Lluvia
+Esteban,Nasua narica,20:19:07,0.846608796,20,19,0.316666667,20.31666667,Seca
+Esteban,Nasua narica,20:19:07,0.846608796,20,19,0.316666667,20.31666667,Seca
+Esteban,Nasua narica,20:19:07,0.846608796,20,19,0.316666667,20.31666667,Seca
+La Tableta 2,Sylvilagus floridanus,20:20:16,0.847407407,20,20,0.333333333,20.33333333,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,20:20:32,0.847592593,20,20,0.333333333,20.33333333,Lluvia
+Joya Oscura,Leopardus wiedii,20:20:52,0.847824074,20,20,0.333333333,20.33333333,Lluvia
+El Aguita,Urocyon cinereoargenteus,20:21:20,0.848148148,20,21,0.35,20.35,Lluvia
+Agua Linda,Sylvilagus floridanus,20:22:32,0.848981481,20,22,0.366666667,20.36666667,Lluvia
+El Aguita 2,Leopardus wiedii,20:22:46,0.849143519,20,22,0.366666667,20.36666667,Lluvia
+El Aguita 2,Didelphis virginiana,20:23:34,0.849699074,20,23,0.383333333,20.38333333,Lluvia
+Joya Oscura 2,Leopardus wiedii,20:23:40,0.849768519,20,23,0.383333333,20.38333333,Lluvia
+El Aguita 2,Mazama temama,20:23:54,0.849930556,20,23,0.383333333,20.38333333,Seca
+Casa de Piedra,Conepatus leuconotus,20:23:57,0.849965278,20,23,0.383333333,20.38333333,Seca
+Casa de Piedra,Didelphis virginiana,20:24:24,0.850277778,20,24,0.4,20.4,Seca
+Puerto de las Palomas 2,Sylvilagus floridanus,20:24:25,0.850289352,20,24,0.4,20.4,Seca
+Agua Linda,Sylvilagus floridanus,20:24:40,0.850462963,20,24,0.4,20.4,Lluvia
+Puerto de las Palomas,Ursus americanus,20:24:46,0.850532407,20,24,0.4,20.4,Lluvia
+El Aguita 2,Mazama temama,20:24:57,0.850659722,20,24,0.4,20.4,Lluvia
+Esteban,Mazama temama,20:25:03,0.850729167,20,25,0.416666667,20.41666667,Lluvia
+Agua Linda,Leopardus wiedii,20:25:54,0.851319444,20,25,0.416666667,20.41666667,Seca
+Puerto de las Palomas,Puma concolor,20:26:27,0.851701389,20,26,0.433333333,20.43333333,Seca
+Cerro del Pilón,Mazama temama,20:28:36,0.853194444,20,28,0.466666667,20.46666667,Lluvia
+Casa de Piedra,Didelphis virginiana,20:29:14,0.853634259,20,29,0.483333333,20.48333333,Seca
+El Salto,Sylvilagus floridanus,20:29:40,0.853935185,20,29,0.483333333,20.48333333,Seca
+Agua Linda,Sylvilagus floridanus,20:29:44,0.853981481,20,29,0.483333333,20.48333333,Seca
+La Tableta,Leopardus pardalis,20:30:12,0.854305556,20,30,0.5,20.5,Lluvia
+La Tableta 2,Didelphis virginiana,20:30:47,0.854710648,20,30,0.5,20.5,Seca
+Las Fabricas,Conepatus leuconotus,20:31:01,0.854872685,20,31,0.516666667,20.51666667,Lluvia
+El Aguita 2,Didelphis virginiana,20:31:19,0.855081019,20,31,0.516666667,20.51666667,Lluvia
+El Aguita 2,Mazama temama,20:32:02,0.855578704,20,32,0.533333333,20.53333333,Lluvia
+Agua Linda,Sylvilagus floridanus,20:32:24,0.855833333,20,32,0.533333333,20.53333333,Lluvia
+La Corneta,Ursus americanus,20:33:04,0.856296296,20,33,0.55,20.55,Seca
+Joya Oscura,Leopardus wiedii,20:33:05,0.85630787,20,33,0.55,20.55,Seca
+Joya Oscura,Mazama temama,20:33:11,0.856377315,20,33,0.55,20.55,Lluvia
+La Corneta,Ursus americanus,20:33:22,0.85650463,20,33,0.55,20.55,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,20:33:25,0.856539352,20,33,0.55,20.55,Lluvia
+Casa de Piedra,Ursus americanus,20:33:48,0.856805556,20,33,0.55,20.55,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,20:34:15,0.857118056,20,34,0.566666667,20.56666667,Lluvia
+Agua Linda,Sylvilagus floridanus,20:34:41,0.857418981,20,34,0.566666667,20.56666667,Seca
+Agua Linda,Sylvilagus floridanus,20:35:01,0.857650463,20,35,0.583333333,20.58333333,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,20:35:10,0.85775463,20,35,0.583333333,20.58333333,Lluvia
+El agua de Simon,Didelphis virginiana,20:35:34,0.858032407,20,35,0.583333333,20.58333333,Lluvia
+La Tableta,Sylvilagus floridanus,20:35:38,0.858078704,20,35,0.583333333,20.58333333,Lluvia
+La Tableta 2,Sylvilagus floridanus,20:35:38,0.858078704,20,35,0.583333333,20.58333333,Lluvia
+El Aguita 2,Didelphis virginiana,20:37:15,0.859201389,20,37,0.616666667,20.61666667,Seca
+Puerto de las Palomas,Eira barbara,20:37:30,0.859375,20,37,0.616666667,20.61666667,Seca
+La Perra,Urocyon cinereoargenteus,20:37:40,0.859490741,20,37,0.616666667,20.61666667,Lluvia
+La Corneta,Leopardus wiedii,20:38:01,0.859733796,20,38,0.633333333,20.63333333,Seca
+Puerto de las Palomas 2,Sylvilagus floridanus,20:38:58,0.860393519,20,38,0.633333333,20.63333333,Lluvia
+El agua de Simon,Didelphis virginiana,20:39:08,0.860509259,20,39,0.65,20.65,Lluvia
+La Tableta,Didelphis virginiana,20:41:04,0.861851852,20,41,0.683333333,20.68333333,Lluvia
+La Corneta,Sylvilagus floridanus,20:41:25,0.862094907,20,41,0.683333333,20.68333333,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,20:42:24,0.862777778,20,42,0.7,20.7,Lluvia
+Agua Linda,Conepatus leuconotus,20:42:51,0.863090278,20,42,0.7,20.7,Lluvia
+El Elefante,Sylvilagus floridanus,20:43:32,0.863564815,20,43,0.716666667,20.71666667,Lluvia
+La Tableta 2,Urocyon cinereoargenteus,20:44:05,0.863946759,20,44,0.733333333,20.73333333,Seca
+Puerto de las Palomas 2,Sylvilagus floridanus,20:44:08,0.863981481,20,44,0.733333333,20.73333333,Seca
+El Salto,Didelphis virginiana,20:45:32,0.864953704,20,45,0.75,20.75,Seca
+Casa de Piedra,Didelphis virginiana,20:46:05,0.865335648,20,46,0.766666667,20.76666667,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,20:46:09,0.865381944,20,46,0.766666667,20.76666667,Seca
+La Tableta,Sylvilagus floridanus,20:46:22,0.865532407,20,46,0.766666667,20.76666667,Lluvia
+Agua Linda,Sylvilagus floridanus,20:46:24,0.865555556,20,46,0.766666667,20.76666667,Lluvia
+Agua Linda,Sylvilagus floridanus,20:47:08,0.866064815,20,47,0.783333333,20.78333333,Lluvia
+Casa de Piedra,Mazama temama,20:47:42,0.866458333,20,47,0.783333333,20.78333333,Lluvia
+Las Dalias,Ursus americanus,20:48:20,0.866898148,20,48,0.8,20.8,Lluvia
+Joya Oscura,Puma concolor,20:49:05,0.867418981,20,49,0.816666667,20.81666667,Lluvia
+La Perra,Urocyon cinereoargenteus,20:49:10,0.867476852,20,49,0.816666667,20.81666667,Seca
+Las Fabricas,Ursus americanus,20:49:11,0.867488426,20,49,0.816666667,20.81666667,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,20:49:16,0.867546296,20,49,0.816666667,20.81666667,Lluvia
+Las Dalias,Sylvilagus floridanus,20:50:10,0.868171296,20,50,0.833333333,20.83333333,Seca
+Agua Linda,Sylvilagus floridanus,20:50:17,0.868252315,20,50,0.833333333,20.83333333,Lluvia
+Joya Oscura,Panthera onca,20:50:26,0.868356481,20,50,0.833333333,20.83333333,Seca
+El Salto,Panthera onca,20:50:26,0.868356481,20,50,0.833333333,20.83333333,Seca
+Valle Verde del Charco ,Didelphis virginiana,20:50:48,0.868611111,20,50,0.833333333,20.83333333,Seca
+La Tableta,Sylvilagus floridanus,20:50:53,0.868668981,20,50,0.833333333,20.83333333,Lluvia
+La Corneta,Didelphis virginiana,20:51:01,0.868761574,20,51,0.85,20.85,Seca
+Joya Oscura,Panthera onca,20:51:04,0.868796296,20,51,0.85,20.85,Seca
+La Corneta,Didelphis virginiana,20:51:10,0.868865741,20,51,0.85,20.85,Seca
+Agua Linda,Sylvilagus floridanus,20:51:29,0.869085648,20,51,0.85,20.85,Lluvia
+Cerro del Pilón,Mazama temama,20:51:51,0.869340278,20,51,0.85,20.85,Lluvia
+Agua Linda,Sylvilagus floridanus,20:52:20,0.869675926,20,52,0.866666667,20.86666667,Lluvia
+Casa de Piedra,Didelphis virginiana,20:52:55,0.870081019,20,52,0.866666667,20.86666667,Seca
+El Elefante,Didelphis virginiana,20:53:07,0.870219907,20,53,0.883333333,20.88333333,Lluvia
+Agua Linda,Mazama temama,20:53:34,0.870532407,20,53,0.883333333,20.88333333,Lluvia
+El Aguita,Leopardus pardalis,20:53:42,0.870625,20,53,0.883333333,20.88333333,Seca
+Puerto de las Palomas,Conepatus leuconotus,20:54:06,0.870902778,20,54,0.9,20.9,Seca
+La Perra,Leopardus pardalis,20:54:29,0.871168981,20,54,0.9,20.9,Lluvia
+Joya Oscura,Leopardus wiedii,20:55:41,0.872002315,20,55,0.916666667,20.91666667,Seca
+El Salto,Leopardus wiedii,20:55:41,0.872002315,20,55,0.916666667,20.91666667,Seca
+El agua de Simon,Eira barbara,20:56:00,0.872222222,20,56,0.933333333,20.93333333,Lluvia
+El Elefante,Sylvilagus floridanus,20:56:11,0.872349537,20,56,0.933333333,20.93333333,Lluvia
+Casa de Piedra,Didelphis virginiana,20:56:35,0.872627315,20,56,0.933333333,20.93333333,Seca
+Joya Oscura,Mazama temama,20:57:00,0.872916667,20,57,0.95,20.95,Lluvia
+Agua Linda,Sylvilagus floridanus,20:57:56,0.873564815,20,57,0.95,20.95,Seca
+El Salto,Sylvilagus floridanus,20:57:57,0.873576389,20,57,0.95,20.95,Seca
+Cueva de Don Amador,Panthera onca,20:58:10,0.873726852,20,58,0.966666667,20.96666667,Lluvia
+Casa de Piedra,Didelphis virginiana,20:58:13,0.873761574,20,58,0.966666667,20.96666667,Lluvia
+Agua Linda,Sylvilagus floridanus,20:58:18,0.873819444,20,58,0.966666667,20.96666667,Lluvia
+El Salto,Mazama temama,20:59:21,0.874548611,20,59,0.983333333,20.98333333,Seca
+Joya Oscura,Didelphis virginiana,20:59:25,0.874594907,20,59,0.983333333,20.98333333,Lluvia
+La Tableta 2,Sylvilagus floridanus,20:59:28,0.87462963,20,59,0.983333333,20.98333333,Seca
+La Tableta 2,Didelphis virginiana,20:59:35,0.874710648,20,59,0.983333333,20.98333333,Lluvia
+Puerto de las Palomas 2,Sylvilagus floridanus,20:59:41,0.874780093,20,59,0.983333333,20.98333333,Lluvia
+Puerto de las Palomas 2,Sylvilagus floridanus,20:59:44,0.874814815,20,59,0.983333333,20.98333333,Lluvia
+Agua Linda,Sylvilagus floridanus,21:00:09,0.875104167,21,0,0,21,Lluvia
+La Perra,Urocyon cinereoargenteus,21:01:11,0.875821759,21,1,0.016666667,21.01666667,Seca
+El Salto,Didelphis virginiana,21:01:21,0.8759375,21,1,0.016666667,21.01666667,Lluvia
+Agua Linda,Sylvilagus floridanus,21:01:28,0.876018519,21,1,0.016666667,21.01666667,Lluvia
+El Salto,Leopardus wiedii,21:01:37,0.876122685,21,1,0.016666667,21.01666667,Lluvia
+El Salto,Didelphis virginiana,21:02:09,0.876493056,21,2,0.033333333,21.03333333,Lluvia
+Agua Linda,Sylvilagus floridanus,21:02:13,0.876539352,21,2,0.033333333,21.03333333,Lluvia
+El Aguita,Urocyon cinereoargenteus,21:02:31,0.876747685,21,2,0.033333333,21.03333333,Lluvia
+La Perra,Urocyon cinereoargenteus,21:02:39,0.876840278,21,2,0.033333333,21.03333333,Lluvia
+Joya Oscura 2,Leopardus wiedii,21:03:06,0.877152778,21,3,0.05,21.05,Seca
+La Corneta,Leopardus wiedii,21:03:24,0.877361111,21,3,0.05,21.05,Lluvia
+El Aguita,Leopardus wiedii,21:04:09,0.877881944,21,4,0.066666667,21.06666667,Lluvia
+Agua Linda,Mazama temama,21:04:22,0.878032407,21,4,0.066666667,21.06666667,Seca
+La Tableta 2,Mazama temama,21:04:30,0.878125,21,4,0.066666667,21.06666667,Seca
+Puerto de las Palomas,Conepatus leuconotus,21:04:53,0.878391204,21,4,0.066666667,21.06666667,Seca
+El Aguita,Urocyon cinereoargenteus,21:06:05,0.879224537,21,6,0.1,21.1,Lluvia
+Agua Linda,Sylvilagus floridanus,21:06:08,0.879259259,21,6,0.1,21.1,Seca
+Puerto de las Palomas,Mazama temama,21:06:15,0.879340278,21,6,0.1,21.1,Lluvia
+El Aguita,Panthera onca,21:06:42,0.879652778,21,6,0.1,21.1,Lluvia
+Puerto de las Palomas,Didelphis virginiana,21:07:02,0.879884259,21,7,0.116666667,21.11666667,Seca
+Las Fabricas,Puma concolor,21:07:38,0.880300926,21,7,0.116666667,21.11666667,Lluvia
+Valle Verde del Charco ,Didelphis virginiana,21:07:39,0.8803125,21,7,0.116666667,21.11666667,Seca
+La Tableta,Leopardus pardalis,21:08:06,0.880625,21,8,0.133333333,21.13333333,Lluvia
+El Salto,Mazama temama,21:08:24,0.880833333,21,8,0.133333333,21.13333333,Lluvia
+Las Dalias,Sylvilagus floridanus,21:08:35,0.880960648,21,8,0.133333333,21.13333333,Seca
+Valle Verde del Charco ,Mazama temama,21:08:49,0.881122685,21,8,0.133333333,21.13333333,Seca
+El Aguita,Didelphis virginiana,21:08:55,0.88119213,21,8,0.133333333,21.13333333,Lluvia
+La Corneta,Leopardus wiedii,21:09:01,0.881261574,21,9,0.15,21.15,Lluvia
+Joya Oscura,Leopardus wiedii,21:09:12,0.881388889,21,9,0.15,21.15,Lluvia
+Puerto de las Palomas,Leopardus wiedii,21:09:40,0.881712963,21,9,0.15,21.15,Lluvia
+Valle Verde del Charco ,Leopardus wiedii,21:09:50,0.881828704,21,9,0.15,21.15,Lluvia
+El Salto,Didelphis virginiana,21:09:57,0.881909722,21,9,0.15,21.15,Lluvia
+El Elefante,Sylvilagus floridanus,21:10:48,0.8825,21,10,0.166666667,21.16666667,Seca
+La Corneta,Didelphis virginiana,21:11:05,0.882696759,21,11,0.183333333,21.18333333,Lluvia
+Agua Linda,Sylvilagus floridanus,21:11:51,0.883229167,21,11,0.183333333,21.18333333,Seca
+Agua Linda,Didelphis virginiana,21:11:56,0.883287037,21,11,0.183333333,21.18333333,Lluvia
+Agua Linda,Mazama temama,21:12:08,0.883425926,21,12,0.2,21.2,Lluvia
+La Corneta,Didelphis virginiana,21:13:13,0.884178241,21,13,0.216666667,21.21666667,Lluvia
+Valle Verde del Charco ,Didelphis virginiana,21:13:25,0.88431713,21,13,0.216666667,21.21666667,Lluvia
+Joya Oscura,Leopardus wiedii,21:14:37,0.885150463,21,14,0.233333333,21.23333333,Lluvia
+El Salto,Sylvilagus floridanus,21:14:47,0.885266204,21,14,0.233333333,21.23333333,Seca
+La Corneta,Puma concolor,21:15:03,0.885451389,21,15,0.25,21.25,Lluvia
+Joya Oscura,Leopardus pardalis,21:15:14,0.885578704,21,15,0.25,21.25,Lluvia
+El Tigre,Nasua narica,21:15:43,0.885914352,21,15,0.25,21.25,Lluvia
+Joya Oscura,Leopardus wiedii,21:15:48,0.885972222,21,15,0.25,21.25,Seca
+Joya Oscura,Leopardus wiedii,21:15:51,0.886006944,21,15,0.25,21.25,Lluvia
+El Salto,Sylvilagus floridanus,21:17:02,0.886828704,21,17,0.283333333,21.28333333,Seca
+Esteban,Nasua narica,21:17:07,0.886886574,21,17,0.283333333,21.28333333,Seca
+Las Fabricas,Urocyon cinereoargenteus,21:17:35,0.887210648,21,17,0.283333333,21.28333333,Lluvia
+Joya Oscura 2,Didelphis virginiana,21:17:58,0.887476852,21,17,0.283333333,21.28333333,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,21:18:27,0.8878125,21,18,0.3,21.3,Seca
+Cerro del Pilón,Puma concolor,21:18:27,0.8878125,21,18,0.3,21.3,Lluvia
+El Aguita 2,Didelphis virginiana,21:18:42,0.887986111,21,18,0.3,21.3,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,21:19:07,0.888275463,21,19,0.316666667,21.31666667,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,21:19:19,0.888414352,21,19,0.316666667,21.31666667,Lluvia
+La Corneta,Leopardus wiedii,21:19:36,0.888611111,21,19,0.316666667,21.31666667,Lluvia
+La Tableta 2,Didelphis virginiana,21:19:36,0.888611111,21,19,0.316666667,21.31666667,Lluvia
+El agua de Simon,Mazama temama,21:19:51,0.888784722,21,19,0.316666667,21.31666667,Seca
+El agua de Simon,Mazama temama,21:19:51,0.888784722,21,19,0.316666667,21.31666667,Seca
+La Perra,Urocyon cinereoargenteus,21:20:08,0.888981481,21,20,0.333333333,21.33333333,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,21:20:09,0.888993056,21,20,0.333333333,21.33333333,Seca
+Las Dalias,Mazama temama,21:20:15,0.8890625,21,20,0.333333333,21.33333333,Seca
+Puerto de las Palomas,Ursus americanus,21:20:55,0.889525463,21,20,0.333333333,21.33333333,Lluvia
+Joya Oscura,Leopardus wiedii,21:21:13,0.889733796,21,21,0.35,21.35,Lluvia
+El Tigre,Urocyon cinereoargenteus,21:21:21,0.889826389,21,21,0.35,21.35,Seca
+Agua Linda,Sylvilagus floridanus,21:21:50,0.890162037,21,21,0.35,21.35,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,21:22:20,0.890509259,21,22,0.366666667,21.36666667,Lluvia
+Agua Linda,Sylvilagus floridanus,21:22:35,0.89068287,21,22,0.366666667,21.36666667,Lluvia
+Joya Oscura 2,Didelphis virginiana,21:22:49,0.890844907,21,22,0.366666667,21.36666667,Seca
+El Aguita,Leopardus wiedii,21:22:56,0.890925926,21,22,0.366666667,21.36666667,Lluvia
+Puerto de las Palomas 2,Sylvilagus floridanus,21:23:41,0.891446759,21,23,0.383333333,21.38333333,Lluvia
+Casa de Piedra,Leopardus wiedii,21:23:47,0.891516204,21,23,0.383333333,21.38333333,Lluvia
+Casa de Piedra,Leopardus wiedii,21:23:50,0.891550926,21,23,0.383333333,21.38333333,Lluvia
+Agua Linda,Sylvilagus floridanus,21:24:03,0.891701389,21,24,0.4,21.4,Lluvia
+Las Dalias,Sylvilagus floridanus,21:24:17,0.891863426,21,24,0.4,21.4,Seca
+El Aguita,Mazama temama,21:24:25,0.891956019,21,24,0.4,21.4,Lluvia
+El Salto,Mazama temama,21:24:29,0.892002315,21,24,0.4,21.4,Seca
+Joya Oscura,Didelphis virginiana,21:24:46,0.892199074,21,24,0.4,21.4,Lluvia
+Joya Oscura,Conepatus leuconotus,21:24:50,0.89224537,21,24,0.4,21.4,Lluvia
+El Tigre,Odocoileus virginianus,21:25:02,0.892384259,21,25,0.416666667,21.41666667,Lluvia
+El Elefante,Mazama temama,21:25:34,0.89275463,21,25,0.416666667,21.41666667,Seca
+La Perra,Urocyon cinereoargenteus,21:26:16,0.893240741,21,26,0.433333333,21.43333333,Seca
+Esteban,Nasua narica,21:26:33,0.8934375,21,26,0.433333333,21.43333333,Seca
+Casa de Piedra,Didelphis virginiana,21:26:42,0.893541667,21,26,0.433333333,21.43333333,Lluvia
+Joya Oscura 2,Leopardus pardalis,21:26:49,0.893622685,21,26,0.433333333,21.43333333,Seca
+Joya Oscura 2,Didelphis virginiana,21:26:54,0.893680556,21,26,0.433333333,21.43333333,Seca
+Valle Verde del Charco ,Leopardus wiedii,21:27:00,0.89375,21,27,0.45,21.45,Lluvia
+Las Fabricas,Urocyon cinereoargenteus,21:27:25,0.894039352,21,27,0.45,21.45,Seca
+Joya Oscura,Leopardus wiedii,21:27:34,0.894143519,21,27,0.45,21.45,Lluvia
+Casa de Piedra,Leopardus wiedii,21:27:34,0.894143519,21,27,0.45,21.45,Seca
+El Aguita,Leopardus wiedii,21:27:45,0.894270833,21,27,0.45,21.45,Lluvia
+Puerto de las Palomas 2,Sylvilagus floridanus,21:28:19,0.894664352,21,28,0.466666667,21.46666667,Seca
+Joya Oscura 2,Leopardus wiedii,21:28:45,0.894965278,21,28,0.466666667,21.46666667,Seca
+Agua Linda,Sylvilagus floridanus,21:28:57,0.895104167,21,28,0.466666667,21.46666667,Lluvia
+Puerto de las Palomas 2,Sylvilagus floridanus,21:31:08,0.89662037,21,31,0.516666667,21.51666667,Lluvia
+Joya Oscura 2,Urocyon cinereoargenteus,21:31:42,0.897013889,21,31,0.516666667,21.51666667,Seca
+Agua Linda,Mazama temama,21:31:51,0.897118056,21,31,0.516666667,21.51666667,Seca
+Joya Oscura 2,Mazama temama,21:32:16,0.897407407,21,32,0.533333333,21.53333333,Lluvia
+Valle Verde del Charco ,Didelphis virginiana,21:32:33,0.897604167,21,32,0.533333333,21.53333333,Seca
+El Aguita,Leopardus pardalis,21:32:50,0.897800926,21,32,0.533333333,21.53333333,Lluvia
+Las Dalias,Didelphis virginiana,21:32:55,0.897858796,21,32,0.533333333,21.53333333,Seca
+El Aguita 2,Leopardus wiedii,21:33:01,0.897928241,21,33,0.55,21.55,Lluvia
+Agua Linda,Sylvilagus floridanus,21:33:22,0.898171296,21,33,0.55,21.55,Seca
+Esteban,Nasua narica,21:34:05,0.898668981,21,34,0.566666667,21.56666667,Seca
+La Tableta 2,Didelphis virginiana,21:34:31,0.898969907,21,34,0.566666667,21.56666667,Seca
+Puerto de las Palomas,Sylvilagus floridanus,21:34:40,0.899074074,21,34,0.566666667,21.56666667,Seca
+Casa de Piedra,Dasypus novemcinctus,21:34:50,0.899189815,21,34,0.566666667,21.56666667,Lluvia
+Agua Linda,Leopardus wiedii,21:36:05,0.90005787,21,36,0.6,21.6,Seca
+La Tableta 2,Didelphis virginiana,21:36:15,0.900173611,21,36,0.6,21.6,Lluvia
+Joya Oscura,Leopardus wiedii,21:36:45,0.900520833,21,36,0.6,21.6,Seca
+Valle Verde del Charco ,Didelphis virginiana,21:36:47,0.900543981,21,36,0.6,21.6,Seca
+Valle Verde del Charco ,Leopardus wiedii,21:37:10,0.900810185,21,37,0.616666667,21.61666667,Lluvia
+Joya Oscura,Didelphis virginiana,21:37:11,0.900821759,21,37,0.616666667,21.61666667,Seca
+Puerto de las Palomas,Sylvilagus floridanus,21:37:12,0.900833333,21,37,0.616666667,21.61666667,Seca
+La Perra,Didelphis virginiana,21:37:25,0.900983796,21,37,0.616666667,21.61666667,Seca
+Casa de Piedra,Didelphis virginiana,21:37:39,0.901145833,21,37,0.616666667,21.61666667,Lluvia
+Valle Verde del Charco ,Ursus americanus,21:38:10,0.90150463,21,38,0.633333333,21.63333333,Seca
+El Salto,Ursus americanus,21:38:23,0.901655093,21,38,0.633333333,21.63333333,Seca
+El Tigre,Panthera onca,21:38:25,0.901678241,21,38,0.633333333,21.63333333,Lluvia
+El Aguita,Puma concolor,21:38:26,0.901689815,21,38,0.633333333,21.63333333,Lluvia
+Agua Linda,Sylvilagus floridanus,21:38:35,0.901793981,21,38,0.633333333,21.63333333,Seca
+Joya Oscura,Leopardus pardalis,21:38:42,0.901875,21,38,0.633333333,21.63333333,Lluvia
+Joya Oscura 2,Didelphis virginiana,21:38:42,0.901875,21,38,0.633333333,21.63333333,Seca
+Puerto de las Palomas,Conepatus leuconotus,21:38:54,0.902013889,21,38,0.633333333,21.63333333,Lluvia
+Valle Verde del Charco ,Dasypus novemcinctus,21:39:51,0.902673611,21,39,0.65,21.65,Lluvia
+Joya Oscura 2,Didelphis virginiana,21:40:09,0.902881944,21,40,0.666666667,21.66666667,Seca
+Puerto de las Palomas,Didelphis virginiana,21:40:34,0.903171296,21,40,0.666666667,21.66666667,Lluvia
+Joya Oscura,Leopardus wiedii,21:40:45,0.903298611,21,40,0.666666667,21.66666667,Lluvia
+Joya Oscura,Mazama temama,21:40:48,0.903333333,21,40,0.666666667,21.66666667,Seca
+Agua Linda,Sylvilagus floridanus,21:41:14,0.903634259,21,41,0.683333333,21.68333333,Seca
+Agua Linda,Leopardus wiedii,21:43:19,0.905081019,21,43,0.716666667,21.71666667,Lluvia
+Viveros,Urocyon cinereoargenteus,21:44:06,0.905625,21,44,0.733333333,21.73333333,Seca
+Joya Oscura 2,Mazama temama,21:44:11,0.90568287,21,44,0.733333333,21.73333333,Seca
+Las Fabricas,Dasypus novemcinctus,21:44:33,0.9059375,21,44,0.733333333,21.73333333,Lluvia
+Valle Verde del Charco ,Didelphis virginiana,21:44:35,0.905960648,21,44,0.733333333,21.73333333,Lluvia
+Cañon del Diablo ,Leopardus wiedii,21:44:41,0.906030093,21,44,0.733333333,21.73333333,Lluvia
+Casa de Piedra,Didelphis virginiana,21:45:00,0.90625,21,45,0.75,21.75,Seca
+Agua Linda,Sylvilagus floridanus,21:45:15,0.906423611,21,45,0.75,21.75,Lluvia
+Agua Linda,Sylvilagus floridanus,21:45:15,0.906423611,21,45,0.75,21.75,Lluvia
+Agua Linda,Sylvilagus floridanus,21:45:40,0.906712963,21,45,0.75,21.75,Lluvia
+El Aguita 2,Leopardus pardalis,21:45:47,0.906793981,21,45,0.75,21.75,Lluvia
+Casa de Piedra,Dasypus novemcinctus,21:47:17,0.907835648,21,47,0.783333333,21.78333333,Lluvia
+Agua Linda,Sylvilagus floridanus,21:47:54,0.908263889,21,47,0.783333333,21.78333333,Lluvia
+Esteban,Nasua narica,21:48:06,0.908402778,21,48,0.8,21.8,Seca
+Las Fabricas,Urocyon cinereoargenteus,21:48:24,0.908611111,21,48,0.8,21.8,Lluvia
+Casa de Piedra,Dasypus novemcinctus,21:50:01,0.909733796,21,50,0.833333333,21.83333333,Lluvia
+Agua Linda,Sylvilagus floridanus,21:50:04,0.909768519,21,50,0.833333333,21.83333333,Seca
+La Corneta,Mazama temama,21:50:04,0.909768519,21,50,0.833333333,21.83333333,Seca
+Valle Verde del Charco ,Didelphis virginiana,21:50:26,0.910023148,21,50,0.833333333,21.83333333,Lluvia
+Agua Linda,Sylvilagus floridanus,21:50:49,0.910289352,21,50,0.833333333,21.83333333,Lluvia
+Las Dalias,Didelphis virginiana,21:51:18,0.910625,21,51,0.85,21.85,Lluvia
+Agua Linda,Mazama temama,21:51:26,0.910717593,21,51,0.85,21.85,Seca
+Agua Linda,Mazama temama,21:51:26,0.910717593,21,51,0.85,21.85,Seca
+Puerto de las Palomas,Didelphis virginiana,21:51:28,0.910740741,21,51,0.85,21.85,Lluvia
+Casa de Piedra,Dasypus novemcinctus,21:51:51,0.911006944,21,51,0.85,21.85,Lluvia
+Las Dalias,Didelphis virginiana,21:52:01,0.911122685,21,52,0.866666667,21.86666667,Lluvia
+El Salto,Leopardus wiedii,21:52:37,0.911539352,21,52,0.866666667,21.86666667,Seca
+El Salto,Mazama temama,21:53:14,0.911967593,21,53,0.883333333,21.88333333,Lluvia
+Agua Linda,Conepatus leuconotus,21:53:20,0.912037037,21,53,0.883333333,21.88333333,Lluvia
+Agua Linda,Puma concolor,21:53:26,0.912106481,21,53,0.883333333,21.88333333,Lluvia
+Agua Linda,Sylvilagus floridanus,21:53:40,0.912268519,21,53,0.883333333,21.88333333,Lluvia
+Puerto de las Palomas,Leopardus wiedii,21:54:08,0.912592593,21,54,0.9,21.9,Lluvia
+Agua Linda,Sylvilagus floridanus,21:54:11,0.912627315,21,54,0.9,21.9,Seca
+Agua Linda,Didelphis virginiana,21:56:00,0.913888889,21,56,0.933333333,21.93333333,Lluvia
+Agua Linda,Sylvilagus floridanus,21:56:10,0.91400463,21,56,0.933333333,21.93333333,Lluvia
+Puerto de las Palomas 2,Sylvilagus floridanus,21:56:33,0.914270833,21,56,0.933333333,21.93333333,Seca
+Puerto de las Palomas,Mazama temama,21:56:58,0.914560185,21,56,0.933333333,21.93333333,Lluvia
+Casa de Piedra,Mazama temama,21:57:15,0.914756944,21,57,0.95,21.95,Seca
+Puerto de las Palomas 2,Sylvilagus floridanus,21:57:30,0.914930556,21,57,0.95,21.95,Seca
+La Corneta,Didelphis virginiana,21:57:31,0.91494213,21,57,0.95,21.95,Seca
+Las Fabricas,Conepatus leuconotus,21:57:35,0.914988426,21,57,0.95,21.95,Lluvia
+La Corneta,Didelphis virginiana,21:57:41,0.91505787,21,57,0.95,21.95,Lluvia
+Las Fabricas,Conepatus leuconotus,21:57:47,0.915127315,21,57,0.95,21.95,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,21:57:50,0.915162037,21,57,0.95,21.95,Seca
+Casa de Piedra,Dasypus novemcinctus,21:58:30,0.915625,21,58,0.966666667,21.96666667,Lluvia
+La Tableta 2,Urocyon cinereoargenteus,21:58:39,0.915729167,21,58,0.966666667,21.96666667,Seca
+Las Fabricas,Conepatus leuconotus,21:58:40,0.915740741,21,58,0.966666667,21.96666667,Lluvia
+La Perra,Urocyon cinereoargenteus,22:00:09,0.916770833,22,0,0,22,Lluvia
+Joya Oscura 2,Leopardus wiedii,22:00:29,0.917002315,22,0,0,22,Lluvia
+El Salto,Didelphis virginiana,22:00:46,0.917199074,22,0,0,22,Lluvia
+Valle Verde del Charco ,Didelphis virginiana,22:01:06,0.917430556,22,1,0.016666667,22.01666667,Lluvia
+Puerto de las Palomas,Didelphis virginiana,22:01:12,0.9175,22,1,0.016666667,22.01666667,Seca
+Casa de Piedra,Didelphis virginiana,22:01:25,0.917650463,22,1,0.016666667,22.01666667,Lluvia
+Puerto de las Palomas,Didelphis virginiana,22:01:47,0.917905093,22,1,0.016666667,22.01666667,Lluvia
+Casa de Piedra,Mazama temama,22:01:50,0.917939815,22,1,0.016666667,22.01666667,Seca
+Esteban,Nasua narica,22:01:54,0.917986111,22,1,0.016666667,22.01666667,Seca
+La Tableta 2,Cuniculus paca,22:02:19,0.918275463,22,2,0.033333333,22.03333333,Lluvia
+Puerto de las Palomas,Ursus americanus,22:02:51,0.918645833,22,2,0.033333333,22.03333333,Seca
+El agua de Simon,Mazama temama,22:03:27,0.9190625,22,3,0.05,22.05,Seca
+La Tableta 2,Conepatus leuconotus,22:03:39,0.919201389,22,3,0.05,22.05,Lluvia
+La Perra,Urocyon cinereoargenteus,22:03:40,0.919212963,22,3,0.05,22.05,Seca
+Casa de Piedra,Dasypus novemcinctus,22:03:43,0.919247685,22,3,0.05,22.05,Lluvia
+Casa de Piedra,Leopardus wiedii,22:03:54,0.919375,22,3,0.05,22.05,Lluvia
+La Corneta,Leopardus wiedii,22:04:03,0.919479167,22,4,0.066666667,22.06666667,Lluvia
+La Corneta,Didelphis virginiana,22:04:20,0.919675926,22,4,0.066666667,22.06666667,Seca
+Casa de Piedra,Dasypus novemcinctus,22:04:49,0.920011574,22,4,0.066666667,22.06666667,Lluvia
+La Corneta,Leopardus wiedii,22:05:23,0.920405093,22,5,0.083333333,22.08333333,Lluvia
+Puerto de las Palomas 2,Leopardus wiedii,22:05:44,0.920648148,22,5,0.083333333,22.08333333,Lluvia
+Puerto de las Palomas,Didelphis virginiana,22:05:54,0.920763889,22,5,0.083333333,22.08333333,Lluvia
+El Aguita 2,Didelphis virginiana,22:06:41,0.92130787,22,6,0.1,22.1,Seca
+Puerto de las Palomas,Sylvilagus floridanus,22:06:44,0.921342593,22,6,0.1,22.1,Lluvia
+Casa de Piedra,Leopardus wiedii,22:08:04,0.922268519,22,8,0.133333333,22.13333333,Seca
+El Aguita,Spilogale gracilis,22:08:44,0.922731481,22,8,0.133333333,22.13333333,Seca
+El agua de Simon,Didelphis virginiana,22:09:19,0.923136574,22,9,0.15,22.15,Lluvia
+El Salto,Mazama temama,22:09:32,0.923287037,22,9,0.15,22.15,Seca
+Cerro del Pilón,Ursus americanus,22:09:35,0.923321759,22,9,0.15,22.15,Lluvia
+El Salto,Mazama temama,22:10:11,0.923738426,22,10,0.166666667,22.16666667,Seca
+La Corneta,Didelphis virginiana,22:10:23,0.923877315,22,10,0.166666667,22.16666667,Lluvia
+Joya Oscura,Ursus americanus,22:10:55,0.924247685,22,10,0.166666667,22.16666667,Lluvia
+Joya Oscura,Ursus americanus,22:11:05,0.924363426,22,11,0.183333333,22.18333333,Seca
+El Aguita 2,Mazama temama,22:11:32,0.924675926,22,11,0.183333333,22.18333333,Seca
+Agua Linda,Sylvilagus floridanus,22:11:40,0.924768519,22,11,0.183333333,22.18333333,Lluvia
+Agua Linda,Sylvilagus floridanus,22:12:24,0.925277778,22,12,0.2,22.2,Lluvia
+El Elefante,Sylvilagus floridanus,22:12:52,0.925601852,22,12,0.2,22.2,Lluvia
+El Aguita,Panthera onca,22:13:09,0.925798611,22,13,0.216666667,22.21666667,Lluvia
+Puerto de las Palomas,Conepatus leuconotus,22:13:14,0.925856481,22,13,0.216666667,22.21666667,Lluvia
+Joya Oscura,Leopardus wiedii,22:13:57,0.926354167,22,13,0.216666667,22.21666667,Lluvia
+Joya Oscura,Didelphis virginiana,22:14:13,0.926539352,22,14,0.233333333,22.23333333,Seca
+Puerto de las Palomas 2,Leopardus wiedii,22:14:21,0.926631944,22,14,0.233333333,22.23333333,Seca
+Puerto de las Palomas,Leopardus wiedii,22:14:29,0.926724537,22,14,0.233333333,22.23333333,Seca
+Puerto de las Palomas,Sylvilagus floridanus,22:15:01,0.927094907,22,15,0.25,22.25,Lluvia
+Puerto de las Palomas 2,Sylvilagus floridanus,22:15:06,0.927152778,22,15,0.25,22.25,Lluvia
+Las Dalias,Sylvilagus floridanus,22:15:06,0.927152778,22,15,0.25,22.25,Lluvia
+Valle Verde del Charco ,Dasypus novemcinctus,22:15:15,0.927256944,22,15,0.25,22.25,Lluvia
+La Tableta,Sylvilagus floridanus,22:15:32,0.927453704,22,15,0.25,22.25,Lluvia
+Las Fabricas,Conepatus leuconotus,22:15:58,0.92775463,22,15,0.25,22.25,Lluvia
+Agua Linda,Sylvilagus floridanus,22:16:07,0.927858796,22,16,0.266666667,22.26666667,Lluvia
+Joya Oscura,Didelphis virginiana,22:16:13,0.927928241,22,16,0.266666667,22.26666667,Seca
+Valle Verde del Charco ,Didelphis virginiana,22:16:29,0.928113426,22,16,0.266666667,22.26666667,Seca
+Las Fabricas,Conepatus leuconotus,22:17:02,0.92849537,22,17,0.283333333,22.28333333,Lluvia
+Casa de Piedra,Didelphis virginiana,22:17:27,0.928784722,22,17,0.283333333,22.28333333,Seca
+Joya Oscura 2,Leopardus wiedii,22:17:31,0.928831019,22,17,0.283333333,22.28333333,Lluvia
+El Elefante,Mazama temama,22:18:00,0.929166667,22,18,0.3,22.3,Seca
+Casa de Piedra,Dasypus novemcinctus,22:18:01,0.929178241,22,18,0.3,22.3,Lluvia
+El agua de Simon,Didelphis virginiana,22:18:03,0.929201389,22,18,0.3,22.3,Lluvia
+Puerto de las Palomas,Leopardus wiedii,22:18:27,0.929479167,22,18,0.3,22.3,Seca
+El Aguita 2,Mazama temama,22:18:46,0.929699074,22,18,0.3,22.3,Seca
+Las Dalias,Conepatus leuconotus,22:21:16,0.931435185,22,21,0.35,22.35,Seca
+Esteban,Eira barbara,22:21:58,0.931921296,22,21,0.35,22.35,Seca
+Las Dalias,Didelphis virginiana,22:22:37,0.932372685,22,22,0.366666667,22.36666667,Lluvia
+Las Dalias,Conepatus leuconotus,22:22:51,0.932534722,22,22,0.366666667,22.36666667,Seca
+La Corneta,Leopardus wiedii,22:23:02,0.932662037,22,23,0.383333333,22.38333333,Seca
+La Tableta 2,Mazama temama,22:23:22,0.932893519,22,23,0.383333333,22.38333333,Seca
+El Tigre,Nasua narica,22:24:00,0.933333333,22,24,0.4,22.4,Lluvia
+La Corneta,Leopardus wiedii,22:24:40,0.933796296,22,24,0.4,22.4,Lluvia
+Agua Linda,Leopardus wiedii,22:24:40,0.933796296,22,24,0.4,22.4,Seca
+Cerro del Pilón,Ursus americanus,22:24:47,0.933877315,22,24,0.4,22.4,Lluvia
+La Corneta,Leopardus wiedii,22:25:11,0.934155093,22,25,0.416666667,22.41666667,Lluvia
+Joya Oscura,Leopardus wiedii,22:26:49,0.935289352,22,26,0.433333333,22.43333333,Lluvia
+Joya Oscura 2,Didelphis virginiana,22:27:13,0.93556713,22,27,0.45,22.45,Lluvia
+Casa de Piedra,Didelphis virginiana,22:27:14,0.935578704,22,27,0.45,22.45,Lluvia
+La Tableta,Didelphis virginiana,22:28:27,0.936423611,22,28,0.466666667,22.46666667,Lluvia
+Joya Oscura,Panthera onca,22:28:28,0.936435185,22,28,0.466666667,22.46666667,Lluvia
+El Aguita,Panthera onca,22:28:29,0.936446759,22,28,0.466666667,22.46666667,Lluvia
+La Tableta 2,Leopardus pardalis,22:29:04,0.936851852,22,29,0.483333333,22.48333333,Lluvia
+El Aguita 2,Didelphis virginiana,22:29:34,0.937199074,22,29,0.483333333,22.48333333,Seca
+El Aguita 2,Leopardus wiedii,22:29:55,0.93744213,22,29,0.483333333,22.48333333,Seca
+Agua Linda,Sylvilagus floridanus,22:30:00,0.9375,22,30,0.5,22.5,Lluvia
+Puerto de las Palomas 2,Sylvilagus floridanus,22:30:44,0.938009259,22,30,0.5,22.5,Seca
+Joya Oscura,Leopardus wiedii,22:30:48,0.938055556,22,30,0.5,22.5,Lluvia
+La Corneta,Didelphis virginiana,22:31:54,0.938819444,22,31,0.516666667,22.51666667,Lluvia
+Joya Oscura 2,Leopardus wiedii,22:33:11,0.939710648,22,33,0.55,22.55,Seca
+Puerto de las Palomas,Didelphis virginiana,22:33:18,0.939791667,22,33,0.55,22.55,Lluvia
+Las Dalias,Mazama temama,22:34:55,0.940914352,22,34,0.566666667,22.56666667,Seca
+Puerto de las Palomas 2,Didelphis virginiana,22:35:12,0.941111111,22,35,0.583333333,22.58333333,Seca
+La Perra,Urocyon cinereoargenteus,22:35:41,0.941446759,22,35,0.583333333,22.58333333,Seca
+El agua de Simon,Puma concolor,22:35:47,0.941516204,22,35,0.583333333,22.58333333,Lluvia
+Joya Oscura 2,Didelphis virginiana,22:36:06,0.941736111,22,36,0.6,22.6,Seca
+Las Dalias,Sylvilagus floridanus,22:36:56,0.942314815,22,36,0.6,22.6,Lluvia
+Casa de Piedra,Didelphis virginiana,22:37:21,0.942604167,22,37,0.616666667,22.61666667,Lluvia
+Joya Oscura,Didelphis virginiana,22:37:29,0.942696759,22,37,0.616666667,22.61666667,Lluvia
+Joya Oscura 2,Ursus americanus,22:37:30,0.942708333,22,37,0.616666667,22.61666667,Seca
+Casa de Piedra,Didelphis virginiana,22:37:31,0.942719907,22,37,0.616666667,22.61666667,Seca
+La Perra,Leopardus wiedii,22:37:41,0.942835648,22,37,0.616666667,22.61666667,Lluvia
+Casa de Piedra,Didelphis virginiana,22:38:01,0.94306713,22,38,0.633333333,22.63333333,Seca
+Agua Linda,Mazama temama,22:38:20,0.943287037,22,38,0.633333333,22.63333333,Seca
+Casa de Piedra,Didelphis virginiana,22:38:21,0.943298611,22,38,0.633333333,22.63333333,Seca
+La Perra,Urocyon cinereoargenteus,22:38:52,0.943657407,22,38,0.633333333,22.63333333,Lluvia
+Agua Linda,Puma concolor,22:39:24,0.944027778,22,39,0.65,22.65,Seca
+Joya Oscura 2,Leopardus wiedii,22:39:40,0.944212963,22,39,0.65,22.65,Lluvia
+El Elefante,Ursus americanus,22:40:04,0.944490741,22,40,0.666666667,22.66666667,Seca
+Agua Linda,Didelphis virginiana,22:40:21,0.9446875,22,40,0.666666667,22.66666667,Lluvia
+Joya Oscura,Leopardus wiedii,22:40:57,0.945104167,22,40,0.666666667,22.66666667,Lluvia
+Valle Verde del Charco ,Dasypus novemcinctus,22:41:04,0.945185185,22,41,0.683333333,22.68333333,Lluvia
+Agua Linda,Sylvilagus floridanus,22:41:39,0.945590278,22,41,0.683333333,22.68333333,Lluvia
+Valle Verde del Charco ,Leopardus wiedii,22:41:45,0.945659722,22,41,0.683333333,22.68333333,Lluvia
+Agua Linda,Sylvilagus floridanus,22:42:43,0.946331019,22,42,0.7,22.7,Seca
+Casa de Piedra,Didelphis virginiana,22:43:03,0.9465625,22,43,0.716666667,22.71666667,Lluvia
+Esteban,Ursus americanus,22:43:28,0.946851852,22,43,0.716666667,22.71666667,Lluvia
+Agua Linda,Sylvilagus floridanus,22:43:49,0.947094907,22,43,0.716666667,22.71666667,Seca
+La Perra,Urocyon cinereoargenteus,22:44:11,0.947349537,22,44,0.733333333,22.73333333,Seca
+El Infiernillo,Mazama temama,22:44:16,0.947407407,22,44,0.733333333,22.73333333,Lluvia
+Las Dalias,Puma concolor,22:44:48,0.947777778,22,44,0.733333333,22.73333333,Seca
+Puerto de las Palomas 2,Sylvilagus floridanus,22:45:15,0.948090278,22,45,0.75,22.75,Seca
+Valle Verde del Charco ,Dasypus novemcinctus,22:45:26,0.948217593,22,45,0.75,22.75,Lluvia
+Agua Linda,Sylvilagus floridanus,22:45:52,0.948518519,22,45,0.75,22.75,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,22:46:17,0.94880787,22,46,0.766666667,22.76666667,Lluvia
+El Elefante,Sylvilagus floridanus,22:46:27,0.948923611,22,46,0.766666667,22.76666667,Seca
+El Aguita,Mazama temama,22:46:30,0.948958333,22,46,0.766666667,22.76666667,Seca
+La Tableta,Didelphis virginiana,22:46:35,0.949016204,22,46,0.766666667,22.76666667,Lluvia
+El Aguita 2,Didelphis virginiana,22:47:15,0.949479167,22,47,0.783333333,22.78333333,Seca
+El Aguita,Panthera onca,22:47:21,0.949548611,22,47,0.783333333,22.78333333,Lluvia
+Joya Oscura,Leopardus pardalis,22:47:29,0.949641204,22,47,0.783333333,22.78333333,Lluvia
+Joya Oscura,Leopardus wiedii,22:48:07,0.950081019,22,48,0.8,22.8,Seca
+El Salto,Leopardus wiedii,22:48:07,0.950081019,22,48,0.8,22.8,Seca
+Casa de Piedra,Didelphis virginiana,22:48:12,0.950138889,22,48,0.8,22.8,Lluvia
+La Corneta,Mazama temama,22:48:16,0.950185185,22,48,0.8,22.8,Seca
+Agua Linda,Sylvilagus floridanus,22:48:17,0.950196759,22,48,0.8,22.8,Seca
+Las Dalias,Puma concolor,22:48:33,0.950381944,22,48,0.8,22.8,Seca
+Puerto de las Palomas,Sylvilagus floridanus,22:48:54,0.950625,22,48,0.8,22.8,Lluvia
+La Corneta,Leopardus wiedii,22:49:37,0.951122685,22,49,0.816666667,22.81666667,Lluvia
+Valle Verde del Charco ,Dasypus novemcinctus,22:51:07,0.952164352,22,51,0.85,22.85,Lluvia
+Joya Oscura,Mazama temama,22:51:12,0.952222222,22,51,0.85,22.85,Lluvia
+El Elefante,Leopardus wiedii,22:51:16,0.952268519,22,51,0.85,22.85,Lluvia
+Las Dalias,Ursus americanus,22:51:26,0.952384259,22,51,0.85,22.85,Lluvia
+El Aguita 2,Mazama temama,22:51:40,0.952546296,22,51,0.85,22.85,Lluvia
+Joya Oscura 2,Didelphis virginiana,22:52:32,0.953148148,22,52,0.866666667,22.86666667,Seca
+Agua Linda,Sylvilagus floridanus,22:52:49,0.953344907,22,52,0.866666667,22.86666667,Lluvia
+El Aguita 2,Leopardus wiedii,22:53:11,0.953599537,22,53,0.883333333,22.88333333,Seca
+Joya Oscura,Mazama temama,22:54:33,0.954548611,22,54,0.9,22.9,Lluvia
+La Tableta 2,Didelphis virginiana,22:54:40,0.95462963,22,54,0.9,22.9,Lluvia
+Joya Oscura 2,Didelphis virginiana,22:54:40,0.95462963,22,54,0.9,22.9,Seca
+El Aguita 2,Mazama temama,22:55:01,0.954872685,22,55,0.916666667,22.91666667,Seca
+Las Dalias,Sylvilagus floridanus,22:55:07,0.95494213,22,55,0.916666667,22.91666667,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,22:55:13,0.955011574,22,55,0.916666667,22.91666667,Lluvia
+El Aguita,Mazama temama,22:55:48,0.955416667,22,55,0.916666667,22.91666667,Seca
+Esteban,Nasua narica,22:56:00,0.955555556,22,56,0.933333333,22.93333333,Seca
+El Aguita 2,Leopardus wiedii,22:56:03,0.955590278,22,56,0.933333333,22.93333333,Seca
+Puerto de las Palomas,Didelphis virginiana,22:56:25,0.955844907,22,56,0.933333333,22.93333333,Lluvia
+Las Fabricas,Puma concolor,22:56:37,0.955983796,22,56,0.933333333,22.93333333,Lluvia
+Cerro del Pilón,Ursus americanus,22:56:52,0.956157407,22,56,0.933333333,22.93333333,Lluvia
+El Salto,Mazama temama,22:57:11,0.956377315,22,57,0.95,22.95,Lluvia
+Las Fabricas,Ursus americanus,22:57:52,0.956851852,22,57,0.95,22.95,Lluvia
+Casa de Piedra,Dasypus novemcinctus,22:57:54,0.956875,22,57,0.95,22.95,Lluvia
+Puerto de las Palomas,Mazama temama,22:58:05,0.957002315,22,58,0.966666667,22.96666667,Lluvia
+La Tableta 2,Mazama temama,22:59:06,0.957708333,22,59,0.983333333,22.98333333,Lluvia
+El Salto,Mazama temama,22:59:59,0.958321759,22,59,0.983333333,22.98333333,Seca
+La Tableta 2,Mazama temama,23:00:00,0.958333333,23,0,0,23,Seca
+El Aguita,Mazama temama,23:00:12,0.958472222,23,0,0,23,Seca
+El Aguita 2,Panthera onca,23:00:41,0.95880787,23,0,0,23,Seca
+Agua Linda,Sylvilagus floridanus,23:00:45,0.958854167,23,0,0,23,Lluvia
+Agua Linda,Urocyon cinereoargenteus,23:02:01,0.959733796,23,2,0.033333333,23.03333333,Seca
+Casa de Piedra,Didelphis virginiana,23:02:50,0.960300926,23,2,0.033333333,23.03333333,Lluvia
+Agua Linda,Sylvilagus floridanus,23:03:14,0.960578704,23,3,0.05,23.05,Seca
+Puerto de las Palomas,Eira barbara,23:03:16,0.960601852,23,3,0.05,23.05,Lluvia
+El Aguita 2,Mazama temama,23:03:33,0.960798611,23,3,0.05,23.05,Lluvia
+Puerto de las Palomas,Didelphis virginiana,23:04:04,0.961157407,23,4,0.066666667,23.06666667,Seca
+Valle Verde del Charco ,Dasypus novemcinctus,23:04:36,0.961527778,23,4,0.066666667,23.06666667,Lluvia
+Cerro del Pilón,Ursus americanus,23:04:58,0.961782407,23,4,0.066666667,23.06666667,Lluvia
+La Perra,Conepatus leuconotus,23:05:02,0.961828704,23,5,0.083333333,23.08333333,Lluvia
+La Corneta,Didelphis virginiana,23:05:18,0.962013889,23,5,0.083333333,23.08333333,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,23:05:19,0.962025463,23,5,0.083333333,23.08333333,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,23:05:30,0.962152778,23,5,0.083333333,23.08333333,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,23:06:17,0.962696759,23,6,0.1,23.1,Seca
+Casa de Piedra,Didelphis virginiana,23:06:25,0.962789352,23,6,0.1,23.1,Lluvia
+Joya Oscura 2,Mazama temama,23:08:41,0.964363426,23,8,0.133333333,23.13333333,Seca
+Agua Linda,Mazama temama,23:08:54,0.964513889,23,8,0.133333333,23.13333333,Seca
+Puerto de las Palomas,Didelphis virginiana,23:08:55,0.964525463,23,8,0.133333333,23.13333333,Lluvia
+Las Dalias,Sylvilagus floridanus,23:09:55,0.965219907,23,9,0.15,23.15,Lluvia
+Agua Linda,Leopardus wiedii,23:10:19,0.965497685,23,10,0.166666667,23.16666667,Lluvia
+La Perra,Dasypus novemcinctus,23:10:29,0.965613426,23,10,0.166666667,23.16666667,Lluvia
+Agua Linda,Puma concolor,23:11:33,0.966354167,23,11,0.183333333,23.18333333,Seca
+Puerto de las Palomas,Sylvilagus floridanus,23:11:41,0.966446759,23,11,0.183333333,23.18333333,Seca
+El agua de Simon,Didelphis virginiana,23:11:59,0.966655093,23,11,0.183333333,23.18333333,Lluvia
+El Aguita 2,Leopardus wiedii,23:13:28,0.967685185,23,13,0.216666667,23.21666667,Lluvia
+Las Dalias,Sylvilagus floridanus,23:13:50,0.967939815,23,13,0.216666667,23.21666667,Lluvia
+La Corneta,Leopardus wiedii,23:14:37,0.968483796,23,14,0.233333333,23.23333333,Lluvia
+El Aguita 2,Didelphis virginiana,23:14:41,0.968530093,23,14,0.233333333,23.23333333,Lluvia
+Casa de Piedra,Didelphis virginiana,23:14:58,0.968726852,23,14,0.233333333,23.23333333,Seca
+Casa de Piedra,Didelphis virginiana,23:15:18,0.968958333,23,15,0.25,23.25,Lluvia
+Agua Linda,Sylvilagus floridanus,23:15:33,0.969131944,23,15,0.25,23.25,Lluvia
+Joya Oscura 2,Didelphis virginiana,23:16:20,0.969675926,23,16,0.266666667,23.26666667,Seca
+Joya Oscura,Nasua narica,23:16:47,0.969988426,23,16,0.266666667,23.26666667,Seca
+Valle Verde del Charco ,Puma concolor,23:16:57,0.970104167,23,16,0.266666667,23.26666667,Seca
+Puerto de las Palomas,Didelphis virginiana,23:17:16,0.970324074,23,17,0.283333333,23.28333333,Lluvia
+Las Fabricas,Dasypus novemcinctus,23:17:21,0.970381944,23,17,0.283333333,23.28333333,Lluvia
+El Aguita 2,Leopardus wiedii,23:18:32,0.971203704,23,18,0.3,23.3,Seca
+Puerto de las Palomas 2,Sylvilagus floridanus,23:18:55,0.971469907,23,18,0.3,23.3,Seca
+Agua Linda,Sylvilagus floridanus,23:19:35,0.97193287,23,19,0.316666667,23.31666667,Lluvia
+La Corneta,Dasypus novemcinctus,23:19:38,0.971967593,23,19,0.316666667,23.31666667,Lluvia
+El Aguita,Mazama temama,23:19:41,0.972002315,23,19,0.316666667,23.31666667,Seca
+Agua Linda,Didelphis virginiana,23:19:41,0.972002315,23,19,0.316666667,23.31666667,Seca
+Puerto de las Palomas,Sylvilagus floridanus,23:19:48,0.972083333,23,19,0.316666667,23.31666667,Lluvia
+Valle Verde del Charco ,Dasypus novemcinctus,23:19:54,0.972152778,23,19,0.316666667,23.31666667,Lluvia
+El Infiernillo,Mazama temama,23:20:04,0.972268519,23,20,0.333333333,23.33333333,Lluvia
+El Salto,Puma concolor,23:20:27,0.972534722,23,20,0.333333333,23.33333333,Seca
+Valle Verde del Charco ,Dasypus novemcinctus,23:20:57,0.972881944,23,20,0.333333333,23.33333333,Lluvia
+Valle Verde del Charco ,Dasypus novemcinctus,23:21:13,0.97306713,23,21,0.35,23.35,Lluvia
+Joya Oscura,Leopardus pardalis,23:21:45,0.9734375,23,21,0.35,23.35,Seca
+La Corneta,Didelphis virginiana,23:22:09,0.973715278,23,22,0.366666667,23.36666667,Seca
+Agua Linda,Mazama temama,23:23:37,0.974733796,23,23,0.383333333,23.38333333,Seca
+Las Dalias,Sylvilagus floridanus,23:23:38,0.97474537,23,23,0.383333333,23.38333333,Seca
+Joya Oscura 2,Urocyon cinereoargenteus,23:23:55,0.97494213,23,23,0.383333333,23.38333333,Lluvia
+Puerto de las Palomas,Didelphis virginiana,23:24:07,0.975081019,23,24,0.4,23.4,Seca
+La Corneta,Ursus americanus,23:24:44,0.975509259,23,24,0.4,23.4,Seca
+Puerto de las Palomas,Didelphis virginiana,23:24:51,0.975590278,23,24,0.4,23.4,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,23:25:23,0.975960648,23,25,0.416666667,23.41666667,Seca
+Valle Verde del Charco ,Didelphis virginiana,23:26:16,0.976574074,23,26,0.433333333,23.43333333,Seca
+La Corneta,Ursus americanus,23:26:29,0.976724537,23,26,0.433333333,23.43333333,Seca
+Joya Oscura,Didelphis virginiana,23:26:41,0.976863426,23,26,0.433333333,23.43333333,Seca
+Casa de Piedra,Didelphis virginiana,23:28:02,0.977800926,23,28,0.466666667,23.46666667,Seca
+La Tableta,Dasypus novemcinctus,23:29:21,0.978715278,23,29,0.483333333,23.48333333,Lluvia
+Las Dalias,Sylvilagus floridanus,23:29:25,0.978761574,23,29,0.483333333,23.48333333,Seca
+Agua Linda,Mazama temama,23:30:02,0.979189815,23,30,0.5,23.5,Seca
+La Corneta,Sylvilagus floridanus,23:30:07,0.979247685,23,30,0.5,23.5,Lluvia
+Casa de Piedra,Dasypus novemcinctus,23:31:27,0.980173611,23,31,0.516666667,23.51666667,Lluvia
+Casa de Piedra,Dasypus novemcinctus,23:32:15,0.980729167,23,32,0.533333333,23.53333333,Lluvia
+Agua Linda,Sylvilagus floridanus,23:33:20,0.981481481,23,33,0.55,23.55,Lluvia
+La Tableta 2,Didelphis virginiana,23:34:01,0.981956019,23,34,0.566666667,23.56666667,Seca
+El Aguita 2,Mazama temama,23:34:23,0.982210648,23,34,0.566666667,23.56666667,Seca
+Cueva de Don Amador,Dasypus novemcinctus,23:34:45,0.982465278,23,34,0.566666667,23.56666667,Lluvia
+Puerto de las Palomas 2,Sylvilagus floridanus,23:34:45,0.982465278,23,34,0.566666667,23.56666667,Seca
+El Salto,Didelphis virginiana,23:34:47,0.982488426,23,34,0.566666667,23.56666667,Lluvia
+El Tigre,Mazama temama,23:34:53,0.98255787,23,34,0.566666667,23.56666667,Seca
+Agua Linda,Sylvilagus floridanus,23:35:43,0.983136574,23,35,0.583333333,23.58333333,Lluvia
+El Salto,Dasypus novemcinctus,23:36:00,0.983333333,23,36,0.6,23.6,Lluvia
+La Tableta 2,Didelphis virginiana,23:36:29,0.983668981,23,36,0.6,23.6,Seca
+Las Dalias,Didelphis virginiana,23:36:53,0.983946759,23,36,0.6,23.6,Lluvia
+Joya Oscura 2,Leopardus pardalis,23:36:58,0.98400463,23,36,0.6,23.6,Seca
+El Salto,Ursus americanus,23:38:11,0.984849537,23,38,0.633333333,23.63333333,Seca
+Casa de Piedra,Didelphis virginiana,23:38:23,0.984988426,23,38,0.633333333,23.63333333,Seca
+La Corneta,Mazama temama,23:38:53,0.985335648,23,38,0.633333333,23.63333333,Lluvia
+El Aguita,Didelphis virginiana,23:40:04,0.986157407,23,40,0.666666667,23.66666667,Lluvia
+La Perra,Didelphis virginiana,23:40:52,0.986712963,23,40,0.666666667,23.66666667,Lluvia
+El Aguita 2,Leopardus wiedii,23:41:20,0.987037037,23,41,0.683333333,23.68333333,Lluvia
+El Salto,Sylvilagus floridanus,23:41:56,0.987453704,23,41,0.683333333,23.68333333,Seca
+Joya Oscura,Panthera onca,23:41:59,0.987488426,23,41,0.683333333,23.68333333,Lluvia
+La Corneta,Mazama temama,23:42:09,0.987604167,23,42,0.7,23.7,Seca
+Joya Oscura,Mazama temama,23:42:47,0.988043981,23,42,0.7,23.7,Lluvia
+Puerto de las Palomas,Urocyon cinereoargenteus,23:43:03,0.988229167,23,43,0.716666667,23.71666667,Seca
+Puerto de las Palomas,Didelphis virginiana,23:44:19,0.989108796,23,44,0.733333333,23.73333333,Lluvia
+Casa de Piedra,Didelphis virginiana,23:44:34,0.989282407,23,44,0.733333333,23.73333333,Seca
+Agua Linda,Puma concolor,23:46:08,0.99037037,23,46,0.766666667,23.76666667,Lluvia
+El Elefante,Ursus americanus,23:46:46,0.990810185,23,46,0.766666667,23.76666667,Seca
+Puerto de las Palomas,Didelphis virginiana,23:46:51,0.990868056,23,46,0.766666667,23.76666667,Seca
+El Aguita,Panthera onca,23:47:27,0.991284722,23,47,0.783333333,23.78333333,Lluvia
+La Tableta,Didelphis virginiana,23:47:56,0.99162037,23,47,0.783333333,23.78333333,Lluvia
+La Tableta 2,Urocyon cinereoargenteus,23:48:57,0.992326389,23,48,0.8,23.8,Lluvia
+Puerto de las Palomas,Sylvilagus floridanus,23:49:12,0.9925,23,49,0.816666667,23.81666667,Seca
+Agua Linda,Sylvilagus floridanus,23:49:18,0.992569444,23,49,0.816666667,23.81666667,Seca
+Valle Verde del Charco ,Didelphis virginiana,23:49:20,0.992592593,23,49,0.816666667,23.81666667,Lluvia
+Esteban,Eira barbara,23:49:26,0.992662037,23,49,0.816666667,23.81666667,Lluvia
+Las Dalias,Sylvilagus floridanus,23:49:33,0.992743056,23,49,0.816666667,23.81666667,Lluvia
+Casa de Piedra,Dasypus novemcinctus,23:49:51,0.992951389,23,49,0.816666667,23.81666667,Lluvia
+Agua Linda,Sylvilagus floridanus,23:50:24,0.993333333,23,50,0.833333333,23.83333333,Lluvia
+Valle Verde del Charco ,Mazama temama,23:51:36,0.994166667,23,51,0.85,23.85,Seca
+Esteban,Cuniculus paca,23:51:43,0.994247685,23,51,0.85,23.85,Lluvia
+Puerto de las Palomas,Leopardus wiedii,23:51:43,0.994247685,23,51,0.85,23.85,Seca
+La Tableta 2,Sylvilagus floridanus,23:52:25,0.994733796,23,52,0.866666667,23.86666667,Lluvia
+Casa de Piedra,Dasypus novemcinctus,23:53:15,0.9953125,23,53,0.883333333,23.88333333,Lluvia
+Casa de Piedra,Didelphis virginiana,23:54:54,0.996458333,23,54,0.9,23.9,Lluvia
+Puerto de las Palomas,Didelphis virginiana,23:55:45,0.997048611,23,55,0.916666667,23.91666667,Lluvia
+La Tableta 2,Puma concolor,23:56:05,0.997280093,23,56,0.933333333,23.93333333,Seca
+Casa de Piedra,Dasypus novemcinctus,23:56:22,0.997476852,23,56,0.933333333,23.93333333,Lluvia
+El Aguita,Leopardus pardalis,23:56:53,0.997835648,23,56,0.933333333,23.93333333,Seca
+Joya Oscura 2,Leopardus wiedii,23:56:57,0.997881944,23,56,0.933333333,23.93333333,Lluvia
+Puerto de las Palomas 2,Conepatus leuconotus,23:57:11,0.998043981,23,57,0.95,23.95,Lluvia
+Casa de Piedra,Didelphis virginiana,23:57:18,0.998125,23,57,0.95,23.95,Lluvia
+Joya Oscura,Didelphis virginiana,23:57:27,0.998229167,23,57,0.95,23.95,Lluvia
+Joya Oscura,Didelphis virginiana,23:57:42,0.998402778,23,57,0.95,23.95,Lluvia
+Puerto de las Palomas 2,Sylvilagus floridanus,23:58:36,0.999027778,23,58,0.966666667,23.96666667,Lluvia
+Las Dalias,Didelphis virginiana,23:59:02,0.999328704,23,59,0.983333333,23.98333333,Lluvia
+El Aguita 2,Didelphis virginiana,23:59:12,0.999444444,23,59,0.983333333,23.98333333,Seca
+La Corneta,Didelphis virginiana,23:59:45,0.999826389,23,59,0.983333333,23.98333333,Seca
+Las Dalias,Sylvilagus floridanus,23:59:54,0.999930556,23,59,0.983333333,23.98333333,Lluvia
+La Tableta,Didelphis virginiana,23:59:57,0.999965278,23,59,0.983333333,23.98333333,Lluvia
