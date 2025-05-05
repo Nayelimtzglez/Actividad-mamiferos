@@ -1,0 +1,2184 @@
+#ANÁLISIS DE LA ACTIVIDAD: PATRÓN GENERAL Y POR TEMPORADAS#
+#TOMADO DE SALVADOR MANDUJANO Y PEREZ-SOLANO#
+#GRÁFICAS DE GABRIEL ANDRADE-PONCE#
+
+library(CircStats)
+library(MASS)
+library(boot)
+library(circular)
+library(overlap)
+library(ggplot2)
+library(readr)
+
+base <- read_csv("Estadística circular .csv")
+head(base)
+####Registros de cada organismo####
+armadillo<- subset(base, base$Especie=="Dasypus novemcinctus")
+coati<- subset(base, base$Especie=="Nasua narica")
+conejo<-subset(base, base$Especie=="Sylvilagus floridanus")
+jaguar<-subset(base, base$Especie=="Panthera onca")
+ocelote<-subset(base, base$Especie=="Leopardus pardalis")
+osonegro<-subset(base, base$Especie=="Ursus americanus")
+puma<-subset(base, base$Especie=="Puma concolor")
+temazaterojo<-subset(base, base$Especie=="Mazama temama")
+tepezcuintle<-subset(base, base$Especie=="Cuniculus paca")
+tigrillo<-subset(base, base$Especie=="Leopardus wiedii")
+tlacuache<-subset(base, base$Especie=="Didelphis virginiana")
+viejodemonte<-subset(base, base$Especie=="Eira barbara")
+zorragris<-subset(base, base$Especie=="Urocyon cinereoargenteus")
+zorrillo<-subset(base, base$Especie=="Conepatus leuconotus")
+
+####Objeto circular####
+arma_circular<-circular(armadillo$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(arma_circular,5)
+coa_circular<-circular(coati$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(coa_circular,5)
+cone_circular<-circular(conejo$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(cone_circular,5)
+jagu_circular<-circular(jaguar$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(jagu_circular,5)
+oce_circular<-circular(ocelote$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(oce_circular,5)
+oso_circular<-circular(osonegro$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(oso_circular,5)
+peca_circular<-circular(pecaridecollar$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(peca_circular,5)
+puma_circular<-circular(puma$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(puma_circular,5)
+tema_circular<-circular(temazaterojo$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(tema_circular,5)
+tepe_circular<-circular(tepezcuintle$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(tepe_circular,5)
+tigr_circular<-circular(tigrillo$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(tigr_circular,5)
+tlacu_circular<-circular(tlacuache$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(tlacu_circular,5)
+vena_circular<-circular(venadocolablanca$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(vena_circular,5)
+viejo_circular<-circular(viejodemonte$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(viejo_circular,5)
+zorra_circular<-circular(zorragris$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(zorra_circular,5)
+zorrillo_circular<-circular(zorrillo$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(zorrillo_circular,5)
+
+####Estadística inferencial####
+#Rayleigh test#
+rayleigh.test(arma_circular)
+rayleigh.test(coa_circular)
+rayleigh.test(cone_circular)
+rayleigh.test(jagu_circular)
+rayleigh.test(oce_circular)
+rayleigh.test(oso_circular)
+rayleigh.test(peca_circular)
+rayleigh.test(puma_circular)
+rayleigh.test(tema_circular)
+rayleigh.test(tepe_circular)
+rayleigh.test(tigr_circular)
+rayleigh.test(tlacu_circular)
+rayleigh.test(vena_circular)
+rayleigh.test(viejo_circular)
+rayleigh.test(zorra_circular)
+rayleigh.test(zorrillo_circular)
+
+#Rao´s spacing test#
+rao.spacing.test(arma_circular, alpha=0.05)
+rao.spacing.test(coa_circular, alpha=0.05)
+rao.spacing.test(cone_circular, alpha=0.05)
+rao.spacing.test(jagu_circular, alpha=0.05)
+rao.spacing.test(oce_circular, alpha=0.05)
+rao.spacing.test(oso_circular, alpha=0.05)
+rao.spacing.test(peca_circular, alpha=0.05)
+rao.spacing.test(puma_circular, alpha=0.05)
+rao.spacing.test(tema_circular, alpha=0.05)
+rao.spacing.test(tepe_circular, alpha=0.05)
+rao.spacing.test(tigr_circular, alpha=0.05)
+rao.spacing.test(tlacu_circular, alpha=0.05)
+rao.spacing.test(vena_circular, alpha=0.05)
+rao.spacing.test(viejo_circular, alpha=0.05)
+rao.spacing.test(zorra_circular, alpha=0.05)
+rao.spacing.test(zorrillo_circular, alpha=0.05)
+
+####Gráficas####
+library(tidyverse)
+library(ggtext)
+library(rphylopic)
+library(cowplot)
+library(png)
+library(overlap)
+library(ggplot2)
+library(magick)
+
+registers<-read.csv("Estadística circular .csv")
+
+registers$Tiempo<-as.character(registers$Tiempo)
+registers$Horas_Decimales<-sapply(strsplit(registers$Tiempo,":"), function(x){
+  x<-as.numeric(x)
+  x[1]+x[2]/60+x[3]/3600
+}
+)
+
+####Patrón de actividad general####
+registers<-read.csv("Estadística circular .csv")
+
+registers$Tiempo<-as.character(registers$Tiempo)
+registers$Horas_Decimales<-sapply(strsplit(registers$Tiempo,":"), function(x){
+  x<-as.numeric(x)
+  x[1]+x[2]/60+x[3]/3600
+}
+)
+
+#ARMADILLO#
+armadillo1<-registers%>% filter(Especie=="Dasypus novemcinctus")
+
+ggplot(armadillo1,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=16,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=16, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Dasypus novemcinctus*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plot33<-ggplot(armadillo1,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=16,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=16, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Dasypus novemcinctus*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+sun <-readPNG("sun.png")
+moon<-readPNG("moon.png")
+dasypus<-readPNG("Dasypus.png")
+grafica33<-ggdraw(plot33)+
+  draw_image(sun,x=0.50,y=0.18,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.55, y=0.76,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(dasypus, x=0.25, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica33
+
+#COATÍ#
+coati1<-registers%>% filter(Especie=="Nasua narica")
+
+ggplot(coati1,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=8,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=8, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Nasua narica*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plot34<-ggplot(coati1,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=8,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=8, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Nasua narica*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+nasua<-readPNG("nasua.png")
+grafica34<-ggdraw(plot34)+
+  draw_image(sun,x=0.50,y=0.18,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.78,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(nasua, x=0.21, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica34
+
+#CONEJO#
+conejo1<-registers%>% filter(Especie=="Sylvilagus Sp.")
+
+ggplot(conejo1,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=65,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=65, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Sylvilagus sp.*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plot35<-ggplot(conejo1,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=65,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=65, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Sylvilagus sp.*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+sylvilagus<-readPNG("sylvilagus.png")
+grafica35<-ggdraw(plot35)+
+  draw_image(sun,x=0.50,y=0.23,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.75,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(sylvilagus, x=0.21, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica35
+
+#JAGUAR#
+jaguar1<-registers%>% filter(Especie=="Panthera onca")
+
+ggplot(jaguar1,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=6,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=6, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Panthera onca*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plot36<-ggplot(jaguar1,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=6,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=6, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Panthera onca*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+panthera<-readPNG("panthera.png")
+grafica36<-ggdraw(plot36)+
+  draw_image(sun,x=0.50,y=0.21,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.75,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(panthera, x=0.23, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica36
+
+#OCELOTE#
+ocelote1<-registers%>% filter(Especie=="Leopardus pardalis")
+
+ggplot(ocelote1,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=7,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=7, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Leopardus pardalis*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plot37<-ggplot(ocelote1,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=7,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=7, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Leopardus pardalis*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+leopardus_p<-readPNG("leopardus p.png")
+grafica37<-ggdraw(plot37)+
+  draw_image(sun,x=0.50,y=0.20,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.79,
+             width = 0.08, height=0.07, 
+             scale=0.50)+
+  draw_image(leopardus_p, x=0.21, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica37
+
+#OSO NEGRO#
+osonegro1<-registers%>% filter(Especie=="Ursus americanus")
+
+ggplot(osonegro1,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=28,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=28, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Ursus americanus*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plot38<-ggplot(osonegro1,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=28,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=28, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Ursus americanus*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+ursus<-readPNG("ursus.png")
+grafica38<-ggdraw(plot38)+
+  draw_image(sun,x=0.50,y=0.21,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.75,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(ursus, x=0.21, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica38
+
+#PECARI DE COLLAR#
+pecari1<-registers%>% filter(Especie=="Dicotyles tajacu")
+
+ggplot(pecari1,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=9,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=9, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Dicotyles tajacu*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plot39<-ggplot(pecari1,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=9,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=9, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Dicotyles tajacu*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+pecari<-readPNG("pecari.png")
+grafica39<-ggdraw(plot39)+
+  draw_image(sun,x=0.47,y=0.21,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.75,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(pecari, x=0.21, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica39
+
+#PUMA#
+puma1<-registers%>% filter(Especie=="Puma concolor")
+
+ggplot(puma1,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=14,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=14, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Puma concolor*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plot40<-ggplot(puma1,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=14,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=14, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Puma concolor*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+puma<-readPNG("puma.png")
+grafica40<-ggdraw(plot40)+
+  draw_image(sun,x=0.50,y=0.20,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.75,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(puma, x=0.21, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica40
+
+#TEMAZATE ROJO#
+temazaterojo1<-registers%>% filter(Especie=="Mazama temama")
+
+ggplot(temazaterojo1,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=36,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=36, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Mazama temama*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plot41<-ggplot(temazaterojo1,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=36,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=36, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Mazama temama*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+mazama<-readPNG("mazama.png")
+grafica41<-ggdraw(plot41)+
+  draw_image(sun,x=0.48,y=0.20,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.75,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(mazama, x=0.21, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica41
+
+#TEPEZCUINTLE#
+tepezcuintle1<-registers%>% filter(Especie=="Cuniculus paca")
+
+ggplot(tepezcuintle1,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=5,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=5, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Cuniculus paca*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plot42<-ggplot(tepezcuintle1,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=5,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=5, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Cuniculus paca*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+cuniculus<-readPNG("cuniculus.png")
+grafica42<-ggdraw(plot42)+
+  draw_image(sun,x=0.50,y=0.20,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.75,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(cuniculus, x=0.22, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica42
+
+#TIGRILLO#
+tigrillo1<-registers%>% filter(Especie=="Leopardus wiedii")
+
+ggplot(tigrillo1,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=32,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=32, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Leopardus wiedii*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plot43<-ggplot(tigrillo1,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=32,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=32, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Leopardus wiedii*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+leopardus_w<-readPNG("leopardus w.png")
+grafica43<-ggdraw(plot43)+
+  draw_image(sun,x=0.50,y=0.18,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.77,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(leopardus_w, x=0.22, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica43
+
+#TLACUACHE#
+tlacuache1<-registers%>% filter(Especie=="Didelphis virginiana")
+
+ggplot(tlacuache1,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=55,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=55, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Didelphis virginiana*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plot44<-ggplot(tlacuache1,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=55,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=55, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Didelphis virginiana*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+didelphis<-readPNG("didelphis.png")
+grafica44<-ggdraw(plot44)+
+  draw_image(sun,x=0.50,y=0.18,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.78,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(didelphis, x=0.24, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica44
+
+#VENADO COLA BLANCA#
+venado1<-registers%>% filter(Especie=="Odocoileus virginianus")
+
+ggplot(venado1,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=4,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=4, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Odocoileus virginianus*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plot45<-ggplot(venado1,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=4,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=4, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Odocoileus virginianus*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+odocoileus<-readPNG("odocoileus.png")
+grafica45<-ggdraw(plot45)+
+  draw_image(sun,x=0.50,y=0.18,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.77,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(odocoileus, x=0.22, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica45
+
+#VIEJO DE MONTE#
+viejodemonte1<-registers%>% filter(Especie=="Eira barbara")
+
+ggplot(viejodemonte1,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=8,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=8, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Eira barbara*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plot46<-ggplot(viejodemonte1,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=8,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=8, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Eira barbara*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+eira<-readPNG("eira.png")
+grafica46<-ggdraw(plot46)+
+  draw_image(sun,x=0.48,y=0.17,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.77,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(eira, x=0.22, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica46
+
+#ZORRA GRIS#
+zorragris1<-registers%>% filter(Especie=="Urocyon cinereoargenteus")
+
+ggplot(zorragris1,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=14,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=14, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Urocyon cinereoargenteus*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plot47<-ggplot(zorragris1,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=14,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=14, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Urocyon cinereoargenteus*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+urocyon<-readPNG("urocyon.png")
+grafica47<-ggdraw(plot47)+
+  draw_image(sun,x=0.50,y=0.17,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.78,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(urocyon, x=0.22, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica47
+
+#ZORRILLO#
+zorrillo1<-registers%>% filter(Especie=="Conepatus leuconotus")
+
+ggplot(zorrillo1,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=10,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=10, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Conepatus leuconotus*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plot48<-ggplot(zorrillo1,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=10,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=10, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Conepatus leuconotus*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+conepatus<-readPNG("conepatus.png")
+grafica48<-ggdraw(plot48)+
+  draw_image(sun,x=0.50,y=0.17,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.48, y=0.78,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(conepatus, x=0.25, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica48
+
+####Patrón de actividad por temporadas####
+base <- read_csv("Estadística circular .csv")
+
+####TEMPORADAS####
+
+# ARMADILLO Lluvia#
+armadillo_lluvia<-subset(armadillo, armadillo$Temporada=="Lluvia")
+data.frame(table(armadillo_lluvia$Temporada))
+
+arma_circular_lluvia<-circular(armadillo_lluvia$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(arma_circular_lluvia,5)
+
+#ARMADILLO Seca#
+armadillo_seca<-subset(armadillo, armadillo$Temporada=="Seca")
+data.frame(table(armadillo_seca$Temporada))
+
+arma_circular_seca<-circular(armadillo_seca$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(arma_circular_seca,5)
+
+#COATÍ Lluvia#
+coati_lluvia<-subset(coati, coati$Temporada=="Lluvia")
+data.frame(table(coati_lluvia$Temporada))
+
+coati_circular_lluvia<-circular(coati_lluvia$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(coati_circular_lluvia,5)
+
+#COATÍ Seca#
+coati_seca<-subset(coati, coati$Temporada=="Seca")
+data.frame(table(coati_seca$Temporada))
+
+coati_circular_seca<-circular(coati_seca$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(coati_circular_seca,5)
+
+#CONEJO Lluvia#
+conejo_lluvia<-subset(conejo, conejo$Temporada=="Lluvia")
+data.frame(table(conejo_lluvia$Temporada))
+
+conejo_circular_lluvia<-circular(conejo_lluvia$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(conejo_circular_lluvia,5)
+
+#CONEJO Seca#
+conejo_seca<-subset(conejo, conejo$Temporada=="Seca")
+data.frame(table(conejo_seca$Temporada))
+
+conejo_circular_seca<-circular(conejo_seca$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(conejo_circular_seca,5)
+
+#JAGUAR Lluvia#
+jaguar_lluvia<-subset(jaguar,jaguar$Temporada=="Lluvia")
+data.frame(table(jaguar_lluvia$Temporada))
+
+jaguar_circular_lluvia<-circular(jaguar_lluvia$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(jaguar_circular_lluvia,5)
+
+#JAGUAR Seca#
+jaguar_seca<-subset(jaguar, jaguar$Temporada=="Seca")
+data.frame(table(jaguar_seca$Temporada))
+
+jaguar_circular_seca<-circular(jaguar_seca$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(jaguar_circular_seca,5)
+
+#OCELOTE Lluvia#
+ocelote_lluvia<-subset(ocelote,ocelote$Temporada=="Lluvia")
+data.frame(table(ocelote_lluvia$Temporada))
+
+ocelote_circular_lluvia<-circular(ocelote_lluvia$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(ocelote_circular_lluvia,5)
+
+#OCELOTE Seca#
+ocelote_seca<-subset(ocelote, ocelote$Temporada=="Seca")
+data.frame(table(ocelote_seca$Temporada))
+
+ocelote_circular_seca<-circular(ocelote_seca$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(ocelote_circular_seca,5)
+
+#OSO NEGRO Lluvia#
+osonegro_lluvia<-subset(osonegro,osonegro$Temporada=="Lluvia")
+data.frame(table(osonegro_lluvia$Temporada))
+
+osonegro_circular_lluvia<-circular(osonegro_lluvia$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(osonegro_circular_lluvia,5)
+
+#OSO NEGRO Seca#
+osonegro_seca<-subset(osonegro, osonegro$Temporada=="Seca")
+data.frame(table(osonegro_seca$Temporada))
+
+osonegro_circular_seca<-circular(osonegro_seca$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(osonegro_circular_seca,5)
+
+#PUMA Lluvia#
+puma_lluvia<-subset(puma,puma$Temporada=="Lluvia")
+data.frame(table(puma_lluvia$Temporada))
+
+puma_circular_lluvia<-circular(puma_lluvia$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(puma_circular_lluvia,5)
+
+#PUMA Seca#
+puma_seca<-subset(puma, puma$Temporada=="Seca")
+data.frame(table(puma_seca$Temporada))
+
+puma_circular_seca<-circular(puma_seca$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(puma_circular_seca,5)
+
+#TEMAZATE ROJO Lluvia#
+temazaterojo_lluvia<-subset(temazaterojo,temazaterojo$Temporada=="Lluvia")
+data.frame(table(temazaterojo_lluvia$Temporada))
+
+temazaterojo_circular_lluvia<-circular(temazaterojo_lluvia$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(temazaterojo_circular_lluvia,5)
+
+#TEMAZATE ROJO Seca#
+temazaterojo_seca<-subset(temazaterojo, temazaterojo$Temporada=="Seca")
+data.frame(table(temazaterojo_seca$Temporada))
+
+temazaterojo_circular_seca<-circular(temazaterojo_seca$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(temazaterojo_circular_seca,5)
+
+#TEPEZCUINTLE Lluvia#
+tepezcuintle_lluvia<-subset(tepezcuintle,tepezcuintle$Temporada=="Lluvia")
+data.frame(table(tepezcuintle_lluvia$Temporada))
+
+tepezcuintle_circular_lluvia<-circular(tepezcuintle_lluvia$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(tepezcuintle_circular_lluvia,5)
+
+#TEPEZCUINTLE Seca#
+tepezcuintle_seca<-subset(tepezcuintle, tepezcuintle$Temporada=="Seca")
+data.frame(table(tepezcuintle_seca$Temporada))
+
+tepezcuintle_circular_seca<-circular(tepezcuintle_seca$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(tepezcuintle_circular_seca,5)
+
+#TIGRILLO Lluvia#
+tigrillo_lluvia<-subset(tigrillo,tigrillo$Temporada=="Lluvia")
+data.frame(table(tigrillo_lluvia$Temporada))
+
+tigrillo_circular_lluvia<-circular(tigrillo_lluvia$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(tigrillo_circular_lluvia,5)
+
+#TIGRILLO Seca#
+tigrillo_seca<-subset(tigrillo, tigrillo$Temporada=="Seca")
+data.frame(table(tigrillo_seca$Temporada))
+
+tigrillo_circular_seca<-circular(tigrillo_seca$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(tigrillo_circular_seca,5)
+
+#TLACUACHE Lluvia#
+tlacuache_lluvia<-subset(tlacuache,tlacuache$Temporada=="Lluvia")
+data.frame(table(tlacuache_lluvia$Temporada))
+
+tlacuache_circular_lluvia<-circular(tlacuache_lluvia$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(tlacuache_circular_lluvia,5)
+
+#TLACUACHE Seca#
+tlacuache_seca<-subset(tlacuache, tlacuache$Temporada=="Seca")
+data.frame(table(tlacuache_seca$Temporada))
+
+tlacuache_circular_seca<-circular(tlacuache_seca$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(tlacuache_circular_seca,5)
+
+#VENADO COLA BLANCA Lluvia#
+venado_lluvia<-subset(venado,venado$Temporada=="Lluvia")
+data.frame(table(venado_lluvia$Temporada))
+
+venado_circular_lluvia<-circular(venado_lluvia$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(venado_circular_lluvia,5)
+
+#VENADO COLA BLANCA Seca#
+venado_seca<-subset(venado, venado$Temporada=="Seca")
+data.frame(table(venado_seca$Temporada))
+
+venado_circular_seca<-circular(venado_seca$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(venado_circular_seca,5)
+
+#VIEJO DE MONTE Lluvia#
+viejodemonte_lluvia<-subset(viejodemonte,viejodemonte$Temporada=="Lluvia")
+data.frame(table(viejodemonte_lluvia$Temporada))
+
+viejodemonte_circular_lluvia<-circular(viejodemonte_lluvia$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(viejodemonte_circular_lluvia,5)
+
+#VIEJO DE MONTE Seca#
+viejodemonte_seca<-subset(viejodemonte, viejodemonte$Temporada=="Seca")
+data.frame(table(viejodemonte_seca$Temporada))
+
+viejodemonte_circular_seca<-circular(viejodemonte_seca$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(viejodemonte_circular_seca,5)
+
+#ZORRA GRIS Lluvia#
+zorragris_lluvia<-subset(zorragris,zorragris$Temporada=="Lluvia")
+data.frame(table(zorragris_lluvia$Temporada))
+
+zorragris_circular_lluvia<-circular(zorragris_lluvia$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(zorragris_circular_lluvia,5)
+
+#ZORRA GRIS Seca#
+zorragris_seca<-subset(zorragris, zorragris$Temporada=="Seca")
+data.frame(table(zorragris_seca$Temporada))
+
+zorragris_circular_seca<-circular(zorragris_seca$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(zorragris_circular_seca,5)
+
+#ZORRILLO Lluvia#
+zorrillo_lluvia<-subset(zorrillo,zorrillo$Temporada=="Lluvia")
+data.frame(table(zorrillo_lluvia$Temporada))
+
+zorrillo_circular_lluvia<-circular(zorrillo_lluvia$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(zorrillo_circular_lluvia,5)
+
+#ZORRILLO Seca#
+zorrillo_seca<-subset(zorrillo, zorrillo$Temporada=="Seca")
+data.frame(table(zorrillo_seca$Temporada))
+
+zorrillo_circular_seca<-circular(zorrillo_seca$Horas_Decimales,units="hour",template="clock24",rotation="clock",zero=pi/2)
+head(zorrillo_circular_seca,5)
+
+
+#Watson test para dos muestras#
+watson.two.test(arma_circular_lluvia, arma_circular_seca, alpha=0.05)
+watson.two.test(coati_circular_lluvia, coati_circular_seca, alpha=0.05)
+watson.two.test(conejo_circular_lluvia, conejo_circular_seca, alpha=0.05)
+watson.two.test(jaguar_circular_lluvia, jaguar_circular_seca, alpha=0.05)
+watson.two.test(ocelote_circular_lluvia, ocelote_circular_seca, alpha=0.05)
+watson.two.test(osonegro_circular_lluvia, osonegro_circular_seca, alpha=0.05)
+watson.two.test(pecari_circular_lluvia, pecari_circular_seca, alpha=0.05)
+watson.two.test(puma_circular_lluvia,puma_circular_seca, alpha=0.05)
+watson.two.test(temazaterojo_circular_lluvia, temazaterojo_circular_seca, alpha=0.05)
+watson.two.test(tepezcuintle_circular_lluvia, tepezcuintle_circular_seca, alpha=0.05)
+watson.two.test(tigrillo_circular_lluvia, tigrillo_circular_seca, alpha=0.05)
+watson.two.test(tlacuache_circular_lluvia, tlacuache_circular_seca, alpha=0.05)
+watson.two.test(venado_circular_lluvia,venado_circular_seca, alpha=0.05)
+watson.two.test(viejodemonte_circular_lluvia, viejodemonte_circular_seca, alpha=0.05)
+watson.two.test(zorragris_circular_lluvia, zorragris_circular_seca, alpha=0.05)
+watson.two.test(zorrillo_circular_lluvia, zorrillo_circular_seca, alpha=0.05)
+
+#Gráficas#
+registers<-read.csv("Estadística circular .csv")
+registers$Tiempo<-as.character(registers$Tiempo)
+registers$Horas_Decimales<-sapply(strsplit(registers$Tiempo,":"), function(x){
+  x<-as.numeric(x)
+  x[1]+x[2]/60+x[3]/3600
+}
+)
+
+registers$Temporada<-as.character(registers$Temporada)
+view(registers)
+
+#ARMADILLO LLUVIA#
+armadillo1<-registers%>% filter(Especie=="Dasypus novemcinctus")
+armadillo_lluvia<-subset(armadillo1, armadillo1$Temporada=="Lluvia")
+
+
+ggplot(armadillo_lluvia,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=15,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=15, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Dasypus novemcinctus*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plo1<-ggplot(armadillo_lluvia,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=15,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=15, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Dasypus novemcinctus*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+dasypus<-readPNG("Dasypus.png")
+grafica1<-ggdraw(plo1)+
+  draw_image(sun,x=0.50,y=0.18,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.55, y=0.76,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(dasypus, x=0.25, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica1
+
+
+#SECAS#
+registers$Temporada<-as.character(registers$Temporada)
+armadillo11<-registers%>% filter(Especie=="Dasypus novemcinctus")
+armadillo_seca<-subset(armadillo11, armadillo1$Temporada=="Seca")
+
+
+ggplot(armadillo_seca,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=3,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=3, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Dasypus novemcinctus*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plo2<-ggplot(armadillo_seca,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=3,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=3, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Dasypus novemcinctus*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+grafica2<-ggdraw(plo2)+
+  draw_image(sun,x=0.50,y=0.25,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.72,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(dasypus, x=0.23, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica2
+
+#COATÍ LLUVIA#
+coati1<-registers%>% filter(Especie=="Nasua narica")
+coati_lluvia<-subset(coati1, coati1$Temporada=="Lluvia")
+
+
+ggplot(coati_lluvia,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=7,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=7, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Nasua narica*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plo3<-ggplot(coati_lluvia,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=7,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=7, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Nasua narica*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+nasua<-readPNG("nasua.png")
+grafica3<-ggdraw(plo3)+
+  draw_image(sun,x=0.50,y=0.18,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.72,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(nasua, x=0.21, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica3
+
+
+#SECAS#
+registers$Temporada<-as.character(registers$Temporada)
+coati1<-registers%>% filter(Especie=="Nasua narica")
+coati_seca<-subset(coati1, coati1$Temporada=="Seca")
+
+ggplot(coati_seca,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=6,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=6, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Nasua narica*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plo4<-ggplot(coati_seca,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=6,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=6, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Nasua narica*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+grafica4<-ggdraw(plo4)+
+  draw_image(sun,x=0.50,y=0.20,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.78,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(nasua, x=0.21, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica4
+
+#CONEJO LLUVIA#
+conejo1<-registers%>% filter(Especie=="Sylvilagus Sp.")
+conejo_lluvia<-subset(conejo1, conejo1$Temporada=="Lluvia")
+
+
+ggplot(conejo_lluvia,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=35,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=35, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Sylvilagus sp.*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plo5<-ggplot(conejo_lluvia,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=35,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=35, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Sylvilagus sp.*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+sylvilagus<-readPNG("sylvilagus.png")
+grafica5<-ggdraw(plo5)+
+  draw_image(sun,x=0.50,y=0.23,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.75,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(sylvilagus, x=0.21, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica5
+
+
+#SECAS#
+registers$Temporada<-as.character(registers$Temporada)
+conejo1<-registers%>% filter(Especie=="Sylvilagus Sp.")
+conejo_seca<-subset(conejo1, conejo1$Temporada=="Seca")
+
+
+ggplot(conejo_seca,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=30,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=30, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Sylvilagus sp.*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plo6<-ggplot(conejo_seca,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=30,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=30, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Sylvilagus sp.*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+grafica6<-ggdraw(plo6)+
+  draw_image(sun,x=0.50,y=0.23,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.75,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(sylvilagus, x=0.21, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica6
+
+#JAGUAR LLUVIA#
+jaguar1<-registers%>% filter(Especie=="Panthera onca")
+jaguar_lluvia<-subset(jaguar1, jaguar1$Temporada=="Lluvia")
+
+
+ggplot(jaguar_lluvia,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=5,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=5, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Panthera onca*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plo7<-ggplot(jaguar_lluvia,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=5,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=5, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Panthera onca*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+panthera<-readPNG("panthera.png")
+grafica7<-ggdraw(plo7)+
+  draw_image(sun,x=0.50,y=0.21,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.75,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(panthera, x=0.21, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica7
+
+
+#SECAS#
+registers$Temporada<-as.character(registers$Temporada)
+jaguar1<-registers%>% filter(Especie=="Panthera onca")
+jaguar_seca<-subset(jaguar1, jaguar1$Temporada=="Seca")
+
+
+ggplot(jaguar_seca,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=4,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=4, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Panthera onca*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plo8<-ggplot(jaguar_seca,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=4,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=4, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Panthera onca*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+grafica8<-ggdraw(plo8)+
+  draw_image(sun,x=0.50,y=0.25,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.72,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(panthera, x=0.21, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica8
+
+#OCELOTE LLUVIA#
+ocelote1<-registers%>% filter(Especie=="Leopardus pardalis")
+ocelote_lluvia<-subset(ocelote1, ocelote1$Temporada=="Lluvia")
+
+
+ggplot(ocelote_lluvia,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=6.5,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=6.5, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Leopardus pardalis*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plo9<-ggplot(ocelote_lluvia,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=6.5,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=6.5, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Leopardus pardalis*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+leopardus_p<-readPNG("leopardus p.png")
+grafica9<-ggdraw(plo9)+
+  draw_image(sun,x=0.50,y=0.20,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.78,
+             width = 0.08, height=0.07, 
+             scale=0.50)+
+  draw_image(leopardus_p, x=0.21, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica9
+
+
+#SECAS#
+registers$Temporada<-as.character(registers$Temporada)
+ocelote1<-registers%>% filter(Especie=="Leopardus pardalis")
+ocelote_seca<-subset(ocelote1, ocelote1$Temporada=="Seca")
+
+
+ggplot(ocelote_seca,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=4,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=4, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Leopardus pardalis*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plo10<-ggplot(ocelote_seca,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=4,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=4, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Leopardus pardalis*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+grafica10<-ggdraw(plo10)+
+  draw_image(sun,x=0.50,y=0.20,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.77,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(leopardus_p, x=0.21, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica10
+
+#OSO NEGRO LLUVIA#
+osonegro1<-registers%>% filter(Especie=="Ursus americanus")
+osonegro_lluvia<-subset(osonegro1, osonegro1$Temporada=="Lluvia")
+
+
+ggplot(osonegro_lluvia,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=18,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=18, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Ursus americanus*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plo11<-ggplot(osonegro_lluvia,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=18,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=18, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Ursus americanus*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+ursus<-readPNG("ursus.png")
+grafica11<-ggdraw(plo11)+
+  draw_image(sun,x=0.50,y=0.21,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.75,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(ursus, x=0.21, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica11
+
+
+#SECAS#
+registers$Temporada<-as.character(registers$Temporada)
+osonegro1<-registers%>% filter(Especie=="Ursus americanus")
+osonegro_seca<-subset(osonegro1, osonegro1$Temporada=="Seca")
+
+
+ggplot(osonegro_seca,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=12,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=12, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Ursus americanus*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plo12<-ggplot(osonegro_seca,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=12,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=12, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Ursus americanus*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+grafica12<-ggdraw(plo12)+
+  draw_image(sun,x=0.50,y=0.21,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.75,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(ursus, x=0.21, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica12
+
+#PECARI DE COLLAR LLUVIA#
+pecari1<-registers%>% filter(Especie=="Dicotyles tajacu")
+pecari_lluvia<-subset(pecari1, pecari1$Temporada=="Lluvia")
+
+
+ggplot(pecari_lluvia,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=8,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=8, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Dicotyles tajacu*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plo13<-ggplot(pecari_lluvia,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=8,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=8, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Dicotyles tajacu*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+pecari<-readPNG("pecari.png")
+grafica13<-ggdraw(plo13)+
+  draw_image(sun,x=0.47,y=0.21,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.75,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(pecari, x=0.21, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica13
+
+
+#SECAS#
+registers$Temporada<-as.character(registers$Temporada)
+pecari1<-registers%>% filter(Especie=="Dicotyles tajacu")
+pecari_seca<-subset(pecari1, pecari1$Temporada=="Seca")
+
+
+ggplot(pecari_seca,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=4,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=4, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Dicotyles tajacu*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plo14<-ggplot(pecari_seca,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=4,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=4, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Dicotyles tajacu*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+grafica14<-ggdraw(plo14)+
+  draw_image(sun,x=0.50,y=0.21,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.75,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(pecari, x=0.21, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica14
+
+#PUMA LLUVIA#
+puma1<-registers%>% filter(Especie=="Puma concolor")
+puma_lluvia<-subset(puma1, puma1$Temporada=="Lluvia")
+
+
+ggplot(puma_lluvia,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=8,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=8, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Puma concolor*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plo15<-ggplot(puma_lluvia,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=8,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=8, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Puma concolor*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+puma<-readPNG("puma.png")
+grafica15<-ggdraw(plo15)+
+  draw_image(sun,x=0.50,y=0.20,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.75,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(puma, x=0.21, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica15
+
+
+#SECAS#
+registers$Temporada<-as.character(registers$Temporada)
+puma1<-registers%>% filter(Especie=="Puma concolor")
+puma_seca<-subset(puma1, puma1$Temporada=="Seca")
+
+
+ggplot(puma_seca,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=7,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=7, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Puma concolor*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plo16<-ggplot(puma_seca,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=7,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=7, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Puma concolor*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+grafica16<-ggdraw(plo16)+
+  draw_image(sun,x=0.50,y=0.21,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.75,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(puma, x=0.21, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica16
+
+#TEMAZATE ROJO LLUVIA#
+temazaterojo1<-registers%>% filter(Especie=="Mazama temama")
+temazaterojo_lluvia<-subset(temazaterojo1, temazaterojo1$Temporada=="Lluvia")
+
+
+ggplot(temazaterojo_lluvia,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=28,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=28, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Mazama temama*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plo17<-ggplot(temazaterojo_lluvia,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=28,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=28, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Mazama temama*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+mazama<-readPNG("mazama.png")
+grafica17<-ggdraw(plo17)+
+  draw_image(sun,x=0.48,y=0.20,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.75,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(mazama, x=0.21, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica17
+
+
+#SECAS#
+registers$Temporada<-as.character(registers$Temporada)
+temazaterojo1<-registers%>% filter(Especie=="Mazama temama")
+temazaterojo_seca<-subset(temazaterojo1, temazaterojo1$Temporada=="Seca")
+
+
+ggplot(temazaterojo_seca,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=18,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=18, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Mazama temama*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plo18<-ggplot(temazaterojo_seca,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=18,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=18, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Mazama temama*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+grafica18<-ggdraw(plo18)+
+  draw_image(sun,x=0.50,y=0.20,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.77,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(mazama, x=0.21, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica18
+
+#TEPEZCUINTLE LLUVIA#
+tepezcuintle1<-registers%>% filter(Especie=="Cuniculus paca")
+tepezcuintle_lluvia<-subset(tepezcuintle1, tepezcuintle1$Temporada=="Lluvia")
+
+
+ggplot(tepezcuintle_lluvia,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=4,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=4, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Cuniculus paca*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plo19<-ggplot(tepezcuintle_lluvia,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=4,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=4, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Cuniculus paca*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+cuniculus<-readPNG("cuniculus.png")
+grafica19<-ggdraw(plo19)+
+  draw_image(sun,x=0.50,y=0.20,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.75,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(cuniculus, x=0.22, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica19
+
+
+#SECAS#
+registers$Temporada<-as.character(registers$Temporada)
+tepezcuintle1<-registers%>% filter(Especie=="Cuniculus paca")
+tepezcuintle_seca<-subset(tepezcuintle1, tepezcuintle1$Temporada=="Seca")
+
+
+ggplot(tepezcuintle_seca,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=3,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=3, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Cuniculus paca*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plo20<-ggplot(tepezcuintle_seca,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=3,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=3, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Cuniculus paca*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+grafica20<-ggdraw(plo20)+
+  draw_image(sun,x=0.50,y=0.20,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.77,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(cuniculus, x=0.20, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica20
+
+#TIGRILLO LLUVIA#
+tigrillo1<-registers%>% filter(Especie=="Leopardus wiedii")
+tigrillo_lluvia<-subset(tigrillo1, tigrillo1$Temporada=="Lluvia")
+
+
+ggplot(tigrillo_lluvia,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=25,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=25, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Leopardus wiedii*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plo21<-ggplot(tigrillo_lluvia,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=25,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=25, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Leopardus wiedii*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+leopardus_w<-readPNG("leopardus w.png")
+grafica21<-ggdraw(plo21)+
+  draw_image(sun,x=0.50,y=0.18,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.77,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(leopardus_w, x=0.22, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica21
+
+
+#SECAS#
+registers$Temporada<-as.character(registers$Temporada)
+tigrillo1<-registers%>% filter(Especie=="Leopardus wiedii")
+tigrillo_seca<-subset(tigrillo1, tigrillo1$Temporada=="Seca")
+
+
+ggplot(tigrillo_seca,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=15,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=15, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Leopardus wiedii*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plo22<-ggplot(tigrillo_seca,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=15,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=15, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Leopardus wiedii*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+grafica22<-ggdraw(plo22)+
+  draw_image(sun,x=0.50,y=0.20,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.77,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(leopardus_w, x=0.21, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica22
+
+#TLACUACHE LLUVIA#
+tlacuache1<-registers%>% filter(Especie=="Didelphis virginiana")
+tlacuache_lluvia<-subset(tlacuache1, tlacuache1$Temporada=="Lluvia")
+
+
+ggplot(tlacuache_lluvia,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=35,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=35, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Didelphis virginiana*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plo23<-ggplot(tlacuache_lluvia,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=35,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=35, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Didelphis virginiana*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+didelphis<-readPNG("didelphis.png")
+grafica23<-ggdraw(plo23)+
+  draw_image(sun,x=0.50,y=0.18,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.77,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(didelphis, x=0.22, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica23
+
+
+#SECAS#
+registers$Temporada<-as.character(registers$Temporada)
+tlacuache1<-registers%>% filter(Especie=="Didelphis virginiana")
+tlacuache_seca<-subset(tlacuache1, tlacuache1$Temporada=="Seca")
+
+
+ggplot(tlacuache_seca,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=25,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=25, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Didelphis virginiana*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plo24<-ggplot(tlacuache_seca,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=25,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=25, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Didelphis virginiana*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+grafica24<-ggdraw(plo24)+
+  draw_image(sun,x=0.50,y=0.20,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.47, y=0.77,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(didelphis, x=0.22, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica24
+
+#VENADO COLA BLANCA LLUVIA#
+venado1<-registers%>% filter(Especie=="Odocoileus virginianus")
+venado_lluvia<-subset(venado1, venado1$Temporada=="Lluvia")
+
+
+ggplot(venado_lluvia,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=4,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=4, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Odocoileus virginianus*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plo25<-ggplot(venado_lluvia,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=4,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=4, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Odocoileus virginianus*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+odocoileus<-readPNG("odocoileus.png")
+grafica25<-ggdraw(plo25)+
+  draw_image(sun,x=0.50,y=0.18,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.77,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(odocoileus, x=0.22, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica25
+
+
+#SECAS#
+registers$Temporada<-as.character(registers$Temporada)
+venado1<-registers%>% filter(Especie=="Odocoileus virginianus")
+venado_seca<-subset(venado1, venado1$Temporada=="Seca")
+
+
+ggplot(venado_seca,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=2,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=2, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Odocoileus virginianus*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plo26<-ggplot(venado_seca,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=2,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=2, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Odocoileus virginianus*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+grafica26<-ggdraw(plo26)+
+  draw_image(sun,x=0.51,y=0.20,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.51, y=0.77,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(odocoileus, x=0.22, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica26
+
+#VIEJO DE MONTE LLUVIA#
+viejodemonte1<-registers%>% filter(Especie=="Eira barbara")
+viejodemonte_lluvia<-subset(viejodemonte1, viejodemonte1$Temporada=="Lluvia")
+
+
+ggplot(viejodemonte_lluvia,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=6,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=6, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Eira barbara*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plo27<-ggplot(viejodemonte_lluvia,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=6,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=6, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Eira barbara*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+eira<-readPNG("eira.png")
+grafica27<-ggdraw(plo27)+
+  draw_image(sun,x=0.50,y=0.17,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.77,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(eira, x=0.22, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica27
+
+
+#SECAS#
+registers$Temporada<-as.character(registers$Temporada)
+viejodemonte1<-registers%>% filter(Especie=="Eira barbara")
+viejodemonte_seca<-subset(viejodemonte1, viejodemonte1$Temporada=="Seca")
+
+
+ggplot(viejodemonte_seca,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=6,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=6, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Eira barbara*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plo28<-ggplot(viejodemonte_seca,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=6,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=6, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Eira barbara*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+grafica28<-ggdraw(plo28)+
+  draw_image(sun,x=0.51,y=0.18,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.51, y=0.78,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(eira, x=0.22, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica28
+
+#ZORRA GRIS LLUVIA#
+zorragris1<-registers%>% filter(Especie=="Urocyon cinereoargenteus")
+zorragris_lluvia<-subset(zorragris1, zorragris1$Temporada=="Lluvia")
+
+
+ggplot(zorragris_lluvia,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=7,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=7, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Urocyon cinereoargenteus*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plo29<-ggplot(zorragris_lluvia,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=7,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=7, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Urocyon cinereoargenteus*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+urocyon<-readPNG("urocyon.png")
+grafica29<-ggdraw(plo29)+
+  draw_image(sun,x=0.50,y=0.17,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.78,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(urocyon, x=0.22, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica29
+
+
+#SECAS#
+registers$Temporada<-as.character(registers$Temporada)
+zorragris1<-registers%>% filter(Especie=="Urocyon cinereoargenteus")
+zorragris_seca<-subset(zorragris1, zorragris1$Temporada=="Seca")
+
+
+ggplot(zorragris_seca,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=8,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=8, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Urocyon cinereoargenteus*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plo30<-ggplot(zorragris_seca,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=8,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=8, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Urocyon cinereoargenteus*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+grafica30<-ggdraw(plo30)+
+  draw_image(sun,x=0.50,y=0.18,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.78,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(urocyon, x=0.22, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica30
+
+#ZORRILLO LLUVIA#
+zorrillo1<-registers%>% filter(Especie=="Conepatus leuconotus")
+zorrillo_lluvia<-subset(zorrillo1, zorrillo1$Temporada=="Lluvia")
+
+
+ggplot(zorrillo_lluvia,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=7,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=7, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Conepatus leuconotus*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plo31<-ggplot(zorrillo_lluvia,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=7,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=7, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Conepatus leuconotus*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+conepatus<-readPNG("conepatus.png")
+grafica31<-ggdraw(plo31)+
+  draw_image(sun,x=0.50,y=0.17,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.78,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(conepatus, x=0.22, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica31
+
+
+#SECAS#
+registers$Temporada<-as.character(registers$Temporada)
+zorrillo1<-registers%>% filter(Especie=="Conepatus leuconotus")
+zorrillo_seca<-subset(zorrillo1, zorrillo1$Temporada=="Seca")
+
+
+ggplot(zorrillo_seca,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=7,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=7, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Conepatus leuconotus*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+plo32<-ggplot(zorrillo_seca,aes(x=Horas_Decimales))+
+  geom_histogram(breaks=seq(0,24), fill="steelblue4",colour="black",size=0.3)+
+  scale_x_continuous("", limits = c(0,24),breaks=seq(0,24), labels=seq(0,24))+
+  annotate("rect", xmin = c(18,0), xmax = c(24,8),ymin=0, ymax=7,alpha=0.3,fill="grey25")+
+  annotate("rect", xmin=6, xmax=20, ymin=0, ymax=7, alpha=0.3, fill="#FFD819")+
+  labs(title = "Registros de *Conepatus leuconotus*",y="Número de registros")+
+  coord_polar(start=0)+
+  theme_minimal()+
+  theme(text=element_text(size=13, face="bold"), axis.title.x = element_text(margin = unit(c(2,0,0,0), "mm")),axis.title.y = element_text(margin=unit(c(0,3,0,0), "mm")), plot.title = element_markdown(hjust = 0.5))
+
+grafica32<-ggdraw(plo32)+
+  draw_image(sun,x=0.50,y=0.18,
+             width = 0.07, height = 0.06,scale=0.70)+
+  draw_image(moon,x=0.50, y=0.78,
+             width = 0.08, height=0.07, 
+             scale=0.52)+
+  draw_image(conepatus, x=0.22, y=0.82,
+             width= 0.08, height = 0.08,
+             scale=1.2)
+
+grafica32
