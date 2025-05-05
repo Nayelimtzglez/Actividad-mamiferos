@@ -1,0 +1,222 @@
+#ANÁLISIS DE LA ACTIVIDAD: SOLAPAMIENTO GENERAL Y POR TEMPORADAS#
+#TOMADO DE SALVADOR MANDUJANO Y PEREZ-SOLANO#
+
+library (overlap)
+actividad_RBEC<-read.csv("Estadística circular 2.csv", header=T)
+
+#Especies y número de registros independientes#
+summary(actividad_RBEC$Especie)
+data.frame(table(actividad_RBEC$Especie))
+
+#Hora en radianes#
+hora_radianes_RBEC<-actividad_RBEC$Time_2*2*pi
+
+####Actividad general####
+#Extracción de hora de especies con más de 11 registros#
+armadillo_RBEC<-hora_radianes_RBEC[actividad_RBEC$Especie=="Dasypus novemcinctus"]
+coati_RBEC<-hora_radianes_RBEC[actividad_RBEC$Especie=="Nasua narica"]
+conejo_RBEC<-hora_radianes_RBEC[actividad_RBEC$Especie=="Sylvilagus floridanus"]
+jaguar_RBEC<-hora_radianes_RBEC[actividad_RBEC$Especie=="Panthera onca"]
+ocelote_RBEC<-hora_radianes_RBEC[actividad_RBEC$Especie=="Leopardus pardalis"]
+osonegro_RBEC<-hora_radianes_RBEC[actividad_RBEC$Especie=="Ursus americanus"]
+pecaridecollar_RBEC<-hora_radianes_RBEC[actividad_RBEC$Especie=="Dicotyles tajacu"]
+puma_RBEC<-hora_radianes_RBEC[actividad_RBEC$Especie=="Puma concolor"]
+temazaterojo_RBEC<-hora_radianes_RBEC[actividad_RBEC$Especie=="Mazama temama"]
+tepezcuintle_RBEC<-hora_radianes_RBEC[actividad_RBEC$Especie=="Cuniculus paca"]
+tigrillo_RBEC<-hora_radianes_RBEC[actividad_RBEC$Especie=="Leopardus wiedii"]
+tlacuache_RBEC<-hora_radianes_RBEC[actividad_RBEC$Especie=="Didelphis virginiana"]
+venadocolablanca_RBEC<-hora_radianes_RBEC[actividad_RBEC$Especie=="Odocoileus virginianus"]
+viejodemonte_RBEC<-hora_radianes_RBEC[actividad_RBEC$Especie=="Eira barbara"]
+zorragris_RBEC<-hora_radianes_RBEC[actividad_RBEC$Especie=="Urocyon cinereoargenteus"]
+zorrillo_RBEC<-hora_radianes_RBEC[actividad_RBEC$Especie=="Conepatus leuconotus"]
+
+####Comparación entre temporadas climáticas####
+armadillo_RBEC_lluvia<-hora_radianes_RBEC[actividad_RBEC$Especie=="Dasypus novemcinctus"&actividad_RBEC$Station=="Lluvia"]
+data.frame(armadillo_RBEC_lluvia)
+armadillo_RBEC_seca<-hora_radianes_RBEC[actividad_RBEC$Especie=="Dasypus novemcinctus"&actividad_RBEC$Station=="Seca"]
+data.frame(armadillo_RBEC_seca)
+coati_RBEC_lluvia<-hora_radianes_RBEC[actividad_RBEC$Especie=="Nasua narica"&actividad_RBEC$Station=="Lluvia"]
+data.frame(coati_RBEC_lluvia)
+coati_RBEC_seca<-hora_radianes_RBEC[actividad_RBEC$Especie=="Nasua narica"&actividad_RBEC$Station=="Seca"]
+data.frame(coati_RBEC_seca)
+conejo_RBEC_lluvia<-hora_radianes_RBEC[actividad_RBEC$Especie=="Sylvilagus floridanus"&actividad_RBEC$Station=="Lluvia"]
+data.frame(conejo_RBEC_lluvia)
+conejo_RBEC_seca<-hora_radianes_RBEC[actividad_RBEC$Especie=="Sylvilagus floridanus"&actividad_RBEC$Station=="Seca"]
+data.frame(conejo_RBEC_seca)
+jaguar_RBEC_lluvia<-hora_radianes_RBEC[actividad_RBEC$Especie=="Panthera onca"&actividad_RBEC$Station=="Lluvia"]
+data.frame(jaguar_RBEC_lluvia)
+jaguar_RBEC_seca<-hora_radianes_RBEC[actividad_RBEC$Especie=="Panthera onca"&actividad_RBEC$Station=="Seca"]
+data.frame(jaguar_RBEC_seca)
+ocelote_RBEC_lluvia<-hora_radianes_RBEC[actividad_RBEC$Especie=="Leopardus pardalis"&actividad_RBEC$Station=="Lluvia"]
+data.frame(ocelote_RBEC_lluvia)
+ocelote_RBEC_seca<-hora_radianes_RBEC[actividad_RBEC$Especie=="Leopardus pardalis"&actividad_RBEC$Station=="Seca"]
+data.frame(ocelote_RBEC_seca)
+osonegro_RBEC_lluvia<-hora_radianes_RBEC[actividad_RBEC$Especie=="Ursus americanus"&actividad_RBEC$Station=="Lluvia"]
+data.frame(osonegro_RBEC_lluvia)
+osonegro_RBEC_seca<-hora_radianes_RBEC[actividad_RBEC$Especie=="Ursus americanus"&actividad_RBEC$Station=="Seca"]
+data.frame(osonegro_RBEC_seca)
+pecaridecollar_RBEC_lluvia<-hora_radianes_RBEC[actividad_RBEC$Especie=="Dicotyles tajacu"&actividad_RBEC$Station=="Lluvia"]
+data.frame(pecaridecollar_RBEC_lluvia)
+pecaridecollar_RBEC_seca<-hora_radianes_RBEC[actividad_RBEC$Especie=="Dicotyles tajacu"&actividad_RBEC$Station=="Seca"]
+data.frame(pecaridecollar_RBEC_seca)
+puma_RBEC_lluvia<-hora_radianes_RBEC[actividad_RBEC$Especie=="Puma concolor"&actividad_RBEC$Station=="Lluvia"]
+data.frame(puma_RBEC_lluvia)
+puma_RBEC_seca<-hora_radianes_RBEC[actividad_RBEC$Especie=="Puma concolor"&actividad_RBEC$Station=="Seca"]
+data.frame(puma_RBEC_seca)
+temazaterojo_RBEC_lluvia<-hora_radianes_RBEC[actividad_RBEC$Especie=="Mazama temama"&actividad_RBEC$Station=="Lluvia"]
+data.frame(temazaterojo_RBEC_lluvia)
+temazaterojo_RBEC_seca<-hora_radianes_RBEC[actividad_RBEC$Especie=="Mazama temama"&actividad_RBEC$Station=="Seca"]
+data.frame(temazaterojo_RBEC_seca)
+tepezcuintle_RBEC_lluvia<-hora_radianes_RBEC[actividad_RBEC$Especie=="Cuniculus paca"&actividad_RBEC$Station=="Lluvia"]
+data.frame(tepezcuintle_RBEC_lluvia)
+tepezcuintle_RBEC_seca<-hora_radianes_RBEC[actividad_RBEC$Especie=="Cuniculus paca"&actividad_RBEC$Station=="Seca"]
+data.frame(tepezcuintle_RBEC_seca)
+tigrillo_RBEC_lluvia<-hora_radianes_RBEC[actividad_RBEC$Especie=="Leopardus wiedii"&actividad_RBEC$Station=="Lluvia"]
+data.frame(tigrillo_RBEC_lluvia)
+tigrillo_RBEC_seca<-hora_radianes_RBEC[actividad_RBEC$Especie=="Leopardus wiedii"&actividad_RBEC$Station=="Seca"]
+data.frame(tigrillo_RBEC_seca)
+tlacuache_RBEC_lluvia<-hora_radianes_RBEC[actividad_RBEC$Especie=="Didelphis virginiana"&actividad_RBEC$Station=="Lluvia"]
+data.frame(tlacuache_RBEC_lluvia)
+tlacuche_RBEC_seca<-hora_radianes_RBEC[actividad_RBEC$Especie=="Didelphis virginiana"&actividad_RBEC$Station=="Seca"]
+data.frame(tlacuche_RBEC_seca)
+venadocolablanca_RBEC_lluvia<-hora_radianes_RBEC[actividad_RBEC$Especie=="Odocoileus virginianus"&actividad_RBEC$Station=="Lluvia"]
+data.frame(venadocolablanca_RBEC_lluvia)
+venadocolablanca_RBEC_seca<-hora_radianes_RBEC[actividad_RBEC$Especie=="Odocoileus virginianus"&actividad_RBEC$Station=="Seca"]
+data.frame(venadocolablanca_RBEC_seca)
+viejodemonte_RBEC_lluvia<-hora_radianes_RBEC[actividad_RBEC$Especie=="Eira barbara"&actividad_RBEC$Station=="Lluvia"]
+data.frame(viejodemonte_RBEC_lluvia)
+viejodemonte_RBEC_seca<-hora_radianes_RBEC[actividad_RBEC$Especie=="Eira barbara"&actividad_RBEC$Station=="Seca"]
+data.frame(viejodemonte_RBEC_seca)
+zorragris_RBEC_lluvia<-hora_radianes_RBEC[actividad_RBEC$Especie=="Urocyon cinereoargenteus"&actividad_RBEC$Station=="Lluvia"]
+data.frame(zorragris_RBEC_lluvia)
+zorragris_RBEC_seca<-hora_radianes_RBEC[actividad_RBEC$Especie=="Urocyon cinereoargenteus"&actividad_RBEC$Station=="Seca"]
+data.frame(zorragris_RBEC_seca)
+zorrillo_RBEC_lluvia<-hora_radianes_RBEC[actividad_RBEC$Especie=="Conepatus leuconotus"&actividad_RBEC$Station=="Lluvia"]
+data.frame(zorrillo_RBEC_lluvia)
+zorrillo_RBEC_seca<-hora_radianes_RBEC[actividad_RBEC$Especie=="Conepatus leuconotus"&actividad_RBEC$Station=="Secas"]
+data.frame(zorrillo_RBEC_seca)
+
+####Estimación de traslape general#####
+#Dhat 1 y Dhat4 dependiendo del número de registros#
+
+#ARMADILLO#
+min(length(armadillo_RBEC),length(jaguar_RBEC))
+min(length(armadillo_RBEC),length(ocelote_RBEC))
+min(length(armadillo_RBEC),length(puma_RBEC))
+min(length(armadillo_RBEC),length(tigrillo_RBEC))
+
+#COATI#
+min(length(coati_RBEC),length(jaguar_RBEC))
+min(length(coati_RBEC),length(ocelote_RBEC))
+min(length(coati_RBEC),length(puma_RBEC))
+
+#CONEJO#
+min(length(conejo_RBEC),length(jaguar_RBEC))
+min(length(conejo_RBEC),length(ocelote_RBEC))
+min(length(conejo_RBEC),length(viejodemonte_RBEC))
+min(length(conejo_RBEC),length(puma_RBEC))
+min(length(conejo_RBEC),length(tigrillo_RBEC))
+min(length(conejo_RBEC),length(zorragris_RBEC))
+
+#TEMAZATE ROJO#
+min(length(temazaterojo_RBEC),length(jaguar_RBEC))
+min(length(temazaterojo_RBEC),length(ocelote_RBEC))
+min(length(temazaterojo_RBEC),length(viejodemonte_RBEC))
+min(length(temazaterojo_RBEC),length(puma_RBEC))
+
+#TEPEZCUINTLE#
+min(length(tepezcuintle_RBEC),length(jaguar_RBEC))
+min(length(tepezcuintle_RBEC),length(ocelote_RBEC))
+min(length(tepezcuintle_RBEC),length(puma_RBEC))
+
+#TLACUACHE#
+min(length(tlacuache_RBEC),length(jaguar_RBEC))
+min(length(tlacuache_RBEC),length(ocelote_RBEC))
+min(length(tlacuache_RBEC),length(viejodemonte_RBEC))
+min(length(tlacuache_RBEC),length(puma_RBEC))
+min(length(tlacuache_RBEC),length(tigrillo_RBEC))
+min(length(tlacuache_RBEC),length(zorragris_RBEC))
+
+#ZORRILLO#
+min(length(zorrillo_RBEC),length(jaguar_RBEC))
+min(length(zorrillo_RBEC),length(osonegro_RBEC))
+min(length(zorrillo_RBEC),length(puma_RBEC))
+
+####Gráficas dhat general####
+library(ggplot2)
+
+#Dhat JAGUAR#
+armadillo_jaguar_delta<-overlapEst(armadillo_RBEC,jaguar_RBEC)
+armadillo_jaguar_delta
+
+overlapPlot(tlacuache_RBEC,tigrillo_RBEC, main="",linecol=c("black","red"),linetype=c(1,1),linewidth=c(2,2),bty="O",xlab="Hora", ylab="Densidad") 
+legend("topright",inset=c(0.3,0.1),title="Especies", c("Armadillo", "Jaguar"),lty=c(1,1),col=c("black", "red"),bty="n", cex=1.2)
+  
+####Estimación de traslape por temporadas#####
+#Dhat 1 y Dhat4 dependiendo del número de registros#
+
+armadillo_RBEC_lluvia<-hora_radianes_RBEC[actividad_RBEC$Especie=="Dasypus novemcinctus"&actividad_RBEC$Station=="Lluvia"]
+data.frame(armadillo_RBEC_lluvia)
+armadillo_RBEC_seca<-hora_radianes_RBEC[actividad_RBEC$Especie=="Dasypus novemcinctus"&actividad_RBEC$Station=="Seca"]
+data.frame(armadillo_RBEC_seca)
+coati_RBEC_lluvia<-hora_radianes_RBEC[actividad_RBEC$Especie=="Nasua narica"&actividad_RBEC$Station=="Lluvia"]
+data.frame(coati_RBEC_lluvia)
+coati_RBEC_seca<-hora_radianes_RBEC[actividad_RBEC$Especie=="Nasua narica"&actividad_RBEC$Station=="Seca"]
+data.frame(coati_RBEC_seca)
+conejo_RBEC_lluvia<-hora_radianes_RBEC[actividad_RBEC$Especie=="Sylvilagus floridanus"&actividad_RBEC$Station=="Lluvia"]
+data.frame(conejo_RBEC_lluvia)
+conejo_RBEC_seca<-hora_radianes_RBEC[actividad_RBEC$Especie=="Sylvilagus floridanus"&actividad_RBEC$Station=="Seca"]
+data.frame(conejo_RBEC_seca)
+jaguar_RBEC_lluvia<-hora_radianes_RBEC[actividad_RBEC$Especie=="Panthera onca"&actividad_RBEC$Station=="Lluvia"]
+data.frame(jaguar_RBEC_lluvia)
+jaguar_RBEC_seca<-hora_radianes_RBEC[actividad_RBEC$Especie=="Panthera onca"&actividad_RBEC$Station=="Seca"]
+data.frame(jaguar_RBEC_seca)
+ocelote_RBEC_lluvia<-hora_radianes_RBEC[actividad_RBEC$Especie=="Leopardus pardalis"&actividad_RBEC$Station=="Lluvia"]
+data.frame(ocelote_RBEC_lluvia)
+ocelote_RBEC_seca<-hora_radianes_RBEC[actividad_RBEC$Especie=="Leopardus pardalis"&actividad_RBEC$Station=="Seca"]
+data.frame(ocelote_RBEC_seca)
+osonegro_RBEC_lluvia<-hora_radianes_RBEC[actividad_RBEC$Especie=="Ursus americanus"&actividad_RBEC$Station=="Lluvia"]
+data.frame(osonegro_RBEC_lluvia)
+osonegro_RBEC_seca<-hora_radianes_RBEC[actividad_RBEC$Especie=="Ursus americanus"&actividad_RBEC$Station=="Seca"]
+data.frame(osonegro_RBEC_seca)
+puma_RBEC_lluvia<-hora_radianes_RBEC[actividad_RBEC$Especie=="Puma concolor"&actividad_RBEC$Station=="Lluvia"]
+data.frame(puma_RBEC_lluvia)
+puma_RBEC_seca<-hora_radianes_RBEC[actividad_RBEC$Especie=="Puma concolor"&actividad_RBEC$Station=="Seca"]
+data.frame(puma_RBEC_seca)
+temazaterojo_RBEC_lluvia<-hora_radianes_RBEC[actividad_RBEC$Especie=="Mazama temama"&actividad_RBEC$Station=="Lluvia"]
+data.frame(temazaterojo_RBEC_lluvia)
+temazaterojo_RBEC_seca<-hora_radianes_RBEC[actividad_RBEC$Especie=="Mazama temama"&actividad_RBEC$Station=="Seca"]
+data.frame(temazaterojo_RBEC_seca)
+tepezcuintle_RBEC_lluvia<-hora_radianes_RBEC[actividad_RBEC$Especie=="Cuniculus paca"&actividad_RBEC$Station=="Lluvia"]
+data.frame(tepezcuintle_RBEC_lluvia)
+tepezcuintle_RBEC_seca<-hora_radianes_RBEC[actividad_RBEC$Especie=="Cuniculus paca"&actividad_RBEC$Station=="Seca"]
+data.frame(tepezcuintle_RBEC_seca)
+tigrillo_RBEC_lluvia<-hora_radianes_RBEC[actividad_RBEC$Especie=="Leopardus wiedii"&actividad_RBEC$Station=="Lluvia"]
+data.frame(tigrillo_RBEC_lluvia)
+tigrillo_RBEC_seca<-hora_radianes_RBEC[actividad_RBEC$Especie=="Leopardus wiedii"&actividad_RBEC$Station=="Seca"]
+data.frame(tigrillo_RBEC_seca)
+tlacuache_RBEC_lluvia<-hora_radianes_RBEC[actividad_RBEC$Especie=="Didelphis virginiana"&actividad_RBEC$Station=="Lluvia"]
+data.frame(tlacuache_RBEC_lluvia)
+tlacuche_RBEC_seca<-hora_radianes_RBEC[actividad_RBEC$Especie=="Didelphis virginiana"&actividad_RBEC$Station=="Seca"]
+data.frame(tlacuche_RBEC_seca)
+viejodemonte_RBEC_lluvia<-hora_radianes_RBEC[actividad_RBEC$Especie=="Eira barbara"&actividad_RBEC$Station=="Lluvia"]
+data.frame(viejodemonte_RBEC_lluvia)
+viejodemonte_RBEC_seca<-hora_radianes_RBEC[actividad_RBEC$Especie=="Eira barbara"&actividad_RBEC$Station=="Seca"]
+data.frame(viejodemonte_RBEC_seca)
+zorragris_RBEC_lluvia<-hora_radianes_RBEC[actividad_RBEC$Especie=="Urocyon cinereoargenteus"&actividad_RBEC$Station=="Lluvia"]
+data.frame(zorragris_RBEC_lluvia)
+zorragris_RBEC_seca<-hora_radianes_RBEC[actividad_RBEC$Especie=="Urocyon cinereoargenteus"&actividad_RBEC$Station=="Seca"]
+data.frame(zorragris_RBEC_seca)
+zorrillo_RBEC_lluvia<-hora_radianes_RBEC[actividad_RBEC$Especie=="Conepatus leuconotus"&actividad_RBEC$Station=="Lluvia"]
+data.frame(zorrillo_RBEC_lluvia)
+zorrillo_RBEC_seca<-hora_radianes_RBEC[actividad_RBEC$Especie=="Conepatus leuconotus"&actividad_RBEC$Station=="Secas"]
+data.frame(zorrillo_RBEC_seca)
+
+####Gráficas dhat temporadas####
+
+#Dhat JAGUAR#
+armadillo_jaguar_delta_L<-overlapEst(armadillo_RBEC_lluvia,jaguar_RBEC_lluvia)
+armadillo_jaguar_delta_L
+
+overlapPlot(armadillo_RBEC_lluvia,jaguar_RBEC_lluvia, main="",linecol=c("black","red"),linetype=c(1,1),linewidth=c(2,2),bty="O",xlab="Hora", ylab="Densidad") 
+legend("topright",inset=c(0.3,0.1),title="Especies", c("Armadillo", "Jaguar"),lty=c(1,1),col=c("black", "red"),bty="n", cex=1.2)
